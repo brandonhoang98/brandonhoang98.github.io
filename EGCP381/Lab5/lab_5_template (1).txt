@@ -1,0 +1,101 @@
+; PBlazeIDE Template
+; =====================================================
+; data constants
+; =====================================================
+
+
+EINT
+zeroN				EQU		  0
+Three               EQU       3
+LowWipe             EQU       240
+HighWipe            EQU       15
+Max                 EQU       255
+Over				EQU		  100
+UpFive				EQU		  80
+; =====================================================
+; register aliases
+; =====================================================
+
+; =====================================================
+; port aliases
+; =====================================================
+; input ports
+  
+
+; output ports
+led_port            DSOUT     $80
+
+; =====================================================
+; main program
+; =====================================================
+
+
+; main
+loop:
+	                LOAD    s4, 0
+                    IN      s0, $00
+                    IN		s6, $00
+                    LOAD      s5, zeroN
+check: 
+	   				ADD       s4, 1
+                    LOAD      s1, s5
+                    LOAD      s2, s5
+
+                    AND       s1, HighWipe
+                    AND       s2, LowWipe
+
+                    COMP      s1, 5
+                    JUMP      NC, LowThree
+                    COMP      s2, UpFive
+                    JUMP      NC, HighThree
+
+
+proc: 
+                    SL0       s0
+                    JUMP      C, One
+                    JUMP      NC, Zero
+
+
+lastCheck: 
+                    COMP      s4, 8
+                    JUMP      NZ, check
+                    COMP      s6, Over
+                    JUMP      NC, Overflow
+					JUMP 	  cut
+                    
+
+
+cut:
+oi                  EQU       s5
+
+
+
+	 				OUT       oi, $80
+                    JUMP      loop
+
+
+;led_port            DSOUT     $80 <- Define the output port
+;					 LOAD s0, 4 (00000100 in binary, 0x04 in hex) <- Load a register with the constant
+
+;outputConstatnt	 EQU s0  <- set a variable eqv to the register
+;					 OUT oi, $80 <- output the constant in the LED
+
+; =====================================================
+; subroutines
+; =====================================================
+
+One: 
+                    SL1       s5
+                    JUMP      lastCheck
+Zero: 
+                    SL0       s5
+                    JUMP      lastCheck
+LowThree: 
+                    ADD       s5, 3
+                    JUMP      proc
+HighThree: 
+                    ADD       s5, 30
+                    JUMP      proc
+Overflow: 
+                    LOAD      s5, Max
+                    JUMP      cut

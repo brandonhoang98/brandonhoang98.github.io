@@ -1,0 +1,132 @@
+Release 6.1.03i Par G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+CS301-6D::  Mon Apr 29 15:33:39 2019
+
+
+C:/XilinxISE6/bin/nt/par.exe -w -intstyle ise -ol std -t 1 top_level_map.ncd
+top_level.ncd top_level.pcf 
+
+
+Constraints file: top_level.pcf
+
+Loading device database for application Par from file "top_level_map.ncd".
+   "top_level" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolved that IOB <switches<0>> must be placed at site F12.
+Resolved that IOB <switches<1>> must be placed at site G12.
+Resolved that IOB <switches<2>> must be placed at site H14.
+Resolved that IOB <switches<3>> must be placed at site H13.
+Resolved that IOB <switches<4>> must be placed at site J14.
+Resolved that IOB <switches<5>> must be placed at site J13.
+Resolved that IOB <switches<6>> must be placed at site K14.
+Resolved that IOB <switches<7>> must be placed at site M13.
+Resolved that IOB <leds<0>> must be placed at site K12.
+Resolved that IOB <leds<1>> must be placed at site P14.
+Resolved that IOB <leds<2>> must be placed at site L12.
+Resolved that IOB <leds<3>> must be placed at site N14.
+Resolved that IOB <leds<4>> must be placed at site P13.
+Resolved that IOB <leds<5>> must be placed at site N12.
+Resolved that IOB <leds<6>> must be placed at site P12.
+Resolved that IOB <leds<7>> must be placed at site P11.
+
+
+Device utilization summary:
+
+   Number of External IOBs            17 out of 173     9%
+      Number of LOCed External IOBs   16 out of 17     94%
+
+   Number of Slices                  101 out of 2892    3%
+      Number of RAMB16s                1 out of 12      8%
+      Number of SLICEMs               34 out of 960     3%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9899cd) REAL time: 0 secs 
+
+Phase 3.8
+..................................................
+Phase 3.8 (Checksum:997833) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file top_level.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 968 unrouted;       REAL time: 0 secs 
+
+Phase 2: 863 unrouted;       REAL time: 0 secs 
+
+Phase 3: 201 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   93 |  0.353     |  0.674      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 146
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        0.991
+   The MAXIMUM PIN DELAY IS:                               3.911
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   2.368
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+         489         428          45           6           0           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  93 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file top_level.ncd.
+
+
+PAR done.

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/project_6/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/project_6/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb

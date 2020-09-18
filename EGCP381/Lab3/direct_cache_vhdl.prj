@@ -1,0 +1,5 @@
+work definitions.vhd
+work cache.vhd
+work main_mem.vhd
+work direct_cache_ctrl.vhd
+work direct_cache.vhd

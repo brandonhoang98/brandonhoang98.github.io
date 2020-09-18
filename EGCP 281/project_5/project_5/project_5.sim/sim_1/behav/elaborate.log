@@ -1,0 +1,20 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 460beb7f3bfc4746b1f342cc8e322d5a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AcuTB_behav xil_defaultlib.AcuTB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_ff [reg_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_d [alu_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.AcuData [acudata_default]
+Compiling architecture behavioral of entity xil_defaultlib.acutb
+Built simulation snapshot AcuTB_behav

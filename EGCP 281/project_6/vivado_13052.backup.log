@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Dec 09 13:58:42 2017
+# Process ID: 13052
+# Current directory: C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7112 C:\Users\Brandon\Desktop\EGCP Project 6 Backup\project_6\project_1.xpr
+# Log file: C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6/vivado.log
+# Journal file: C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/project_6/project_6' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Brandon/Desktop/project_3/project_3.srcs/sources_1/new/7dd_d.vhd', nor could it be found using path 'D:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Brandon/Desktop/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd', nor could it be found using path 'D:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ee-student/Desktop/Nexys4DDR_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 762.656 ; gain = 203.184
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 09 13:59:49 2017...

@@ -1,0 +1,1 @@
+set allSynthModules {definitions.MOD cache.MOD main_mem.MOD direct_cache_ctrl.MOD direct_cache.MOD}

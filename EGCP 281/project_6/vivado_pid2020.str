@@ -1,0 +1,66 @@
+/*
+
+Xilinx Vivado v2017.3.1 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2035080 on Fri Oct 20 14:20:01 MDT 2017
+IP Build: 2034413 on Fri Oct 20 15:56:25 MDT 2017
+
+Process ID: 2020
+License: Customer
+
+Current time: 	Fri Dec 08 22:30:53 PST 2017
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	Brandon
+User home directory: C:/Users/Brandon
+User working directory: E:/project_6/project_6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2017.3
+RDI_DATADIR: D:/Vivado/2017.3/data
+RDI_BINDIR: D:/Vivado/2017.3/bin
+
+User preferences location: C:/Users/Brandon/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Brandon/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/Brandon/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	E:/project_6/project_6/vivado.log
+Vivado journal file location: 	E:/project_6/project_6/vivado.jou
+Engine tmp dir: 	E:/project_6/project_6/.Xil/Vivado-2020-DESKTOP-8PJ3NA4
+
+GUI allocated memory:	182 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 501 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 52 MB (+51761kb) [00:00:06]
+// [Engine Memory]: 471 MB (+342485kb) [00:00:06]
+// aL (cl): Older Project Version: addNotify
+// [Engine Memory]: 501 MB (+6130kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 501 MB. GUI used memory: 33 MB. Current time: 12/8/17 10:30:55 PM PST
+// [GUI Memory]: 54 MB (+140kb) [00:10:46]
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aL)
+dismissDialog("Older Project Version"); // aL (cl)

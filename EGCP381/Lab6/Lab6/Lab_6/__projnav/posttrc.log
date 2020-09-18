@@ -1,0 +1,4 @@
+Post Route Timing Report for Module top_level . . .
+TRACE command line and options:
+trce -intstyle ise -e 3 -l 3 -xml top_level top_level.ncd -o top_level.twr top_level.pcf
+Post Route Timing Report for Module top_level : DONE

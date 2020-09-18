@@ -1,0 +1,371 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: top1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : top1.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : top1
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : top1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : top1.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "ClockDivider.v"
+Module <ClockDivider> compiled
+Compiling source file "moore.v"
+Module <moore> compiled
+Compiling source file "top1.v"
+Module <top1> compiled
+No errors in compilation
+Analysis of file <top1.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top1>.
+Module <top1> is correct for synthesis.
+ 
+Analyzing module <ClockDivider>.
+Module <ClockDivider> is correct for synthesis.
+ 
+Analyzing module <moore>.
+Module <moore> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <moore>.
+    Related source file is moore.v.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00001                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <moore> synthesized.
+
+
+Synthesizing Unit <ClockDivider>.
+    Related source file is ClockDivider.v.
+    Found 1-bit register for signal <CLKout>.
+    Found 32-bit up counter for signal <CLKvalue>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <ClockDivider> synthesized.
+
+
+Synthesizing Unit <top1>.
+    Related source file is top1.v.
+Unit <top1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  1-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top1> ...
+
+Optimizing unit <ClockDivider> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top1, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top1.ngr
+Top Level Output File Name         : top1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 6
+
+Macro Statistics :
+# Registers                        : 1
+#      1-bit register              : 1
+# Counters                         : 1
+#      32-bit up counter           : 1
+
+Cell Usage :
+# BELS                             : 113
+#      GND                         : 1
+#      LUT1                        : 1
+#      LUT2                        : 3
+#      LUT2_L                      : 16
+#      LUT3                        : 1
+#      LUT4                        : 6
+#      LUT4_D                      : 3
+#      LUT4_L                      : 17
+#      MUXCY                       : 32
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 39
+#      FDC                         : 5
+#      FDCPE                       : 32
+#      FDE                         : 1
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      30  out of   1920     1%  
+ Number of Slice Flip Flops:            39  out of   3840     1%  
+ Number of 4 input LUTs:                47  out of   3840     1%  
+ Number of bonded IOBs:                  5  out of    173     2%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 33    |
+CD1_CLKout:Q                       | NONE                   | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.567ns (Maximum Frequency: 104.526MHz)
+   Minimum input arrival time before clock: 4.414ns
+   Maximum output required time after clock: 7.456ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               9.567ns (Levels of Logic = 20)
+  Source:            CD1_CLKvalue_8 (FF)
+  Destination:       CD1_CLKvalue_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: CD1_CLKvalue_8 to CD1_CLKvalue_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            2   0.619   0.465  CD1_CLKvalue_8 (CD1_CLKvalue_8)
+     LUT4:I0->O            1   0.720   0.240  CD1__n000192 (CHOICE135)
+     LUT4:I1->O           17   0.720   1.031  CD1__n0001139 (CHOICE151)
+     LUT4_D:I3->O         16   0.720   0.995  CD1__n0001154 (CD1__n0001)
+     LUT2_L:I1->LO         1   0.720   0.000  CD1_CLKvalue_inst_lut3_161 (CD1_CLKvalue_inst_lut3_16)
+     MUXCY:S->O            1   0.629   0.000  CD1_CLKvalue_inst_cy_17 (CD1_CLKvalue_inst_cy_17)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_18 (CD1_CLKvalue_inst_cy_18)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_19 (CD1_CLKvalue_inst_cy_19)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_20 (CD1_CLKvalue_inst_cy_20)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_21 (CD1_CLKvalue_inst_cy_21)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_22 (CD1_CLKvalue_inst_cy_22)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_23 (CD1_CLKvalue_inst_cy_23)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_24 (CD1_CLKvalue_inst_cy_24)
+     MUXCY:CI->O           1   0.091   0.000  CD1_CLKvalue_inst_cy_25 (CD1_CLKvalue_inst_cy_25)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_26 (CD1_CLKvalue_inst_cy_26)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_27 (CD1_CLKvalue_inst_cy_27)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_28 (CD1_CLKvalue_inst_cy_28)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_29 (CD1_CLKvalue_inst_cy_29)
+     MUXCY:CI->O           1   0.090   0.000  CD1_CLKvalue_inst_cy_30 (CD1_CLKvalue_inst_cy_30)
+     MUXCY:CI->O           0   0.090   0.000  CD1_CLKvalue_inst_cy_31 (CD1_CLKvalue_inst_cy_31)
+     XORCY:CI->O           1   0.939   0.000  CD1_CLKvalue_inst_sum_31 (CD1_CLKvalue_inst_sum_31)
+     FDCPE:D                   0.502          CD1_CLKvalue_31
+    ----------------------------------------
+    Total                      9.567ns (6.836ns logic, 2.731ns route)
+                                       (71.5% logic, 28.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'CD1_CLKout:Q'
+Delay:               1.586ns (Levels of Logic = 0)
+  Source:            M1_state_reg_FFd1 (FF)
+  Destination:       M1_state_reg_FFd6 (FF)
+  Source Clock:      CD1_CLKout:Q rising
+  Destination Clock: CD1_CLKout:Q rising
+
+  Data Path: M1_state_reg_FFd1 to M1_state_reg_FFd6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.619   0.465  M1_state_reg_FFd1 (M1_state_reg_FFd1)
+     FDP:D                     0.502          M1_state_reg_FFd6
+    ----------------------------------------
+    Total                      1.586ns (1.121ns logic, 0.465ns route)
+                                       (70.7% logic, 29.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              4.414ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       CD1_CLKout (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to CD1_CLKout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            39   1.492   1.328  reset_IBUF (reset_IBUF)
+     LUT1:I0->O            1   0.720   0.240  CD1_CLKout_ClkEn_INV1 (CD1_CLKout_N71)
+     FDE:CE                    0.634          CD1_CLKout
+    ----------------------------------------
+    Total                      4.414ns (2.846ns logic, 1.568ns route)
+                                       (64.5% logic, 35.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CD1_CLKout:Q'
+Offset:              7.456ns (Levels of Logic = 2)
+  Source:            M1_state_reg_FFd4 (FF)
+  Destination:       Q<2> (PAD)
+  Source Clock:      CD1_CLKout:Q rising
+
+  Data Path: M1_state_reg_FFd4 to Q<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.619   0.465  M1_state_reg_FFd4 (M1_state_reg_FFd4)
+     LUT2:I0->O            1   0.720   0.240  M1__n00061 (Q_2_OBUF)
+     OBUF:I->O                 5.412          Q_2_OBUF (Q<2>)
+    ----------------------------------------
+    Total                      7.456ns (6.751ns logic, 0.705ns route)
+                                       (90.5% logic, 9.5% route)
+
+=========================================================================
+CPU : 1.28 / 1.40 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 121272 kilobytes
+
+

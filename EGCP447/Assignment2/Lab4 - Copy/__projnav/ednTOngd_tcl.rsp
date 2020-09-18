@@ -1,0 +1,3 @@
+set ADucfFile {sec.ucf}
+set AD {}
+set ADcdcFile {}

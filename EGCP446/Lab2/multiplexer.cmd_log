@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd
+netgen -intstyle ise -w -ofmt verilog -sim multiplexer.ngd multiplexer_translate.v
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd
+netgen -intstyle ise -w -ofmt verilog -sim multiplexer.ngd multiplexer_translate.v
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd
+netgen -intstyle ise -w -ofmt verilog -sim multiplexer.ngd multiplexer_translate.v
+xst -intstyle ise -ifn __projnav/multiplexer.xst -ofn multiplexer.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd
+netgen -intstyle ise -w -ofmt verilog -sim multiplexer.ngd multiplexer_translate.v

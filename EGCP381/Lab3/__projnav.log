@@ -1,0 +1,866 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Entity <cache> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Entity <main_mem> (Architecture <behavioral>) compiled.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 60. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 64. parse error, unexpected PROCESS, expecting IF
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 84. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 96. parse error, unexpected DIV
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 106. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 111. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 114. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 118. parse error, unexpected PROCESS, expecting SEMICOLON
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file d:\egcp381\lab3/direct_cache_ctrl.vhd, automatic determination of correct order of compilation of files in project file direct_cache_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file d:\egcp381\lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:\egcp381\lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:\egcp381\lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:\egcp381\lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:\egcp381\lab3/direct_cache_ctrl.vhd Line 60. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:164 - d:\egcp381\lab3/direct_cache_ctrl.vhd Line 91. parse error, unexpected PROCESS, expecting CASE
+ERROR:HDLParsers:164 - d:\egcp381\lab3/direct_cache_ctrl.vhd Line 102. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:\egcp381\lab3/direct_cache_ctrl.vhd Line 107. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:\egcp381\lab3/direct_cache_ctrl.vhd Line 112. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:\egcp381\lab3/direct_cache_ctrl.vhd Line 115. parse error, unexpected WHEN, expecting END
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 60. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 98. parse error, unexpected DIV
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 103. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 108. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 113. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 116. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 119. parse error, unexpected CASE, expecting PROCESS
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 104. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 106. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 109. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 111. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 114. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 117. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 104. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 104. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:3402 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. Read symbol =, expecting <= or := 
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 104. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 101. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 104. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 103. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:409 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 103. Signal 'state' state is at left hand side of variable assignment statement.
+ERROR:HDLParsers:834 - d:/egcp381/lab3/direct_cache_ctrl.vhd Line 106. Signal state has a multi source.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Entity <direct_cache_ctrl> (Architecture <behavioral>) compiled.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+ERROR:HDLParsers:1411 - d:/egcp381/lab3/direct_cache.vhd Line 74. Parameter cache_we of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:1411 - d:/egcp381/lab3/direct_cache.vhd Line 74. Parameter cache_line of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:1411 - d:/egcp381/lab3/direct_cache.vhd Line 74. Parameter cache_data_to of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:1411 - d:/egcp381/lab3/direct_cache.vhd Line 75. Parameter main_mem_addr of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:1411 - d:/egcp381/lab3/direct_cache.vhd Line 76. Parameter cache_data_from of mode out can not be associated with a formal port of mode in.
+ERROR:HDLParsers:1411 - d:/egcp381/lab3/direct_cache.vhd Line 77. Parameter main_mem_data_from of mode out can not be associated with a formal port of mode in.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 72. Undefined symbol 'cache_mem_adr_width'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 72. cache_mem_adr_width: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 73. Undefined symbol 'cache_mem_data_width'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 73. cache_mem_data_width: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 79. Undefined symbol 'cache_cache_width'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 79. cache_cache_width: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 80. Undefined symbol 'cache_data_from0'.
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 82. Undefined symbol 'main_mem_addr0'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 82. main_mem_addr0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:837 - d:/egcp381/lab3/direct_cache.vhd Line 82. Index size for dimension 1 of main_mem_data_from is not 8.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 84. cache_data_from0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 85. Undefined symbol 'main_mem_data_from0'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 85. main_mem_data_from0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:820 - d:/egcp381/lab3/direct_cache.vhd Line 84. Type of actual ports is not compatible with type of ports of direct_cache_ctrl.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+ERROR:HDLParsers:837 - d:/egcp381/lab3/direct_cache.vhd Line 78. Index size for dimension 1 of cache_data_to0 is not 36.
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 79. Undefined symbol 'cache_cache_width'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 79. cache_cache_width: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 80. Undefined symbol 'cache_data_from0'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 84. cache_data_from0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:820 - d:/egcp381/lab3/direct_cache.vhd Line 84. Type of actual ports is not compatible with type of ports of direct_cache_ctrl.
+ERROR:HDLParsers:1401 - d:/egcp381/lab3/direct_cache.vhd Line 86. Object main_mem_addr of mode OUT can not be read.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+ERROR:HDLParsers:1400 - d:/egcp381/lab3/direct_cache.vhd Line 79. ) is not the name of a procedure.
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 80. Undefined symbol 'cache_data_from0'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 84. cache_data_from0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:820 - d:/egcp381/lab3/direct_cache.vhd Line 84. Type of actual ports is not compatible with type of ports of direct_cache_ctrl.
+ERROR:HDLParsers:1401 - d:/egcp381/lab3/direct_cache.vhd Line 86. Object main_mem_addr of mode OUT can not be read.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+ERROR:HDLParsers:3312 - d:/egcp381/lab3/direct_cache.vhd Line 78. Undefined symbol 'cache_data_from0'.
+ERROR:HDLParsers:1209 - d:/egcp381/lab3/direct_cache.vhd Line 78. cache_data_from0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1400 - d:/egcp381/lab3/direct_cache.vhd Line 79. ) is not the name of a procedure.
+ERROR:HDLParsers:820 - d:/egcp381/lab3/direct_cache.vhd Line 84. Type of actual ports is not compatible with type of ports of direct_cache_ctrl.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+Entity <direct_cache> (Architecture <structural>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file d:/egcp381/lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file d:/egcp381/lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file d:/egcp381/lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file d:/egcp381/lab3/direct_cache.vhd in Library work.
+Architecture structural of Entity direct_cache is up to date.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache.vhd in Library work.
+ERROR:HDLParsers:1401 - D:/EGCP381/Lab3/direct_cache.vhd Line 87. Object main_mem_addr of mode OUT can not be read.
+ERROR:HDLParsers:1401 - D:/EGCP381/Lab3/direct_cache.vhd Line 88. Object cache_data_to of mode OUT can not be read.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache.vhd in Library work.
+Entity <direct_cache> (Architecture <structural>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:813 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 126. Enumerated value cache_r is missing in case.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Entity <direct_cache_ctrl> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Entity <direct_cache_ctrl> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Entity <direct_cache_ctrl> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Architecture behavioral of Entity direct_cache_ctrl is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache.vhd in Library work.
+Architecture structural of Entity direct_cache is up to date.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+ERROR:HDLParsers:164 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 96. parse error, unexpected DIV
+ERROR:HDLParsers:164 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 101. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 106. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 112. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 115. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - D:/EGCP381/Lab3/direct_cache_ctrl.vhd Line 119. parse error, unexpected CASE, expecting PROCESS
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/cache.vhd in Library work.
+Architecture behavioral of Entity cache is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/main_mem.vhd in Library work.
+Architecture behavioral of Entity main_mem is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Entity <direct_cache_ctrl> (Architecture <behavioral>) compiled.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache.vhd in Library work.
+Entity <direct_cache> (Architecture <structural>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

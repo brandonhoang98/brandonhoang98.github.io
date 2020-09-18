@@ -1,0 +1,232 @@
+Release 6.1.03i Map G.26
+Xilinx Mapping Report File for Design 'top_level'
+
+Design Information
+------------------
+Command Line   : C:/XilinxISE6/bin/nt/map.exe -intstyle ise -p xc3s200-ft256-4
+-cm area -pr b -k 4 -c 100 -tx off -o top_level_map.ncd top_level.ngd
+top_level.pcf 
+Target Device  : x3s200
+Target Package : ft256
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.16 $
+Mapped Date    : Mon Apr 29 15:33:37 2019
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          76 out of   3,840    1%
+  Number of 4 input LUTs:             105 out of   3,840    2%
+Logic Distribution:
+  Number of occupied Slices:                          100 out of   1,920    5%
+    Number of Slices containing only related logic:     100 out of     100  100%
+    Number of Slices containing unrelated logic:          0 out of     100    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            177 out of   3,840    4%
+  Number used as logic:                105
+  Number used as a route-thru:           4
+  Number used for Dual Port RAMs:       16
+    (Two LUTs used per Dual Port RAM)
+  Number used for 32x1 RAMs:            52
+    (Two LUTs used per 32x1 RAM)
+  Number of bonded IOBs:               17 out of     173    9%
+    IOB Flip Flops:                    16
+  Number of Block RAMs:                1 out of      12    8%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  74,942
+Additional JTAG gate count for IOBs:  816
+Peak Memory Usage:  129 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Additional Device Resource Counts
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:535 - The following Virtex BUFG(s) is/are being retargetted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFGP symbol "clk_BUFGP" (output signal=clk_BUFGP)
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   5 block(s) removed
+   2 block(s) optimized away
+   3 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "processor_read_strobe_flop" (SFF) removed.
+ The signal "processor_read_active" is loadless and has been removed.
+  Loadless block "processor_read_active_lut" (ROM) removed.
+   The signal "processor_io_initial_decode" is loadless and has been removed.
+    Loadless block "processor_io_decode_lut" (ROM) removed.
+Loadless block "processor_write_strobe_flop" (SFF) removed.
+ The signal "processor_write_active" is loadless and has been removed.
+  Loadless block "processor_write_active_lut" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| leds<0>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<1>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<2>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<3>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<4>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<5>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<6>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<7>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| switches<0>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<1>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<2>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<3>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<4>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<5>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<6>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| switches<7>                        | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Additional Device Resource Counts
+----------------------------------------------
+Number of JTAG Gates for IOBs = 17
+Number of Equivalent Gates for Design = 74,942
+Number of RPM Macros = 0
+Number of Hard Macros = 0
+DCIRESETs = 0
+CAPTUREs = 0
+BSCANs = 0
+STARTUPs = 0
+DCMs = 0
+GCLKs = 1
+ICAPs = 0
+18X18 Multipliers = 0
+Block RAMs = 1
+Total Registers (Flops & Latches in Slices & IOBs) not driven by LUTs = 58
+IOB Dual-Rate Flops not driven by LUTs = 0
+IOB Dual-Rate Flops = 0
+IOB Slave Pads = 0
+IOB Master Pads = 0
+IOB Latches not driven by LUTs = 0
+IOB Latches = 0
+IOB Flip Flops not driven by LUTs = 8
+IOB Flip Flops = 16
+Unbonded IOBs = 0
+Bonded IOBs = 17
+Shift Registers = 0
+Static Shift Registers = 0
+Dynamic Shift Registers = 0
+16x1 ROMs = 0
+16x1 RAMs = 0
+32x1 RAMs = 26
+Dual Port RAMs = 8
+MUXFXs = 43
+MULTANDs = 0
+4 input LUTs used as Route-Thrus = 4
+4 input LUTs = 105
+Slice Latches not driven by LUTs = 0
+Slice Latches = 0
+Slice Flip Flops not driven by LUTs = 50
+Slice Flip Flops = 76
+SliceMs = 34
+SliceLs = 66
+Slices = 100
+Number of LUT signals with 4 loads = 1
+Number of LUT signals with 3 loads = 0
+Number of LUT signals with 2 loads = 34
+Number of LUT signals with 1 load = 57
+NGM Average fanout of LUT = 2.37
+NGM Maximum fanout of LUT = 12
+NGM Average fanin for LUT = 3.2000
+Number of LUT symbols = 105
+Number of IPAD symbols = 9
+Number of IBUF symbols = 9

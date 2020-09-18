@@ -1,0 +1,29 @@
+V1 23
+FL D:/EGCP381/Lab3/cache.vhd 2019/02/25.14:51:02
+EN work/CACHE           FL D:/EGCP381/Lab3/cache.vhd PB ieee/STD_LOGIC_1164 \
+      PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED PB work/DEFINITIONS
+AR work/CACHE/BEHAVIORAL FL D:/EGCP381/Lab3/cache.vhd EN work/CACHE
+FL d:/egcp381/lab3/direct_cache.vhd 2019/02/25.06:17:12
+FL d:/egcp381/lab3/direct_cache_ctrl.vhd 2019/02/25.05:55:38
+FL d:/egcp381/lab3/definitions.vhd 2019/02/25.04:51:02
+FL d:/egcp381/lab3/cache.vhd 2019/02/25.04:51:02
+FL D:/EGCP381/Lab3/direct_cache.vhd 2019/02/27.15:31:24
+EN work/DIRECT_CACHE    FL D:/EGCP381/Lab3/direct_cache.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED \
+      PB work/DEFINITIONS
+AR work/DIRECT_CACHE/STRUCTURAL FL D:/EGCP381/Lab3/direct_cache.vhd \
+      EN work/DIRECT_CACHE CP CACHE       CP MAIN_MEM       CP DIRECT_CACHE_CTRL
+FL d:/egcp381/lab3/main_mem.vhd 2019/02/25.04:51:04
+FL D:/EGCP381/Lab3/main_mem.vhd 2019/02/25.14:51:04
+EN work/MAIN_MEM        FL D:/EGCP381/Lab3/main_mem.vhd PB ieee/STD_LOGIC_1164 \
+      PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED PB work/DEFINITIONS
+AR work/MAIN_MEM/BEHAVIORAL FL D:/EGCP381/Lab3/main_mem.vhd EN work/MAIN_MEM
+FL D:/EGCP381/Lab3/definitions.vhd 2019/02/25.14:51:02
+PH work/DEFINITIONS     FL D:/EGCP381/Lab3/definitions.vhd PB ieee/STD_LOGIC_1164
+PB work/DEFINITIONS     FL D:/EGCP381/Lab3/definitions.vhd PH work/DEFINITIONS
+FL D:/EGCP381/Lab3/direct_cache_ctrl.vhd 2019/02/27.15:33:44
+EN work/DIRECT_CACHE_CTRL FL D:/EGCP381/Lab3/direct_cache_ctrl.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED \
+      PB work/DEFINITIONS
+AR work/DIRECT_CACHE_CTRL/BEHAVIORAL FL D:/EGCP381/Lab3/direct_cache_ctrl.vhd \
+      EN work/DIRECT_CACHE_CTRL

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1512589933">
+  <File Type="OPT-DCP" Name="SinDigWatch_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="SinDigWatch_routed.dcp"/>
+  <File Type="PA-TCL" Name="SinDigWatch.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="SinDigWatch_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="SinDigWatch_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="SinDigWatch_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="SinDigWatch.hwdef"/>
+  <File Type="PWROPT-DCP" Name="SinDigWatch_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="SinDigWatch_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="SinDigWatch_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="SinDigWatch_placed.dcp"/>
+  <File Type="PLACE-IO" Name="SinDigWatch_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="SinDigWatch_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="SinDigWatch_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="SinDigWatch_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="SinDigWatch_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="SinDigWatch_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SinDigWatch_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="SinDigWatch_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SinDigWatch_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="SinDigWatch_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="SinDigWatch_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="SinDigWatch.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="SinDigWatch_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="SinDigWatch_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="SinDigWatch_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="SinDigWatch_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="SinDigWatch_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="SinDigWatch_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="SinDigWatch_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SinDigWatch_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SinDigWatch_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="SinDigWatch_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SinDigWatch_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="SinDigWatch_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="SinDigWatch_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SinDigWatch_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="SinDigWatch_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="SinDigWatch_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SinDigWatch_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="SinDigWatch.bit"/>
+  <File Type="BG-BIN" Name="SinDigWatch.bin"/>
+  <File Type="BITSTR-MSK" Name="SinDigWatch.msk"/>
+  <File Type="BITSTR-RBT" Name="SinDigWatch.rbt"/>
+  <File Type="BITSTR-NKY" Name="SinDigWatch.nky"/>
+  <File Type="BITSTR-BMM" Name="SinDigWatch_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="SinDigWatch.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="SinDigWatch.sysdef"/>
+  <File Type="BG-BGN" Name="SinDigWatch.bgn"/>
+  <File Type="BG-DRC" Name="SinDigWatch.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FourBitCounter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../project_3/project_3.srcs/sources_1/new/7dd_d.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SinDigWatch.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SinDigWatch"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="C:/Users/ee-student/Desktop/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,10 @@
+AR direct_cache_ctrl behavioral D:/EGCP381/Lab3/direct_cache_ctrl.vhd sub00/vhpl07
+PB definitions definitions D:/EGCP381/Lab3/definitions.vhd sub00/vhpl01
+EN cache NULL D:/EGCP381/Lab3/cache.vhd sub00/vhpl02
+AR main_mem behavioral D:/EGCP381/Lab3/main_mem.vhd sub00/vhpl05
+EN direct_cache_ctrl NULL D:/EGCP381/Lab3/direct_cache_ctrl.vhd sub00/vhpl06
+EN main_mem NULL D:/EGCP381/Lab3/main_mem.vhd sub00/vhpl04
+PH definitions NULL D:/EGCP381/Lab3/definitions.vhd sub00/vhpl00
+AR direct_cache structural D:/EGCP381/Lab3/direct_cache.vhd sub00/vhpl09
+EN direct_cache NULL D:/EGCP381/Lab3/direct_cache.vhd sub00/vhpl08
+AR cache behavioral D:/EGCP381/Lab3/cache.vhd sub00/vhpl03

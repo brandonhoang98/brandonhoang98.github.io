@@ -1,0 +1,1181 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "Half_Adder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+Compiling source file "Full_Adder.v"
+Module <Full_Adder> compiled
+No errors in compilation
+Analysis of file <Full_Adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+Compiling source file "Full_Adder.v"
+Module <Full_Adder> compiled
+Compiling source file "Four_RCA.v"
+Module <Four_RCA> compiled
+No errors in compilation
+Analysis of file <Four_RCA.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "Full_Adder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <S>.
+Unit <Half_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Half_Adder> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Half_Adder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  4  out of    124     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i -p
+xc3s50-pq208-4 Half_Adder.ngc Half_Adder.ngd 
+
+Reading NGO file "E:/EGCP446/Lab1/Half_Adder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 76620 kilobytes
+
+Writing NGD file "Half_Adder.ngd" ...
+
+Writing NGDBUILD log file "Half_Adder.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s50pq208-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:               2 out of   1,536    1%
+Logic Distribution:
+  Number of occupied Slices:                            1 out of     768    1%
+    Number of Slices containing only related logic:       1 out of       1  100%
+    Number of Slices containing unrelated logic:          0 out of       1    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:           2 out of   1,536    1%
+  Number of bonded IOBs:                4 out of     124    3%
+
+Total equivalent gate count for design:  12
+Additional JTAG gate count for IOBs:  192
+Peak Memory Usage:  124 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "Half_Adder_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module Half_Adder . . .
+MAP command line:
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf
+Mapping Module Half_Adder: DONE
+
+
+
+Started process "Generate Post-Map Simulation Model".
+
+WARNING:Anno:28 - This .ncd is not completely routed; therefore, some delay
+   calculations may be inaccurate.
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Map Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <S>.
+Unit <Half_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Completed process "View RTL Schematic".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "Half_Adder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <s>.
+Unit <Half_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Completed process "View RTL Schematic".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <s>.
+Unit <Half_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Completed process "View RTL Schematic".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <s>.
+Unit <Half_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Half_Adder> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Half_Adder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  4  out of    124     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i -p
+xc3s50-pq208-4 Half_Adder.ngc Half_Adder.ngd 
+
+Reading NGO file "E:/EGCP446/Lab1/Half_Adder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "Half_Adder.ngd" ...
+
+Writing NGDBUILD log file "Half_Adder.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Map".
+
+Using target part "3s50pq208-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:               2 out of   1,536    1%
+Logic Distribution:
+  Number of occupied Slices:                            1 out of     768    1%
+    Number of Slices containing only related logic:       1 out of       1  100%
+    Number of Slices containing unrelated logic:          0 out of       1    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:           2 out of   1,536    1%
+  Number of bonded IOBs:                4 out of     124    3%
+
+Total equivalent gate count for design:  12
+Additional JTAG gate count for IOBs:  192
+Peak Memory Usage:  123 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "Half_Adder_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module Half_Adder . . .
+MAP command line:
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf
+Mapping Module Half_Adder: DONE
+
+
+
+Started process "Generate Post-Map Simulation Model".
+
+WARNING:Anno:28 - This .ncd is not completely routed; therefore, some delay
+   calculations may be inaccurate.
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Map Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+Compiling source file "Full_Adder.v"
+Module <Full_Adder> compiled
+No errors in compilation
+Analysis of file <Full_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Full_Adder>.
+Module <Full_Adder> is correct for synthesis.
+ 
+Analyzing module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <s>.
+Unit <Half_Adder> synthesized.
+
+
+Synthesizing Unit <Full_Adder>.
+    Related source file is Full_Adder.v.
+Unit <Full_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Full_Adder> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Full_Adder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i -p
+xc3s50-pq208-4 Full_Adder.ngc Full_Adder.ngd 
+
+Reading NGO file "E:/EGCP446/Lab1/Full_Adder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 76956 kilobytes
+
+Writing NGD file "Full_Adder.ngd" ...
+
+Writing NGDBUILD log file "Full_Adder.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+No errors in compilation
+Analysis of file <Half_Adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Half_Adder>.
+Module <Half_Adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is Half_Adder.v.
+    Found 1-bit xor2 for signal <s>.
+Unit <Half_Adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Half_Adder> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Half_Adder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  4  out of    124     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i -p
+xc3s50-pq208-4 Half_Adder.ngc Half_Adder.ngd 
+
+Reading NGO file "E:/EGCP446/Lab1/Half_Adder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "Half_Adder.ngd" ...
+
+Writing NGDBUILD log file "Half_Adder.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

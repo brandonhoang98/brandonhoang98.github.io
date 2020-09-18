@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Assignment2-Copy/Assignment2Copy/ScanFF.vhd" \
+"../../../../../Assignment2-Copy/Assignment2/sec_corrector.vhd" \
+"../../../../../Assignment2-Copy/Assignment2/sec_func.vhd" \
+"../../../../../Assignment2-Copy/Assignment2/sec_corrector_tb.vhd" \
+
+# Do not sort compile order
+nosort

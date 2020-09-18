@@ -1,0 +1,819 @@
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+pong_top_an.ngc
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+debounce.lso
+# xst flow : RunXST
+debounce.syr
+debounce.prj
+debounce.sprj
+debounce.ana
+debounce.stx
+debounce.cmd_log
+debounce.ngc
+debounce.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+debounce.ngd
+debounce_ngdbuild.nav
+debounce.bld
+.untf
+debounce.cmd_log
+# Implementation : Map
+debounce_map.ncd
+debounce.ngm
+debounce.pcf
+debounce.nc1
+debounce.mrp
+debounce_map.mrp
+debounce.mdf
+__projnav/map.log
+debounce.cmd_log
+MAP_NO_GUIDE_FILE_CPF "debounce"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+debounce.twr
+debounce.twx
+debounce.tsi
+debounce.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+debounce.ncd
+debounce.par
+debounce.pad
+debounce_pad.txt
+debounce_pad.csv
+debounce.pad_txt
+debounce.dly
+reportgen.log
+debounce.xpi
+debounce.grf
+debounce.itr
+debounce_last_par.ncd
+__projnav/par.log
+debounce.placed_ncd_tracker
+debounce.routed_ncd_tracker
+debounce.cmd_log
+PAR_NO_GUIDE_FILE_CPF "debounce"
+# Generate Programming File
+__projnav/debounce_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+debounce.ut
+# Generate Programming File
+debounce.bgn
+debounce.rbt
+debounce.ll
+debounce.msk
+debounce.drc
+debounce.nky
+debounce.bit
+debounce.bin
+debounce.isc
+debounce.cmd_log
+# XST (Creating Lso File) : 
+pong_graph_animate.lso
+# xst flow : RunXST
+pong_graph_animate.syr
+pong_graph_animate.prj
+pong_graph_animate.sprj
+pong_graph_animate.ana
+pong_graph_animate.stx
+pong_graph_animate.cmd_log
+debounce.ngc
+debounce.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+debounce.ngc
+pong_top_an.ngc
+debounce.ngr
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+debounce.ngc
+pong_top_an.ngc
+debounce.ngr
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+debounce.ngc
+pong_top_an.ngc
+debounce.ngr
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+debounce.ngc
+pong_top_an.ngc
+debounce.ngr
+pong_top_an.ngr
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+debounce.ngc
+pong_top_an.ngc
+debounce.ngr
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log
+# XST (Creating Lso File) : 
+pong_top_an.lso
+# xst flow : RunXST
+pong_top_an.syr
+pong_top_an.prj
+pong_top_an.sprj
+pong_top_an.ana
+pong_top_an.stx
+pong_top_an.cmd_log
+debounce.ngc
+pong_top_an.ngc
+debounce.ngr
+pong_top_an.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\project_d/_ngo
+pong_top_an.ngd
+pong_top_an_ngdbuild.nav
+pong_top_an.bld
+pong_top.ucf.untf
+pong_top_an.cmd_log
+# Implementation : Map
+pong_top_an_map.ncd
+pong_top_an.ngm
+pong_top_an.pcf
+pong_top_an.nc1
+pong_top_an.mrp
+pong_top_an_map.mrp
+pong_top_an.mdf
+__projnav/map.log
+pong_top_an.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_an"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_an.twr
+pong_top_an.twx
+pong_top_an.tsi
+pong_top_an.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_an.ncd
+pong_top_an.par
+pong_top_an.pad
+pong_top_an_pad.txt
+pong_top_an_pad.csv
+pong_top_an.pad_txt
+pong_top_an.dly
+reportgen.log
+pong_top_an.xpi
+pong_top_an.grf
+pong_top_an.itr
+pong_top_an_last_par.ncd
+__projnav/par.log
+pong_top_an.placed_ncd_tracker
+pong_top_an.routed_ncd_tracker
+pong_top_an.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_an"
+# Generate Programming File
+__projnav/pong_top_an_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_an.ut
+# Generate Programming File
+pong_top_an.bgn
+pong_top_an.rbt
+pong_top_an.ll
+pong_top_an.msk
+pong_top_an.drc
+pong_top_an.nky
+pong_top_an.bit
+pong_top_an.bin
+pong_top_an.isc
+pong_top_an.cmd_log

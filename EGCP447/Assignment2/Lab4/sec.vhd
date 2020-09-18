@@ -1,0 +1,71 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity sec is
+	port(data_in : in std_logic_vector(6 downto 0);
+		clk : in std_logic;
+		rst : in std_logic;
+		 syndrome : out std_logic_vector(2 downto 0);
+		 data_out : out std_logic_vector(3 downto 0);
+		 err : out std_logic);
+end sec;
+
+architecture struct of sec is
+	component sec_func
+		port(m : in std_logic_vector(3 downto 0);
+			  k : out std_logic_vector(2 downto 0));
+	end component;
+
+	component sec_compare
+		port(k, kp : in std_logic_vector(2 downto 0);
+			  syndrome : out std_logic_vector(2 downto 0);
+			  err : out std_logic);
+	end component;
+
+	component sec_corrector
+		port(m : in std_logic_vector(3 downto 0);
+			  syndrome : in std_logic_vector(2 downto 0);
+			  mp : out std_logic_vector(3 downto 0));
+	end component;
+
+	signal ksig: std_logic_vector(2 downto 0);
+	signal msig: std_logic_vector(3 downto 0);
+	signal kq: std_logic_vector(2 downto 0);
+	signal syndromeSig: std_logic_vector(2 downto 0); 
+	signal dataoutsig: std_logic_vector (6 downto 0);
+begin
+	--******************************************
+	-- TO DO: Separate data-in to m and k
+	--******************************************
+	ksig(1 downto 0) <= data_in(1 downto 0);
+	ksig(2) <= data_in(3);
+	
+	
+	msig(0) <= data_in(2);
+	msig(3 downto 1) <= data_in(6 downto 4);
+	--******************************************
+	-- TO DO: Send m through f to get k'
+	--******************************************
+	FUNC: sec_func port map (msig, clk, rst, dataoutSig,  kq);
+	
+	--******************************************
+	-- TO DO: Compare k and k', get error signal
+	--******************************************
+	COMPARE: sec_compare port map (ksig, kq, syndromeSig, err);
+	
+	--******************************************
+	-- TO DO: Correct data
+	--******************************************
+	CORRECT: sec_corrector port map (dataoutSig, syndromeSig, data_out);
+	
+
+	--******************************************
+	-- TO DO: Set output signals
+	--******************************************
+	syndrome <= syndromeSig;
+
+	
+
+end struct;

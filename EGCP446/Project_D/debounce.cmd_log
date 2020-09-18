@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/debounce.xst -ofn debounce.syr
+ngdbuild -intstyle ise -dd e:\egcp446\project_d/_ngo -i  -p xc3s200-ft256-4 debounce.ngc debounce.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o debounce_map.ncd debounce.ngd debounce.pcf
+par -w -intstyle ise -ol std -t 1 debounce_map.ncd debounce.ncd debounce.pcf
+trce -intstyle ise -e 3 -l 3 -xml debounce debounce.ncd -o debounce.twr debounce.pcf
+bitgen -intstyle ise -f debounce.ut debounce.ncd

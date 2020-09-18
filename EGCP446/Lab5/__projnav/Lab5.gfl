@@ -1,0 +1,153 @@
+# XST (Creating Lso File) : 
+RAM.lso
+# xst flow : RunXST
+RAM.syr
+RAM.prj
+RAM.sprj
+RAM.ana
+RAM.stx
+RAM.cmd_log
+RAM.ngc
+RAM.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab5/_ngo
+RAM.ngd
+RAM_ngdbuild.nav
+RAM.bld
+Spartan_3.ucf.untf
+RAM.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab5/_ngo
+RAM.ngd
+RAM_ngdbuild.nav
+RAM.bld
+Spartan_3.ucf.untf
+RAM.cmd_log
+# Implementation : Map
+RAM_map.ncd
+RAM.ngm
+RAM.pcf
+RAM.nc1
+RAM.mrp
+RAM_map.mrp
+RAM.mdf
+__projnav/map.log
+RAM.cmd_log
+MAP_NO_GUIDE_FILE_CPF "RAM"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+RAM.twr
+RAM.twx
+RAM.tsi
+RAM.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+RAM.ncd
+RAM.par
+RAM.pad
+RAM_pad.txt
+RAM_pad.csv
+RAM.pad_txt
+RAM.dly
+reportgen.log
+RAM.xpi
+RAM.grf
+RAM.itr
+RAM_last_par.ncd
+__projnav/par.log
+RAM.placed_ncd_tracker
+RAM.routed_ncd_tracker
+RAM.cmd_log
+PAR_NO_GUIDE_FILE_CPF "RAM"
+# Generate Programming File
+__projnav/RAM_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+RAM.ut
+# Generate Programming File
+RAM.bgn
+RAM.rbt
+RAM.ll
+RAM.msk
+RAM.drc
+RAM.nky
+RAM.bit
+RAM.bin
+RAM.isc
+RAM.cmd_log
+# xst flow : RunXST
+RAM.syr
+RAM.prj
+RAM.sprj
+RAM.ana
+RAM.stx
+RAM.cmd_log
+RAM.ngc
+RAM.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab5/_ngo
+RAM.ngd
+RAM_ngdbuild.nav
+RAM.bld
+Spartan_3.ucf.untf
+RAM.cmd_log
+# Implementation : Map
+RAM_map.ncd
+RAM.ngm
+RAM.pcf
+RAM.nc1
+RAM.mrp
+RAM_map.mrp
+RAM.mdf
+__projnav/map.log
+RAM.cmd_log
+MAP_NO_GUIDE_FILE_CPF "RAM"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+RAM.twr
+RAM.twx
+RAM.tsi
+RAM.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+RAM.ncd
+RAM.par
+RAM.pad
+RAM_pad.txt
+RAM_pad.csv
+RAM.pad_txt
+RAM.dly
+reportgen.log
+RAM.xpi
+RAM.grf
+RAM.itr
+RAM_last_par.ncd
+__projnav/par.log
+RAM.placed_ncd_tracker
+RAM.routed_ncd_tracker
+RAM.cmd_log
+PAR_NO_GUIDE_FILE_CPF "RAM"
+# Generate Programming File
+__projnav/RAM_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+RAM.ut
+# Generate Programming File
+RAM.bgn
+RAM.rbt
+RAM.ll
+RAM.msk
+RAM.drc
+RAM.nky
+RAM.bit
+RAM.bin
+RAM.isc
+RAM.cmd_log

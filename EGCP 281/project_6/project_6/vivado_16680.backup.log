@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Fri Dec  8 22:44:39 2017
+# Process ID: 16680
+# Current directory: E:/project_6/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13076 E:\project_6\project_6\project_1.xpr
+# Log file: E:/project_6/project_6/vivado.log
+# Journal file: E:/project_6/project_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/project_6/project_6/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/project_6/project_6' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ee-student/Desktop/Nexys4DDR_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'project_1.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 810.633 ; gain = 54.434
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+
+****** Webtalk v2017.3.1 (64-bit)
+  **** SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+  **** IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_6/project_1.sim/sim_1/behav/xsim/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 858.230 ; gain = 40.961
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:26 . Memory (MB): peak = 858.230 ; gain = 40.961
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FBC_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3

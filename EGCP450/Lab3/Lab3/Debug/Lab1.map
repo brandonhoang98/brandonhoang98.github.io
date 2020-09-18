@@ -1,0 +1,222 @@
+******************************************************************************
+                  TI ARM Linker PC v18.12.1                    
+******************************************************************************
+>> Linked Mon Sep 16 16:56:53 2019
+
+OUTPUT FILE NAME:   <Lab1.out>
+ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000002ad
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  MAIN                  00000000   00040000  000002e0  0003fd20  R  X
+  INFO                  00200000   00004000  00000000  00004000  R  X
+  SRAM_CODE             01000000   00010000  00000000  00010000  RW X
+  SRAM_DATA             20000000   00010000  00000004  0000fffc  RW  
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    000002e0   000002e0    r-x
+  00000000    00000000    00000144   00000144    r-- .intvecs
+  00000144    00000144    0000019c   0000019c    r-x .text
+2000fff8    2000fff8    00000004   00000000    rw-
+  2000fff8    2000fff8    00000004   00000000    rw- .stack
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    00000144     
+                  00000000    00000144     msp432_startup_ccs.obj (.intvecs)
+
+.text      0    00000144    0000019c     
+                  00000144    000000ca     main.obj (.text)
+                  0000020e    00000002     --HOLE-- [fill = 0]
+                  00000210    0000009a     msp432_startup_ccs.obj (.text)
+                  000002aa    00000002     --HOLE-- [fill = 0]
+                  000002ac    0000002c     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs:_c_int00_noinit_noargs)
+                  000002d8    00000004                                   : pre_init.c.obj (.text:_system_pre_init)
+                  000002dc    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.cinit     0    00000000    00000000     UNINITIALIZED
+
+.stack     0    2000fff8    00000004     UNINITIALIZED
+                  2000fff8    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.stack)
+
+MODULE SUMMARY
+
+       Module                   code   ro data   rw data
+       ------                   ----   -------   -------
+    .\
+       msp432_startup_ccs.obj   154    324       0      
+       main.obj                 202    0         0      
+    +--+------------------------+------+---------+---------+
+       Total:                   356    324       0      
+                                                        
+    C:\ti\ccs901\ccs\tools\compiler\ti-cgt-arm_18.12.1.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
+       boot_cortex_m.c.obj      44     0         0      
+       exit.c.obj               4      0         0      
+       pre_init.c.obj           4      0         0      
+    +--+------------------------+------+---------+---------+
+       Total:                   52     0         0      
+                                                        
+       Stack:                   0      0         4      
+    +--+------------------------+------+---------+---------+
+       Grand Total:             408    324       4      
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                  
+-------   ----                  
+00000265  ADC14_IRQHandler      
+0000026d  AES256_IRQHandler     
+000002dd  C$$EXIT               
+00000241  COMP_E0_IRQHandler    
+00000243  COMP_E1_IRQHandler    
+00000237  CS_IRQHandler         
+00000271  DMA_ERR_IRQHandler    
+00000279  DMA_INT0_IRQHandler   
+00000277  DMA_INT1_IRQHandler   
+00000275  DMA_INT2_IRQHandler   
+00000273  DMA_INT3_IRQHandler   
+0000022f  DebugMon_Handler      
+00000287  DisableInterrupts     
+00000255  EUSCIA0_IRQHandler    
+00000257  EUSCIA1_IRQHandler    
+00000259  EUSCIA2_IRQHandler    
+0000025b  EUSCIA3_IRQHandler    
+0000025d  EUSCIB0_IRQHandler    
+0000025f  EUSCIB1_IRQHandler    
+00000261  EUSCIB2_IRQHandler    
+00000263  EUSCIB3_IRQHandler    
+0000028d  EnableInterrupts      
+0000029d  EndCritical           
+0000023f  FLCTL_IRQHandler      
+0000023d  FPU_IRQHandler        
+00000239  PCM_IRQHandler        
+0000027b  PORT1_IRQHandler      
+0000027d  PORT2_IRQHandler      
+0000027f  PORT3_IRQHandler      
+00000281  PORT4_IRQHandler      
+00000283  PORT5_IRQHandler      
+00000285  PORT6_IRQHandler      
+00000235  PSS_IRQHandler        
+00000231  PendSV_Handler        
+0000026f  RTC_C_IRQHandler      
+0000022d  SVC_Handler           
+00000293  StartCritical         
+00000233  SysTick_Handler       
+00000267  T32_INT1_IRQHandler   
+00000269  T32_INT2_IRQHandler   
+0000026b  T32_INTC_IRQHandler   
+00000245  TA0_0_IRQHandler      
+00000247  TA0_N_IRQHandler      
+00000249  TA1_0_IRQHandler      
+0000024b  TA1_N_IRQHandler      
+0000024d  TA2_0_IRQHandler      
+0000024f  TA2_N_IRQHandler      
+00000251  TA3_0_IRQHandler      
+00000253  TA3_N_IRQHandler      
+4000480c  WDTCTL_SYM            
+0000023b  WDT_A_IRQHandler      
+000002a5  WaitForInterrupt      
+2000fffc  __STACK_END           
+00000004  __STACK_SIZE          
+ffffffff  __TI_pprof_out_hndl   
+ffffffff  __TI_prof_data_size   
+ffffffff  __TI_prof_data_start  
+00000000  __TI_static_base__    
+ffffffff  __binit__             
+ffffffff  __c_args__            
+UNDEFED   __mpu_init            
+2000fff8  __stack               
+000002ad  _c_int00_noinit_noargs
+000002d9  _system_pre_init      
+000002dd  abort                 
+ffffffff  binit                 
+00000000  interruptVectors      
+00000181  main                  
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                  
+-------   ----                  
+00000000  __TI_static_base__    
+00000000  interruptVectors      
+00000004  __STACK_SIZE          
+00000181  main                  
+0000022d  SVC_Handler           
+0000022f  DebugMon_Handler      
+00000231  PendSV_Handler        
+00000233  SysTick_Handler       
+00000235  PSS_IRQHandler        
+00000237  CS_IRQHandler         
+00000239  PCM_IRQHandler        
+0000023b  WDT_A_IRQHandler      
+0000023d  FPU_IRQHandler        
+0000023f  FLCTL_IRQHandler      
+00000241  COMP_E0_IRQHandler    
+00000243  COMP_E1_IRQHandler    
+00000245  TA0_0_IRQHandler      
+00000247  TA0_N_IRQHandler      
+00000249  TA1_0_IRQHandler      
+0000024b  TA1_N_IRQHandler      
+0000024d  TA2_0_IRQHandler      
+0000024f  TA2_N_IRQHandler      
+00000251  TA3_0_IRQHandler      
+00000253  TA3_N_IRQHandler      
+00000255  EUSCIA0_IRQHandler    
+00000257  EUSCIA1_IRQHandler    
+00000259  EUSCIA2_IRQHandler    
+0000025b  EUSCIA3_IRQHandler    
+0000025d  EUSCIB0_IRQHandler    
+0000025f  EUSCIB1_IRQHandler    
+00000261  EUSCIB2_IRQHandler    
+00000263  EUSCIB3_IRQHandler    
+00000265  ADC14_IRQHandler      
+00000267  T32_INT1_IRQHandler   
+00000269  T32_INT2_IRQHandler   
+0000026b  T32_INTC_IRQHandler   
+0000026d  AES256_IRQHandler     
+0000026f  RTC_C_IRQHandler      
+00000271  DMA_ERR_IRQHandler    
+00000273  DMA_INT3_IRQHandler   
+00000275  DMA_INT2_IRQHandler   
+00000277  DMA_INT1_IRQHandler   
+00000279  DMA_INT0_IRQHandler   
+0000027b  PORT1_IRQHandler      
+0000027d  PORT2_IRQHandler      
+0000027f  PORT3_IRQHandler      
+00000281  PORT4_IRQHandler      
+00000283  PORT5_IRQHandler      
+00000285  PORT6_IRQHandler      
+00000287  DisableInterrupts     
+0000028d  EnableInterrupts      
+00000293  StartCritical         
+0000029d  EndCritical           
+000002a5  WaitForInterrupt      
+000002ad  _c_int00_noinit_noargs
+000002d9  _system_pre_init      
+000002dd  C$$EXIT               
+000002dd  abort                 
+2000fff8  __stack               
+2000fffc  __STACK_END           
+4000480c  WDTCTL_SYM            
+ffffffff  __TI_pprof_out_hndl   
+ffffffff  __TI_prof_data_size   
+ffffffff  __TI_prof_data_start  
+ffffffff  __binit__             
+ffffffff  __c_args__            
+ffffffff  binit                 
+UNDEFED   __mpu_init            
+
+[68 symbols]

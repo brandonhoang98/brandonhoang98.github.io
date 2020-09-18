@@ -1,0 +1,3 @@
+set ADucfFile {pong_top.ucf}
+set AD {}
+set ADcdcFile {}

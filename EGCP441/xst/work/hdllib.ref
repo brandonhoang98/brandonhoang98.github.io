@@ -1,0 +1,4 @@
+EN half_adder NULL d:/egcp441/Half_adder.vhd sub00/vhpl00
+AR full_adder behavioral d:/egcp441/Full_Adder.vhd sub00/vhpl03
+EN full_adder NULL d:/egcp441/Full_Adder.vhd sub00/vhpl02
+AR half_adder behavioral d:/egcp441/Half_adder.vhd sub00/vhpl01

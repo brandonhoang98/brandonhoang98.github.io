@@ -1,0 +1,127 @@
+# XST (Creating Lso File) : 
+mealy.lso
+# xst flow : RunXST
+mealy.syr
+mealy.prj
+mealy.sprj
+mealy.ana
+mealy.stx
+mealy.cmd_log
+mealy.ngc
+mealy.ngr
+# XST (Creating Lso File) : 
+moore.lso
+# xst flow : RunXST
+moore.syr
+moore.prj
+moore.sprj
+moore.ana
+moore.stx
+moore.cmd_log
+moore.ngc
+moore.ngr
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab3/_ngo
+moore.ngd
+moore_ngdbuild.nav
+moore.bld
+.untf
+moore.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+moore_translate.v
+moore_translate.v
+moore_translate.nlf
+moore.xlate_nlf
+moore.versim_xlate
+moore.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+moore_moore_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+moore_moore_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+moore.lso
+# xst flow : RunXST
+moore.syr
+moore.prj
+moore.sprj
+moore.ana
+moore.stx
+moore.cmd_log
+moore.ngc
+moore.ngr
+# XST (Creating Lso File) : 
+moore.lso
+# Check Syntax
+moore.stx
+moore.ngc
+# xst flow : RunXST
+moore.syr
+moore.prj
+moore.sprj
+moore.ana
+moore.stx
+moore.cmd_log
+moore.ngc
+moore.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab3/_ngo
+moore.ngd
+moore_ngdbuild.nav
+moore.bld
+.untf
+moore.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+moore_translate.v
+moore_translate.v
+moore_translate.nlf
+moore.xlate_nlf
+moore.versim_xlate
+moore.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+moore_moore_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+moore_moore_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab3/_ngo
+mealy.ngd
+mealy_ngdbuild.nav
+mealy.bld
+.untf
+mealy.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+mealy_translate.v
+mealy_translate.v
+mealy_translate.nlf
+mealy.xlate_nlf
+mealy.versim_xlate
+mealy.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+mealy_mealy_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+mealy_mealy_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf

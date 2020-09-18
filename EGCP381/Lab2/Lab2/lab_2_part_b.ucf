@@ -1,0 +1,15 @@
+#Lights
+
+NET "r1_reg<0>" LOC = "K12";
+NET "r1_reg<1>" LOC = "P14";
+NET "r1_reg<2>" LOC = "L12";
+NET "r1_reg<3>" LOC = "N14";
+NET "r1_reg<4>" LOC = "P13";
+NET "r1_reg<5>" LOC = "N12";
+NET "r1_reg<6>" LOC = "P12";
+NET "r1_reg<7>" LOC = "P11";
+
+#Button
+
+NET "reset" LOC = "M13";
+

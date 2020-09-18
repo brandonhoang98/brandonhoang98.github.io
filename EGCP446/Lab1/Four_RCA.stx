@@ -1,0 +1,25 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "Half_Adder.v"
+Module <Half_Adder> compiled
+Compiling source file "Full_Adder.v"
+Module <Full_Adder> compiled
+Compiling source file "Four_RCA.v"
+Module <Four_RCA> compiled
+No errors in compilation
+Analysis of file <Four_RCA.prj> succeeded.
+ 
+CPU : 0.20 / 0.27 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 101176 kilobytes
+
+

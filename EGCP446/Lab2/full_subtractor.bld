@@ -1,0 +1,21 @@
+Release  - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 full_subtractor.ngc full_subtractor.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/full_subtractor.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "full_subtractor.ngd" ...
+
+Writing NGDBUILD log file "full_subtractor.bld"...

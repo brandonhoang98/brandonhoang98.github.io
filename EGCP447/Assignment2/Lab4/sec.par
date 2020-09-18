@@ -1,0 +1,126 @@
+Release 6.1.03i Par G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+CS301-6D::  Wed Mar 13 15:42:02 2019
+
+
+C:/XilinxISE6/bin/nt/par.exe -w -intstyle ise -ol std -t 1 sec_map.ncd sec.ncd
+sec.pcf 
+
+
+Constraints file: sec.pcf
+
+Loading device database for application Par from file "sec_map.ncd".
+   "sec" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolved that IOB <err> must be placed at site P11.
+Resolved that IOB <syndrome<0>> must be placed at site K12.
+Resolved that IOB <syndrome<1>> must be placed at site P14.
+Resolved that IOB <syndrome<2>> must be placed at site L12.
+Resolved that IOB <syndrome<3>> must be placed at site N14.
+Resolved that IOB <data_in<0>> must be placed at site M13.
+Resolved that IOB <data_in<1>> must be placed at site M14.
+Resolved that IOB <data_in<10>> must be placed at site K14.
+Resolved that IOB <data_in<2>> must be placed at site F12.
+Resolved that IOB <data_in<11>> must be placed at site K13.
+Resolved that IOB <data_in<3>> must be placed at site L13.
+Resolved that IOB <data_in<4>> must be placed at site G12.
+Resolved that IOB <data_in<5>> must be placed at site H14.
+Resolved that IOB <data_in<6>> must be placed at site H13.
+Resolved that IOB <data_in<7>> must be placed at site L14.
+Resolved that IOB <data_in<8>> must be placed at site J14.
+Resolved that IOB <data_in<9>> must be placed at site J13.
+
+
+Device utilization summary:
+
+   Number of External IOBs            25 out of 173    14%
+      Number of LOCed External IOBs   17 out of 25     68%
+
+   Number of Slices                   13 out of 1920    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896cb) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98e6c5) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file sec.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 93 unrouted;       REAL time: 0 secs 
+
+Phase 2: 93 unrouted;       REAL time: 0 secs 
+
+Phase 3: 48 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 78
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        0.583
+   The MAXIMUM PIN DELAY IS:                               1.319
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   1.009
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          81          12           0           0           0           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  89 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file sec.ncd.
+
+
+PAR done.

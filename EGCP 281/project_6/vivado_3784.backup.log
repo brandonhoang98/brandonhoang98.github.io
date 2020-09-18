@@ -1,0 +1,1899 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Dec 15 08:34:07 2017
+# Process ID: 3784
+# Current directory: E:/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10376 E:\project_6\project_1.xpr
+# Log file: E:/project_6/vivado.log
+# Journal file: E:/project_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/project_6/project_1.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/../../../ee-student/Desktop/Nexys4DDR_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 765.746 ; gain = 201.871
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:16:03 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 778.008 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 790.152 ; gain = 12.145
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+ERROR: [VRFC 10-91] temp is not declared [E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd:17]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd:12]
+INFO: [VRFC 10-240] VHDL file E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:19:50 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 814.887 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 814.887 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:20:45 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 814.887 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 814.887 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:21:53 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 819.984 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 821.672 ; gain = 1.688
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:24:12 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 821.672 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 821.672 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:25:00 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 821.672 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 821.672 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:26:15 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 821.672 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 821.672 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:27:59 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 868.723 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 868.723 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 09:31:10 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 868.723 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 868.723 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top SDS_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:07:58 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 868.723 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'xsim' was cancelled
+1
+    while executing
+"catch {eval "xsim $cmd_args"} err_msg"
+    (procedure "tclapp::xilinx::xsim::simulate" line 58)
+    invoked from within
+"tclapp::xilinx::xsim::simulate { -simset sim_1 -mode behavioral -run_dir E:/project_6/project_1.sim/sim_1/behav -int_os_type 64 -int_debug_mode 0}"
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:55 . Memory (MB): peak = 868.723 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:08:55 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 868.723 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 868.723 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:09:53 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:13:39 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:15:58 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 870.516 ; gain = 0.000
+set_property top Ctrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/SDS_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Ctrl_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Ctrl_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/Ctrl_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ctrl_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ctrl_tb_behav xil_defaultlib.Ctrl_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.ctrl_tb
+Built simulation snapshot Ctrl_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/Ctrl_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:41:41 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ctrl_tb_behav -key {Behavioral:sim_1:Functional:Ctrl_tb} -tclbatch {Ctrl_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source Ctrl_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ctrl_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/SDS_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Ctrl_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Ctrl_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/Ctrl_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ctrl_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ctrl_tb_behav xil_defaultlib.Ctrl_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.ctrl_tb
+Built simulation snapshot Ctrl_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/Ctrl_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:48:44 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ctrl_tb_behav -key {Behavioral:sim_1:Functional:Ctrl_tb} -tclbatch {Ctrl_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source Ctrl_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ctrl_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/SDS_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Ctrl_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Ctrl_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/Ctrl_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ctrl_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ctrl_tb_behav xil_defaultlib.Ctrl_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.ctrl_tb
+Built simulation snapshot Ctrl_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/Ctrl_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:50:49 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ctrl_tb_behav -key {Behavioral:sim_1:Functional:Ctrl_tb} -tclbatch {Ctrl_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source Ctrl_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ctrl_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 870.516 ; gain = 0.000
+set_property top SDS_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+ERROR: [VRFC 10-1412] syntax error near ' [E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd:65]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd:38]
+INFO: [VRFC 10-240] VHDL file E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 870.516 ; gain = 0.000
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See E:/project_6/vivado_pid3784.debug)
+close_project
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:52:59 2017...
+open_project E:/project_6/project_1.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/../../../ee-student/Desktop/Nexys4DDR_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 870.516 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:53:29 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 870.516 ; gain = 0.000
+set_property top FBC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 11:58:28 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:04:23 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 870.516 ; gain = 0.000
+set_property top SDS_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:04:55 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+ERROR: [VRFC 10-1412] syntax error near ; [E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd:72]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd:38]
+INFO: [VRFC 10-240] VHDL file E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+ERROR: [VRFC 10-1412] syntax error near ; [E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd:72]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd:38]
+INFO: [VRFC 10-240] VHDL file E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/project_6/project_1.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:08:35 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SDS_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SDS_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/SDS_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SDS_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDS_tb_behav xil_defaultlib.SDS_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SinDigWatch [sindigwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.sds_tb
+Built simulation snapshot SDS_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SDS_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:10:47 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SDS_tb_behav -key {Behavioral:sim_1:Functional:SDS_tb} -tclbatch {SDS_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SDS_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SDS_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 870.516 ; gain = 0.000
+set_property top SinDigWatch [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/SDS_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SinDigWatch' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SinDigWatch_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_5/project_5/project_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_3/project_3.srcs/sources_1/new/7dd_d.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenDD_d
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/SinDigWatch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SinDigWatch
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SinDigWatch_behav xil_defaultlib.SinDigWatch -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenDD_d [sevendd_d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.sindigwatch
+Built simulation snapshot SinDigWatch_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/SinDigWatch_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:14:40 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SinDigWatch_behav -key {Behavioral:sim_1:Functional:SinDigWatch} -tclbatch {SinDigWatch.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source SinDigWatch.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SinDigWatch_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top FBC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/FBC_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/project_6/project_1.sim/sim_1/behav/SDS_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:15:54 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj FBC_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FourBitCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FBC_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto e912b55187e24eafa11fd3d50bb891b1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FBC_tb_behav xil_defaultlib.FBC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FourBitCounter [fourbitcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.fbc_tb
+Built simulation snapshot FBC_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/project_6/project_1.sim/sim_1/behav/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 15 12:16:48 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 870.516 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/project_6/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FBC_tb_behav -key {Behavioral:sim_1:Functional:FBC_tb} -tclbatch {FBC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source FBC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FBC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 870.516 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 15 12:22:18 2017...

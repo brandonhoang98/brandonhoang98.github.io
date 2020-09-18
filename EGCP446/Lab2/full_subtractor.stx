@@ -1,0 +1,21 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+CPU : 0.11 / 0.18 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 101560 kilobytes
+
+

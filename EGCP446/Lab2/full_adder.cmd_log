@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 full_adder.ngc full_adder.ngd
+netgen -intstyle ise -w -ofmt verilog -sim full_adder.ngd full_adder_translate.v
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+xst -intstyle ise -ifn __projnav/full_adder.xst -ofn full_adder.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 full_adder.ngc full_adder.ngd
+netgen -intstyle ise -w -ofmt verilog -sim full_adder.ngd full_adder_translate.v

@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn __projnav/Half_Adder.xst -ofn Half_Adder.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i  -p xc3s50-pq208-4 Half_Adder.ngc Half_Adder.ngd
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf
+netgen -intstyle ise -s 4   -pcf Half_Adder.pcf -ngm Half_Adder.ngm -w -ofmt verilog -sim Half_Adder_map.ncd Half_Adder_map.v
+netgen -intstyle ise -w -ofmt verilog -sim Half_Adder.ngd Half_Adder_translate.v
+xst -intstyle ise -ifn __projnav/Half_Adder.xst -ofn Half_Adder.syr
+xst -intstyle ise -ifn __projnav/Half_Adder.xst -ofn Half_Adder.syr
+xst -intstyle ise -ifn __projnav/Half_Adder.xst -ofn Half_Adder.syr
+xst -intstyle ise -ifn __projnav/Half_Adder.xst -ofn Half_Adder.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i  -p xc3s50-pq208-4 Half_Adder.ngc Half_Adder.ngd
+netgen -intstyle ise -w -ofmt verilog -sim Half_Adder.ngd Half_Adder_translate.v
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf
+netgen -intstyle ise -s 4   -pcf Half_Adder.pcf -ngm Half_Adder.ngm -w -ofmt verilog -sim Half_Adder_map.ncd Half_Adder_map.v
+xst -intstyle ise -ifn __projnav/Half_Adder.xst -ofn Half_Adder.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i  -p xc3s50-pq208-4 Half_Adder.ngc Half_Adder.ngd
+netgen -intstyle ise -w -ofmt verilog -sim Half_Adder.ngd Half_Adder_translate.v

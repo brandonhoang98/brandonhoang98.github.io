@@ -1,0 +1,26 @@
+# XST flow : Creating project file
+pong_top_an.prj
+# xst flow : RunXST
+pong_top_an.prj
+__projnav/pong_top_an.xst
+./xst
+# xst flow : RunXST
+pong_top_an.prj
+__projnav/pong_top_an.xst
+./xst
+# XST flow : Creating project file
+pong_top_an.prj
+# xst flow : RunXST
+pong_top_an.prj
+__projnav/pong_top_an.xst
+./xst
+# XST flow : Creating project file
+pong_top_an.prj
+# xst flow : RunXST
+pong_top_an.prj
+__projnav/pong_top_an.xst
+./xst
+# xst flow : RunXST
+pong_top_an.prj
+__projnav/pong_top_an.xst
+./xst

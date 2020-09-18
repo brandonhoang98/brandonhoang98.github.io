@@ -1,0 +1,37 @@
+Circuit: **** Lab no 5 Sample Inverter
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+tphl=4.0567e-011 FROM 5e-013 TO 4.1067e-011
+tplh=2.99673e-011 FROM 3.0015e-009 TO 3.03147e-009
+
+
+Date: Sun Apr 07 14:16:26 2019
+Total elapsed time: 0.274 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9024
+traniter = 8996
+tranpoints = 3191
+accept = 2573
+rejected = 618
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 416 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2: 730 bytes object code size  0.1/0.1/[0.1]
+

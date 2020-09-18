@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Nov 01 11:28:55 2017
+# Process ID: 31672
+# Current directory: D:/project_4/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28472 D:\project_4\project_4\project_4.xpr
+# Log file: D:/project_4/project_4/vivado.log
+# Journal file: D:/project_4/project_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/project_4/project_4/project_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 798.691 ; gain = 190.297
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 01 11:29:29 2017...

@@ -1,0 +1,8 @@
+AR sec_compare behavioral D:/EGCP381/Lab4/sec_compare.vhd sub00/vhpl01
+EN sec NULL D:/EGCP381/Lab4/sec.vhd sub00/vhpl06
+AR sec struct D:/EGCP381/Lab4/sec.vhd sub00/vhpl07
+EN sec_func NULL D:/EGCP381/Lab4/sec_func.vhd sub00/vhpl04
+AR sec_corrector behavioral D:/EGCP381/Lab4/sec_corrector.vhd sub00/vhpl03
+AR sec_func behavioral D:/EGCP381/Lab4/sec_func.vhd sub00/vhpl05
+EN sec_corrector NULL D:/EGCP381/Lab4/sec_corrector.vhd sub00/vhpl02
+EN sec_compare NULL D:/EGCP381/Lab4/sec_compare.vhd sub00/vhpl00

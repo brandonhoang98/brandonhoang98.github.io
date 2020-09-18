@@ -1,0 +1,4 @@
+Post Route Timing Report for Module lab_2_part_b . . .
+TRACE command line and options:
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+Post Route Timing Report for Module lab_2_part_b : DONE

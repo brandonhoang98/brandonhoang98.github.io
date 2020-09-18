@@ -1,0 +1,18 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.16 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+CPU : 0.25 / 0.41 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 102824 kilobytes
+
+

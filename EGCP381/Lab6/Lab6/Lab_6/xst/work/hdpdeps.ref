@@ -1,0 +1,24 @@
+V1 34
+FL d:/egcp381/lab6/lab6/lab_6/lab_6.vhd 2019/04/22.15:28:32
+FL D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd 2019/04/24.15:20:10
+EN work/LAB_6           FL D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED \
+      PH unisim/VCOMPONENTS
+AR work/LAB_6/LOW_LEVEL_DEFINITION FL D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd \
+      EN work/LAB_6     CP RAMB16_S18
+FL D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd 2019/04/29.15:33:30
+EN work/TOP_LEVEL       FL D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd \
+      PB ieee/STD_LOGIC_1164
+AR work/TOP_LEVEL/BEHAVIORAL FL D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd \
+      EN work/TOP_LEVEL CP KCPSM3         CP LAB_6
+FL d:/egcp381/lab6/lab6/lab_6/top_level.vhd 2019/04/22.16:21:20
+FL d:/egcp381/lab6/lab6/lab_6/kcpsm3.vhd 2019/04/22.15:28:32
+FL D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd 2019/04/22.15:28:32
+EN work/KCPSM3          FL D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED \
+      PH unisim/VCOMPONENTS
+AR work/KCPSM3/LOW_LEVEL_DEFINITION FL D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd \
+      EN work/KCPSM3    CP LUT1           CP FDR            CP FDS            CP LUT4 \
+      CP FD             CP FDE            CP LUT3           CP FDRE           CP LUT2 \
+      CP MUXCY          CP XORCY          CP INV            CP STRING         CP LABEL \
+      CP FDRSE          CP RAM16X1D       CP RAM64X1S       CP MUXF5          CP RAM32X1S

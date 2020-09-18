@@ -1,0 +1,82 @@
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s50-pq208-4 lab_2_part_b.ngc lab_2_part_b.ngd
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s50-pq208-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s50-pq208-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd
+xst -intstyle ise -ifn __projnav/lab_2_part_b.xst -ofn lab_2_part_b.syr
+ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc lab_2_part_b.ucf  -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+trce -intstyle ise -e 3 -l 3 -xml lab_2_part_b lab_2_part_b.ncd -o lab_2_part_b.twr lab_2_part_b.pcf
+bitgen -intstyle ise -f lab_2_part_b.ut lab_2_part_b.ncd

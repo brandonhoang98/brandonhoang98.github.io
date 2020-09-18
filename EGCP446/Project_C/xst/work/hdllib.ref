@@ -1,0 +1,15 @@
+MO vga_sync NULL vga_sync.v vlg62/vga_sync.bin
+MO Nine_9 NULL Nine_9.v vlg26/Nine_9.bin
+MO Six_6 NULL Six.v vlg31/Six_6.bin
+MO Four_4 NULL Four_4.v vlg4F/Four_4.bin
+MO Two_2 NULL Two.v vlg13/Two_2.bin
+MO Zero_0 NULL Zero.v vlg43/Zero_0.bin
+MO pong_graph_animate NULL pong_graph_animate.v vlg07/pong_graph_animate.bin
+MO debounce NULL debounce.v vlg1D/debounce.bin
+MO Seven_7 NULL Seven_7.v vlg0B/Seven_7.bin
+MO pong_top_an NULL pong_top_an.v vlg28/pong_top_an.bin
+MO Five_5 NULL Five.v vlg62/Five_5.bin
+MO Three_3 NULL Three.v vlg0A/Three_3.bin
+MO One_1 NULL One.v vlg7E/One_1.bin
+MO Seven_Segment NULL Seven_Segment.v vlg6F/Seven_Segment.bin
+MO Eight_8 NULL Eight.v vlg50/Eight_8.bin

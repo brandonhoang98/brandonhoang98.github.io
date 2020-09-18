@@ -1,0 +1,4 @@
+set -tmpdir .
+elaborate
+-ifn direct_cache_ctrl.prj
+-ifmt mixed

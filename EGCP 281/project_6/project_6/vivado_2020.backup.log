@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Fri Dec  8 22:30:39 2017
+# Process ID: 2020
+# Current directory: E:/project_6/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7440 E:\project_6\project_6\project_1.xpr
+# Log file: E:/project_6/project_6/vivado.log
+# Journal file: E:/project_6/project_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  8 22:44:35 2017...

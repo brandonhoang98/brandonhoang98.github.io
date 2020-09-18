@@ -1,0 +1,4 @@
+-- ProjNav VHDL simulation template: Half_Adder_Half_Adder_tb_v_tf.udo
+-- You may edit this file after the line that starts with
+-- '-- START' to customize your simulation
+-- START user-defined simulation commands

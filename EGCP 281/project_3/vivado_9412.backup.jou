@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Jan 30 15:41:55 2019
+# Process ID: 9412
+# Current directory: D:/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4104 D:\project_3\project_3.xpr
+# Log file: D:/project_3/vivado.log
+# Journal file: D:/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/project_3/project_3.xpr

@@ -1,0 +1,3099 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: 'full_adder'
+ERROR:HDLCompilers:26 - multiplexer.v line 13 unexpected token: 'full_subtractor'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 5 unexpected token: ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting ';', found 'begin'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 12 expecting 'endmodule', found 'end'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 10 unexpected token: 'full_adder'
+ERROR:HDLCompilers:26 - multiplexer.v line 15 unexpected token: 'full_subtractor'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101688 kilobytes
+
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "full_adder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "full_subtractor.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "multiplexer.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+Module <full_adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder>.
+    Related source file is full_adder.v.
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <full_adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor3                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_adder> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_adder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 full_adder.ngc full_adder.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/full_adder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 76620 kilobytes
+
+Writing NGD file "full_adder.ngd" ...
+
+Writing NGDBUILD log file "full_adder.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_subtractor>.
+Module <full_subtractor> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_subtractor>.
+    Related source file is full_subtractor.v.
+    Found 1-bit xor2 for signal <d>.
+    Found 1-bit xor2 for signal <xor1>.
+Unit <full_subtractor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_subtractor> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_subtractor, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 full_subtractor.ngc full_subtractor.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/full_subtractor.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "full_subtractor.ngd" ...
+
+Writing NGDBUILD log file "full_subtractor.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:162 - multiplexer.v line 10 Illegal task call to 'FA'
+ERROR:HDLCompilers:162 - multiplexer.v line 15 Illegal task call to 'FS'
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 9 unexpected token: 'xor'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - multiplexer.v line 9 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 9 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 10 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 10 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 11 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 11 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 12 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 12 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 13 Reference to scalar wire 'and3' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 13 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 14 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 14 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 19 Reference to scalar wire 'not1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 19 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 20 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 20 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 21 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 21 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 22 Reference to scalar wire 'not2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 22 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 23 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 23 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 24 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 24 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 25 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 25 Illegal left hand side of blocking assignment
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - multiplexer.v line 9 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 9 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 10 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 10 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 11 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 11 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 12 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 12 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 13 Reference to scalar wire 'and3' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 13 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 14 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 14 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 19 Reference to scalar wire 'not1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 19 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 20 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 20 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 21 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 21 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 22 Reference to scalar wire 'not2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 22 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 23 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 23 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 24 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 24 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 25 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 25 Illegal left hand side of procedural assign
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - multiplexer.v line 9 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 9 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 10 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 10 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 11 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 11 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 12 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 12 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 13 Reference to scalar wire 'and3' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 13 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 14 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 14 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 19 Reference to scalar wire 'not1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 19 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 20 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 20 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 21 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 21 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 22 Reference to scalar wire 'not2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 22 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 23 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 23 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 24 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 24 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 25 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 25 Illegal left hand side of procedural assign
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 7 expecting 'endmodule', found 'if'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - multiplexer.v line 9 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 9 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 10 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 10 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 11 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 11 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 12 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 12 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 13 Reference to scalar wire 'and3' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 13 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 14 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 14 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 19 Reference to scalar wire 'not1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 19 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 20 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 20 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 21 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 21 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 22 Reference to scalar wire 'not2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 22 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 23 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 23 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 24 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 24 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 25 Reference to scalar wire 'fout' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 25 Illegal left hand side of procedural assign
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - multiplexer.v line 9 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 9 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 11 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 11 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 12 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 12 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 13 Reference to scalar wire 'and3' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 13 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 19 Reference to scalar wire 'not1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 19 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 20 Reference to scalar wire 'xor1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 20 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 21 Reference to scalar wire 'and1' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 21 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 22 Reference to scalar wire 'not2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 22 Illegal left hand side of procedural assign
+ERROR:HDLCompilers:247 - multiplexer.v line 24 Reference to scalar wire 'and2' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:42 - multiplexer.v line 24 Illegal left hand side of procedural assign
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: 'full_adder'
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: '.'
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: ')'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: 'full_adder'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: 'full_adder'
+ERROR:HDLCompilers:26 - multiplexer.v line 12 unexpected token: 'full_subtractor'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:246 - multiplexer.v line 6 Reference to scalar reg 's' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 6 Connection to output port 'sum' must be a net lvalue
+ERROR:HDLCompilers:246 - multiplexer.v line 6 Reference to scalar reg 'fout' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 6 Connection to output port 'cout' must be a net lvalue
+ERROR:HDLCompilers:246 - multiplexer.v line 7 Reference to scalar reg 's' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 7 Connection to output port 'd' must be a net lvalue
+ERROR:HDLCompilers:246 - multiplexer.v line 7 Reference to scalar reg 'fout' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 7 Connection to output port 'bout' must be a net lvalue
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+Module <multiplexer> is correct for synthesis.
+ 
+Analyzing module <full_adder>.
+Module <full_adder> is correct for synthesis.
+ 
+Analyzing module <full_subtractor>.
+Module <full_subtractor> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_subtractor>.
+    Related source file is full_subtractor.v.
+    Found 1-bit xor2 for signal <d>.
+    Found 1-bit xor2 for signal <xor1>.
+Unit <full_subtractor> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is full_adder.v.
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <multiplexer>.
+    Related source file is multiplexer.v.
+WARNING:Xst:647 - Input <op> is never used.
+Unit <multiplexer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 3
+  1-bit xor2                       : 2
+  1-bit xor3                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:528 - Multi-source in Unit <multiplexer> on signal <fout> not replaced by logic
+Sources are: unit1_cout:cout, unit2_bout:bout
+ERROR:Xst:415 - Synthesis failed
+CPU : 0.92 / 1.04 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 108344 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 9 unexpected token: '='
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting ':', found ')'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 11 unexpected token: '='
+ERROR:HDLCompilers:26 - multiplexer.v line 11 expecting ':', found ')'
+ERROR:HDLCompilers:26 - multiplexer.v line 11 expecting ':', found ')'
+ERROR:HDLCompilers:26 - multiplexer.v line 11 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 13 unexpected token: '='
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 15 expecting 'endcase', found 'EOF'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 15 expecting 'endmodule', found 'EOF'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 11 unexpected token: '='
+ERROR:HDLCompilers:26 - multiplexer.v line 11 expecting ':', found ')'
+ERROR:HDLCompilers:26 - multiplexer.v line 11 expecting ':', found ')'
+ERROR:HDLCompilers:26 - multiplexer.v line 11 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 13 unexpected token: '='
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 15 expecting 'endcase', found 'EOF'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 15 expecting 'endmodule', found 'EOF'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endcase', found 'default'
+ERROR:HDLCompilers:26 - multiplexer.v line 13 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endmodule', found '0'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endcase', found 'default'
+ERROR:HDLCompilers:26 - multiplexer.v line 13 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endmodule', found '0'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endcase', found 'end'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endmodule', found 'case'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endcase', found 'end'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 13 expecting 'endmodule', found 'case'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+WARNING:Xst:883 - multiplexer.v line 9: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - multiplexer.v line 11: Ignored duplicate item in case statement. 
+Module <multiplexer> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexer>.
+    Related source file is multiplexer.v.
+WARNING:Xst:1306 - Output <fout> is never assigned.
+    Found 1-bit xor3 for signal <$n0001> created at line 8.
+    Summary:
+	inferred   1 Xor(s).
+Unit <multiplexer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor3                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexer> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexer, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 1  out of   1536     0%  
+ Number of bonded IOBs:                  4  out of    124     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.104ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/multiplexer.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75932 kilobytes
+
+Writing NGD file "multiplexer.ngd" ...
+
+Writing NGDBUILD log file "multiplexer.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: 'full_adder'
+ERROR:HDLCompilers:26 - multiplexer.v line 8 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 unexpected token: 'full_substractor'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting ':', found ';'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 9 unexpected token: 'full_adder'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting ':', found ';'
+ERROR:HDLCompilers:26 - multiplexer.v line 10 unexpected token: 'full_substractor'
+ERROR:HDLCompilers:26 - multiplexer.v line 10 expecting ':', found ';'
+Module <multiplexer> compiled
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:87 - multiplexer.v line 6 Could not find module/primitive 'full_substractor'
+--> 
+
+Total memory usage is 102200 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:246 - multiplexer.v line 5 Reference to scalar reg 'fout' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 5 Connection to output port 'cout' must be a net lvalue
+ERROR:HDLCompilers:246 - multiplexer.v line 6 Reference to scalar reg 'fout' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 6 Connection to output port 'bout' must be a net lvalue
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - multiplexer.v line 9 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 9 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 10 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 10 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - multiplexer.v line 11 Reference to scalar wire 's' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - multiplexer.v line 11 Illegal left hand side of blocking assignment
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:246 - multiplexer.v line 5 Reference to scalar reg 'fout' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 5 Connection to output port 'cout' must be a net lvalue
+ERROR:HDLCompilers:246 - multiplexer.v line 6 Reference to scalar reg 'fout' is not a legal net lvalue
+ERROR:HDLCompilers:102 - multiplexer.v line 6 Connection to output port 'bout' must be a net lvalue
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:246 - full_adder.v line 12 Reference to scalar reg 'sum' is not a legal net lvalue
+ERROR:HDLCompilers:53 - full_adder.v line 12 Illegal left hand side of continuous assign
+ERROR:HDLCompilers:246 - full_adder.v line 13 Reference to scalar reg 'cout' is not a legal net lvalue
+ERROR:HDLCompilers:53 - full_adder.v line 13 Illegal left hand side of continuous assign
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:28 - multiplexer.v line 6 'sum' has not been declared
+ERROR:HDLCompilers:26 - multiplexer.v line 7 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 7 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 7 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 7 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 7 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 7 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 7 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 7 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_subtractor>.
+Module <full_subtractor> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_subtractor>.
+    Related source file is full_subtractor.v.
+    Found 1-bit xor2 for signal <d>.
+    Found 1-bit xor2 for signal <$n0002> created at line 14.
+Unit <full_subtractor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_subtractor> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_subtractor, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 7 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 7 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:28 - multiplexer.v line 12 'd' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 12 'bin' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 12 'a' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 12 'b' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 13 'bout' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 13 'a' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 13 'b' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 13 'a' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 13 'b' has not been declared
+ERROR:HDLCompilers:28 - multiplexer.v line 13 'bin' has not been declared
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 15 expecting 'endmodule', found 'end'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 15 expecting 'endmodule', found 'end'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 9 unexpected token: '9'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting ';', found ')'
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting 'end', found '|'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 8 unexpected token: '='
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 8 expecting 'endmodule', found '('
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting 'endmodule', found 'if'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting 'endmodule', found 'end'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 9 expecting 'endmodule', found 'end'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 102008 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+ERROR:HDLCompilers:26 - multiplexer.v line 9 unexpected token: ';'
+Module <multiplexer> compiled
+ERROR:HDLCompilers:26 - multiplexer.v line 10 expecting 'endmodule', found 'if'
+Analysis of file <multiplexer.prj> failed.
+--> 
+
+Total memory usage is 101560 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ERROR:Xst:870 - multiplexer.v line 8: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101496 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ERROR:Xst:870 - full_adder.v line 13: Can not simplify operator REM.
+ 
+ 
+Found 3 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 101176 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <full_adder.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+Module <full_adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder>.
+    Related source file is full_adder.v.
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <full_adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+  1-bit xor3                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_adder> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_adder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+Module <multiplexer> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexer>.
+    Related source file is multiplexer.v.
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <$n0008> created at line 13.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <multiplexer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                     : 1
+  2-to-1 multiplexer               : 1
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexer> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexer, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  6  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/multiplexer.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "multiplexer.ngd" ...
+
+Writing NGDBUILD log file "multiplexer.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 full_adder.ngc full_adder.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/full_adder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "full_adder.ngd" ...
+
+Writing NGDBUILD log file "full_adder.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 full_subtractor.ngc full_subtractor.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/full_subtractor.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "full_subtractor.ngd" ...
+
+Writing NGDBUILD log file "full_subtractor.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "full_subtractor.v"
+Module <full_subtractor> compiled
+No errors in compilation
+Analysis of file <full_subtractor.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_subtractor>.
+Module <full_subtractor> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_subtractor>.
+    Related source file is full_subtractor.v.
+    Found 1-bit xor2 for signal <d>.
+    Found 1-bit xor2 for signal <$n0002> created at line 14.
+Unit <full_subtractor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_subtractor> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_subtractor, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+Module <multiplexer> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexer>.
+    Related source file is multiplexer.v.
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <$n0008> created at line 13.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <multiplexer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                     : 1
+  2-to-1 multiplexer               : 1
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexer> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexer, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  6  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/multiplexer.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "multiplexer.ngd" ...
+
+Writing NGDBUILD log file "multiplexer.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "multiplexer.v"
+Module <multiplexer> compiled
+No errors in compilation
+Analysis of file <multiplexer.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <multiplexer>.
+Module <multiplexer> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexer>.
+    Related source file is multiplexer.v.
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <$n0008> created at line 13.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <multiplexer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                     : 1
+  2-to-1 multiplexer               : 1
+# Xors                             : 2
+  1-bit xor2                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexer> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexer, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  6  out of    124     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.329ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i -p
+xc3s50-pq208-4 multiplexer.ngc multiplexer.ngd 
+
+Reading NGO file "E:/EGCP446/Lab2/multiplexer.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "multiplexer.ngd" ...
+
+Writing NGDBUILD log file "multiplexer.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+

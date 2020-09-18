@@ -1,0 +1,20 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab3/definitions.vhd in Library work.
+Architecture definitions of Entity definitions is up to date.
+Compiling vhdl file D:/EGCP381/Lab3/direct_cache_ctrl.vhd in Library work.
+Entity <direct_cache_ctrl> (Architecture <behavioral>) compiled.
+CPU : 0.31 / 0.41 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 102544 kilobytes
+
+

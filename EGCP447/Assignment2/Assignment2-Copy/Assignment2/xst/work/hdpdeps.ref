@@ -1,0 +1,15 @@
+V1 7
+FL e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd 2019/10/23.15:50:06
+EN work/SEC_CORRECTOR \
+      FL e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/SEC_CORRECTOR/BEHAVIORAL \
+      FL e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd \
+      EN work/SEC_CORRECTOR
+FL E:/EGCP447/Assignment2/Assignment2/Assignment2/sec_func.vhd 2019/10/24.17:08:56
+EN work/SEC_FUNC        FL E:/EGCP447/Assignment2/Assignment2/Assignment2/sec_func.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/SEC_FUNC/BEHAVIORAL \
+      FL E:/EGCP447/Assignment2/Assignment2/Assignment2/sec_func.vhd \
+      EN work/SEC_FUNC
+FL e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd 2019/10/23.15:46:08

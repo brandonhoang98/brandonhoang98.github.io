@@ -1,0 +1,653 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "mealy.v"
+Module <mealy> compiled
+No errors in compilation
+Analysis of file <mealy.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <mealy>.
+Module <mealy> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mealy>.
+    Related source file is mealy.v.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <mealy> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mealy> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mealy, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       3  out of    768     0%  
+ Number of Slice Flip Flops:             4  out of   1536     0%  
+ Number of 4 input LUTs:                 6  out of   1536     0%  
+ Number of bonded IOBs:                  4  out of    124     3%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.470ns (Maximum Frequency: 404.858MHz)
+   Minimum input arrival time before clock: 3.343ns
+   Maximum output required time after clock: 7.620ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "moore.v"
+Module <moore> compiled
+No errors in compilation
+Analysis of file <moore.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <moore>.
+WARNING:Xst:883 - moore.v line 24: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - moore.v line 25: Ignored duplicate item in case statement. 
+Module <moore> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <moore>.
+    Related source file is moore.v.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0001                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <moore> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <moore> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block moore, actual ratio is 0.
+FlipFlop state_reg_FFd4 has been replicated 1 time(s) to handle iob=true attribute.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       3  out of    768     0%  
+ Number of Slice Flip Flops:             5  out of   1536     0%  
+ Number of 4 input LUTs:                 1  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 5     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.306ns (Maximum Frequency: 433.651MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.496ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "moore.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling source file "mealy.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab3/_ngo -i -p
+xc3s50-pq208-4 moore.ngc moore.ngd 
+
+Reading NGO file "E:/EGCP446/Lab3/moore.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77644 kilobytes
+
+Writing NGD file "moore.ngd" ...
+
+Writing NGDBUILD log file "moore.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "moore.v"
+Module <moore> compiled
+No errors in compilation
+Analysis of file <moore.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <moore>.
+Module <moore> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <moore>.
+    Related source file is moore.v.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00001                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <moore> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <moore> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block moore, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       3  out of    768     0%  
+ Number of Slice Flip Flops:             6  out of   1536     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 1.586ns (Maximum Frequency: 630.517MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.456ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "moore.v"
+Module <moore> compiled
+No errors in compilation
+Analysis of file <moore.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "moore.v"
+Module <moore> compiled
+No errors in compilation
+Analysis of file <moore.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <moore>.
+Module <moore> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <moore>.
+    Related source file is moore.v.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00001                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <moore> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <moore> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block moore, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       3  out of    768     0%  
+ Number of Slice Flip Flops:             6  out of   1536     0%  
+ Number of 4 input LUTs:                 2  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 1.586ns (Maximum Frequency: 630.517MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.456ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab3/_ngo -i -p
+xc3s50-pq208-4 moore.ngc moore.ngd 
+
+Reading NGO file "E:/EGCP446/Lab3/moore.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "moore.ngd" ...
+
+Writing NGDBUILD log file "moore.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab3/_ngo -i -p
+xc3s50-pq208-4 mealy.ngc mealy.ngd 
+
+Reading NGO file "E:/EGCP446/Lab3/mealy.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "mealy.ngd" ...
+
+Writing NGDBUILD log file "mealy.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+INFO:NetListWriters:580 - If Verilog simulation is performed outside the ISE
+   Project Navigator environment, please add $XILINX/verilog/src/glbl.v to the
+   simulator compile and invocation commands in order to allow proper
+   initialization of the design. If simulation is performed within Project
+   Navigator, this will be taken care of automatically. For more information on
+   compiling and performing Xilinx simulation, consult the online Synthesis and
+   Simulation Design Guide:
+   http://support.xilinx.com/support/software_manuals.htm 
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

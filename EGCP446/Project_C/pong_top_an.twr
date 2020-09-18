@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------------
+Release 6.1.03i Trace G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+C:/XilinxISE6/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml pong_top_an
+pong_top_an.ncd -o pong_top_an.twr pong_top_an.pcf
+
+
+Design file:              pong_top_an.ncd
+Physical constraint file: pong_top_an.pcf
+Device,speed:             xc3s200,-4 (PREVIEW 1.27 2003-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   HIGH 50.000000 % ;
+
+ 33425 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  17.701ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   18.216|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 33425 paths, 0 nets, and 2944 connections
+
+Design statistics:
+   Minimum period:  17.701ns (Maximum frequency:  56.494MHz)
+
+
+Analysis completed Thu Nov 21 17:23:48 2019
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 90 MB

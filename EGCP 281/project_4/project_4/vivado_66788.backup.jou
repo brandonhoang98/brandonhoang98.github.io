@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Oct 25 11:08:01 2017
+# Process ID: 66788
+# Current directory: D:/project_4/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent69140 D:\project_4\project_4\project_4.xpr
+# Log file: D:/project_4/project_4/vivado.log
+# Journal file: D:/project_4/project_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/project_4/project_4/project_4.xpr
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim
+launch_simulation
+source p1_tb.tcl
+close_sim

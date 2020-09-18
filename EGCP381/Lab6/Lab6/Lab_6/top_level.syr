@@ -1,0 +1,540 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: top_level.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : top_level.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : top_level
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : top_level
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : top_level.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd in Library work.
+Architecture low_level_definition of Entity kcpsm3 is up to date.
+Compiling vhdl file D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd in Library work.
+Architecture low_level_definition of Entity lab_6 is up to date.
+Compiling vhdl file D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd in Library work.
+Entity <top_level> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top_level> (Architecture <behavioral>).
+Entity <top_level> analyzed. Unit <top_level> generated.
+
+Analyzing Entity <kcpsm3> (Architecture <low_level_definition>).
+    Set user-defined property "INIT =  1" for instance <t_state_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0080" for instance <int_pulse_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  EAAA" for instance <int_update_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  04" for instance <int_value_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  7400" for instance <move_group_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  5A3C" for instance <condition_met_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  2F" for instance <normal_count_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  1000" for instance <call_type_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  5400" for instance <push_pop_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  D" for instance <valid_move_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  41FC" for instance <flag_type_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  8" for instance <flag_enable_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0001" for instance <low_zero_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0001" for instance <high_zero_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  3F" for instance <sel_shadow_zero_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6996" for instance <low_parity_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6996" for instance <high_parity_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  F3FF" for instance <sel_parity_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  F3" for instance <sel_arith_carry_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  C" for instance <sel_shift_carry_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  3" for instance <sel_shadow_carry_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux8> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux8> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <vector_select_mux9> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <value_select_mux9> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0145" for instance <register_type_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  8" for instance <register_enable_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit00> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit10> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit20> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit30> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit40> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit50> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit60> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000" for instance <register_bit70> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <operand_select_mux7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0400" for instance <memory_type_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  8000" for instance <memory_enable_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0000000000000000" for instance <memory_bit7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FFE2" for instance <sel_logical_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6E8A" for instance <logical_lut7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <high_shift_in_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <low_shift_in_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_carry_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <shift_mux_lut7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  1F" for instance <sel_arith_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6C" for instance <arith_carry_in_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  2" for instance <arith_carry_out_lut7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  96" for instance <arith_lut7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0002" for instance <input_fetch_type_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  FE" for instance <or_lut7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  E4" for instance <mux_lut7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0010" for instance <io_decode_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  4000" for instance <write_active_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  0100" for instance <read_active_lut> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit4> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit5> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit6> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit7> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit8> in unit <kcpsm3>.
+    Set user-defined property "INIT =  00000000" for instance <stack_bit9> in unit <kcpsm3>.
+    Set user-defined property "INIT =  6555" for instance <count_lut0> in unit <kcpsm3>.
+    Set user-defined property "INIT =  A999" for instance <count_lut1> in unit <kcpsm3>.
+    Set user-defined property "INIT =  A999" for instance <count_lut2> in unit <kcpsm3>.
+    Set user-defined property "INIT =  A999" for instance <count_lut3> in unit <kcpsm3>.
+    Set user-defined property "INIT =  A999" for instance <count_lut4> in unit <kcpsm3>.
+Entity <kcpsm3> analyzed. Unit <kcpsm3> generated.
+
+Analyzing Entity <lab_6> (Architecture <low_level_definition>).
+    Set user-defined property "INIT_00 =  5C114120B00042000004A000A130A2031200110010F04F0040020019030FC001" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_01 =  4017541B4200C201030CA000C380A0000019542A502541105420501B41305814" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_02 =  00004017542A4200C2010306401754254200C201030E401754204200C2010302" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_2B =  000000000000000000000000000000000000000000000000000000008001000B" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INIT_3F =  42B0000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_00 =  00000000000000000000000000000000000000003D6F5BD6F5AAFDF7D9E000F3" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_05 =  000000000000000000000000000000000000000F000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+    Set user-defined property "INITP_07 =  C000000000000000000000000000000000000000000000000000000000000000" for instance <ram_1024_x_18> in unit <lab_6>.
+Entity <lab_6> analyzed. Unit <lab_6> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_6>.
+    Related source file is D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd.
+Unit <lab_6> synthesized.
+
+
+Synthesizing Unit <kcpsm3>.
+    Related source file is D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd.
+Unit <kcpsm3> synthesized.
+
+
+Synthesizing Unit <top_level>.
+    Related source file is D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd.
+WARNING:Xst:646 - Signal <read_strobe> is assigned but never used.
+WARNING:Xst:653 - Signal <reset> is used but never assigned. Tied to value 0.
+WARNING:Xst:646 - Signal <port_id<6:2>> is assigned but never used.
+WARNING:Xst:646 - Signal <write_strobe> is assigned but never used.
+    Found 8-bit register for signal <leds>.
+    Found 1-bit register for signal <butRise>.
+    Found 8-bit register for signal <in_port>.
+    Found 1-bit register for signal <interrupt>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+Unit <top_level> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  8-bit register                   : 2
+  1-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top_level> ...
+
+Optimizing unit <kcpsm3> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top_level, actual ratio is 5.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top_level.ngr
+Top Level Output File Name         : top_level
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 17
+
+Macro Statistics :
+# Registers                        : 4
+#      1-bit register              : 2
+#      8-bit register              : 2
+
+Cell Usage :
+# BELS                             : 202
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 2
+#      LUT2                        : 6
+#      LUT3                        : 70
+#      LUT4                        : 33
+#      MUXCY                       : 39
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 37
+# FlipFlops/Latches                : 94
+#      FD                          : 32
+#      FDE                         : 11
+#      FDR                         : 30
+#      FDRE                        : 9
+#      FDRSE                       : 10
+#      FDS                         : 2
+# RAMS                             : 27
+#      RAM16X1D                    : 8
+#      RAM32X1S                    : 10
+#      RAM64X1S                    : 8
+#      RAMB16_S18                  : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     132  out of   1920     6%  
+ Number of Slice Flip Flops:            94  out of   3840     2%  
+ Number of 4 input LUTs:               171  out of   3840     4%  
+ Number of bonded IOBs:                 16  out of    173     9%  
+ Number of BRAMs:                        1  out of     12     8%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 121   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.078ns (Maximum Frequency: 90.269MHz)
+   Minimum input arrival time before clock: 3.888ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               11.078ns (Levels of Logic = 13)
+  Source:            program_ram_1024_x_18 (RAM)
+  Destination:       processor_register_bit9 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: program_ram_1024_x_18 to processor_register_bit9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S18:CLK->DO10   25   3.509   1.314  program_ram_1024_x_18 (instruction<10>)
+     LUT4:I2->O            2   0.720   0.465  processor_condition_met_lut (processor_condition_met)
+     LUT3:I1->O           11   0.720   0.836  processor_normal_count_lut (processor_normal_count)
+     LUT3:I0->O            1   0.720   0.000  processor_value_select_mux0 (processor_pc_value<0>)
+     MUXCY:S->O            1   0.629   0.000  processor_pc_value_muxcy0 (processor_pc_value_carry<0>)
+     MUXCY:CI->O           1   0.090   0.000  processor_pc_value_muxcy1 (processor_pc_value_carry<1>)
+     MUXCY:CI->O           1   0.091   0.000  processor_pc_value_muxcy2 (processor_pc_value_carry<2>)
+     MUXCY:CI->O           1   0.090   0.000  processor_pc_value_muxcy3 (processor_pc_value_carry<3>)
+     MUXCY:CI->O           1   0.090   0.000  processor_pc_value_muxcy4 (processor_pc_value_carry<4>)
+     MUXCY:CI->O           1   0.090   0.000  processor_pc_value_muxcy5 (processor_pc_value_carry<5>)
+     MUXCY:CI->O           1   0.090   0.000  processor_pc_value_muxcy6 (processor_pc_value_carry<6>)
+     MUXCY:CI->O           1   0.090   0.000  processor_pc_value_muxcy7 (processor_pc_value_carry<7>)
+     MUXCY:CI->O           0   0.090   0.000  processor_pc_value_muxcy8 (processor_pc_value_carry<8>)
+     XORCY:CI->O           1   0.939   0.000  processor_pc_value_xor9 (processor_inc_pc_value<9>)
+     FDRSE:D                   0.502          processor_register_bit9
+    ----------------------------------------
+    Total                     11.078ns (8.463ns logic, 2.615ns route)
+                                       (76.4% logic, 23.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              3.888ns (Levels of Logic = 2)
+  Source:            switches<7> (PAD)
+  Destination:       interrupt (FF)
+  Destination Clock: clk rising
+
+  Data Path: switches<7> to interrupt
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.492   0.577  switches_7_IBUF (switches_7_IBUF)
+     LUT2:I0->O            2   0.720   0.465  _n00031 (_n0003)
+     FDRE:CE                   0.634          interrupt
+    ----------------------------------------
+    Total                      3.888ns (2.846ns logic, 1.042ns route)
+                                       (73.2% logic, 26.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.271ns (Levels of Logic = 1)
+  Source:            leds_7 (FF)
+  Destination:       leds<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: leds_7 to leds<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.619   0.240  leds_7 (leds_7)
+     OBUF:I->O                 5.412          leds_7_OBUF (leds<7>)
+    ----------------------------------------
+    Total                      6.271ns (6.031ns logic, 0.240ns route)
+                                       (96.2% logic, 3.8% route)
+
+=========================================================================
+CPU : 4.44 / 4.58 s | Elapsed : 4.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 127756 kilobytes
+
+

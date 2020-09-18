@@ -1,0 +1,20 @@
+SCHEMATIC START ;
+// created by map version G.26 on Wed Mar 13 15:42:01 2019 
+COMP "err" LOCATE =  SITE "P11" LEVEL 1; 
+COMP "syndrome<0>" LOCATE =  SITE "K12" LEVEL 1; 
+COMP "syndrome<1>" LOCATE =  SITE "P14" LEVEL 1; 
+COMP "syndrome<2>" LOCATE =  SITE "L12" LEVEL 1; 
+COMP "syndrome<3>" LOCATE =  SITE "N14" LEVEL 1; 
+COMP "data_in<0>" LOCATE =  SITE "M13" LEVEL 1; 
+COMP "data_in<1>" LOCATE =  SITE "M14" LEVEL 1; 
+COMP "data_in<10>" LOCATE =  SITE "K14" LEVEL 1; 
+COMP "data_in<2>" LOCATE =  SITE "F12" LEVEL 1; 
+COMP "data_in<11>" LOCATE =  SITE "K13" LEVEL 1; 
+COMP "data_in<3>" LOCATE =  SITE "L13" LEVEL 1; 
+COMP "data_in<4>" LOCATE =  SITE "G12" LEVEL 1; 
+COMP "data_in<5>" LOCATE =  SITE "H14" LEVEL 1; 
+COMP "data_in<6>" LOCATE =  SITE "H13" LEVEL 1; 
+COMP "data_in<7>" LOCATE =  SITE "L14" LEVEL 1; 
+COMP "data_in<8>" LOCATE =  SITE "J14" LEVEL 1; 
+COMP "data_in<9>" LOCATE =  SITE "J13" LEVEL 1; 
+SCHEMATIC END ;

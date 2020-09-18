@@ -1,0 +1,3 @@
+Place & Route Module top1 . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 top1_map.ncd top1.ncd top1.pcf
+PAR completed successfully

@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec  6 12:24:30 2019
+# Process ID: 9268
+# Current directory: E:/EGCP447/Assignment3/Assignment_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3272 E:\EGCP447\Assignment3\Assignment_3\Assignment_3.xpr
+# Log file: E:/EGCP447/Assignment3/Assignment_3/vivado.log
+# Journal file: E:/EGCP447/Assignment3/Assignment_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/EGCP447/Assignment3/Assignment_3/Assignment_3.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {E:/EGCP447/Assignment3/Assignment_3/LFSR.vhd E:/EGCP447/Assignment3/Assignment_3/LFSRFF.vhd}
+update_compile_order -fileset sources_1
+close [ open E:/EGCP447/Assignment3/Assignment_3/Assignment_3.srcs/sources_1/new/BFSM.vhd w ]
+add_files E:/EGCP447/Assignment3/Assignment_3/Assignment_3.srcs/sources_1/new/BFSM.vhd
+update_compile_order -fileset sources_1
+file mkdir E:/EGCP447/Assignment3/Assignment_3/Assignment_3.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/EGCP447/Assignment3/Assignment_3/Assignment_3.srcs/sim_1/new/top.vhd w ]
+add_files -fileset sim_1 E:/EGCP447/Assignment3/Assignment_3/Assignment_3.srcs/sim_1/new/top.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim

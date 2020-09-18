@@ -1,0 +1,23 @@
+Release  - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab4/_ngo -uc
+Spartan_3-Copy.ucf -p xc3s200-ft256-4 top1.ngc top1.ngd 
+
+Reading NGO file "E:/EGCP446/Lab4/top1.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "Spartan_3-Copy.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78044 kilobytes
+
+Writing NGD file "top1.ngd" ...
+
+Writing NGDBUILD log file "top1.bld"...

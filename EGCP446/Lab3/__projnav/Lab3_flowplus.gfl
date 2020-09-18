@@ -1,0 +1,27 @@
+# XST flow : Creating project file
+mealy.prj
+# xst flow : RunXST
+mealy.prj
+__projnav/mealy.xst
+./xst
+# XST flow : Creating project file
+moore.prj
+# xst flow : RunXST
+moore.prj
+__projnav/moore.xst
+./xst
+# XST flow : Creating project file
+moore.prj
+# xst flow : RunXST
+moore.prj
+__projnav/moore.xst
+./xst
+# xst flow : Check Syntax
+moore.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/moore.xst
+xst
+# xst flow : RunXST
+moore.prj
+__projnav/moore.xst
+./xst

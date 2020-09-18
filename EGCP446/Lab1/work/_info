@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/EGCP446/Lab1
+vFull_Adder
+Z1 !s110 1568765033
+!i10b 1
+!s100 MB>VSIcNZY_k=dEMePz]90
+IAF3k<]N2]:RGAOK7Zg`;52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1568160510
+8Full_Adder_translate.v
+FFull_Adder_translate.v
+L0 18
+Z3 OL;L;10.5f;63
+r1
+!s85 0
+31
+Z4 !s108 1568765033.000000
+!s107 Full_Adder_translate.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|Full_Adder_translate.v|
+!i113 1
+Z5 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@full_@adder
+vFull_Adder_Full_Adder_tb_v_tf
+R1
+!i10b 1
+!s100 N8<c@Sf@:D59JCND=l3Ih2
+IEb1X7>z>TIa9<fc8?C^?d3
+R2
+R0
+w1568162100
+8Full_Adder_tb.v
+FFull_Adder_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 Full_Adder_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|Full_Adder_tb.v|
+!i113 1
+R5
+R6
+n@full_@adder_@full_@adder_tb_v_tf
+vglbl
+!s110 1568765032
+!i10b 1
+!s100 V<;YN3^4[L6N6ZjbE@C5N0
+IHh]MH:E3DmmUcPjVIEZjm2
+R2
+R0
+w1059855545
+8C:/XilinxISE6/verilog/src/glbl.v
+FC:/XilinxISE6/verilog/src/glbl.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1568765032.000000
+!s107 C:/XilinxISE6/verilog/src/glbl.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|C:/XilinxISE6/verilog/src/glbl.v|
+!i113 1
+R5
+R6
+vHalf_Adder
+!s110 1568161189
+!i10b 1
+!s100 SP0kkQ`l69zbNaH`dKTY_2
+Ij=kM2iEGVzP@lRhSAlY0C2
+R2
+R0
+w1568159560
+8E:/EGCP446/Lab1/Half_Adder.v
+FE:/EGCP446/Lab1/Half_Adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1568161189.000000
+!s107 E:/EGCP446/Lab1/Half_Adder.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab1/Half_Adder.v|
+!i113 1
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+n@half_@adder
+vHalf_Adder_Half_Adder_tb_v_tf
+!s110 1568161184
+!i10b 1
+!s100 fF4>P605n^LCSD:CHS^bP3
+IHZ4clZHLIaNlzKeIV@5H_3
+R2
+R0
+w1568161046
+8E:/EGCP446/Lab1/Half_Adder_tb.v
+FE:/EGCP446/Lab1/Half_Adder_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1568161184.000000
+!s107 E:/EGCP446/Lab1/Half_Adder_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab1/Half_Adder_tb.v|
+!i113 1
+R7
+R6
+n@half_@adder_@half_@adder_tb_v_tf

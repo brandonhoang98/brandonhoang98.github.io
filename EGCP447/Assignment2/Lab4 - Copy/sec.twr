@@ -1,0 +1,168 @@
+--------------------------------------------------------------------------------
+Release 6.1.03i Trace G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+C:/XilinxISE6/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml sec sec.ncd -o
+sec.twr sec.pcf
+
+
+Design file:              sec.ncd
+Physical constraint file: sec.pcf
+Device,speed:             xc3s200,-4 (PREVIEW 1.27 2003-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data_in<0>     |data_out<0>    |   11.204|
+data_in<0>     |data_out<1>    |   11.997|
+data_in<0>     |data_out<2>    |   11.548|
+data_in<0>     |data_out<3>    |   10.715|
+data_in<0>     |data_out<4>    |   11.076|
+data_in<0>     |data_out<5>    |   11.727|
+data_in<0>     |data_out<6>    |   11.207|
+data_in<0>     |data_out<7>    |   12.000|
+data_in<0>     |err            |   11.138|
+data_in<0>     |syndrome<0>    |    9.087|
+data_in<10>    |data_out<0>    |   11.763|
+data_in<10>    |data_out<1>    |   12.807|
+data_in<10>    |data_out<2>    |   12.139|
+data_in<10>    |data_out<3>    |   11.274|
+data_in<10>    |data_out<4>    |   11.396|
+data_in<10>    |data_out<5>    |   12.047|
+data_in<10>    |data_out<6>    |   11.527|
+data_in<10>    |data_out<7>    |   12.320|
+data_in<10>    |err            |   12.347|
+data_in<10>    |syndrome<0>    |    9.407|
+data_in<10>    |syndrome<1>    |   10.269|
+data_in<10>    |syndrome<3>    |    9.911|
+data_in<11>    |data_out<0>    |   11.295|
+data_in<11>    |data_out<1>    |   12.780|
+data_in<11>    |data_out<2>    |   12.112|
+data_in<11>    |data_out<3>    |   10.806|
+data_in<11>    |data_out<4>    |   11.962|
+data_in<11>    |data_out<5>    |   12.177|
+data_in<11>    |data_out<6>    |   12.093|
+data_in<11>    |data_out<7>    |   12.451|
+data_in<11>    |err            |   12.320|
+data_in<11>    |syndrome<2>    |    9.275|
+data_in<11>    |syndrome<3>    |    9.884|
+data_in<1>     |data_out<0>    |   11.316|
+data_in<1>     |data_out<1>    |   12.355|
+data_in<1>     |data_out<2>    |   11.483|
+data_in<1>     |data_out<3>    |   10.827|
+data_in<1>     |data_out<4>    |   10.095|
+data_in<1>     |data_out<5>    |   11.378|
+data_in<1>     |data_out<6>    |   10.679|
+data_in<1>     |data_out<7>    |   11.693|
+data_in<1>     |err            |    9.692|
+data_in<1>     |syndrome<1>    |    9.822|
+data_in<2>     |data_out<0>    |   12.393|
+data_in<2>     |data_out<1>    |   13.432|
+data_in<2>     |data_out<2>    |   12.560|
+data_in<2>     |data_out<3>    |   11.904|
+data_in<2>     |data_out<4>    |   12.026|
+data_in<2>     |data_out<5>    |   12.677|
+data_in<2>     |data_out<6>    |   12.157|
+data_in<2>     |data_out<7>    |   12.950|
+data_in<2>     |err            |   12.088|
+data_in<2>     |syndrome<0>    |   10.037|
+data_in<2>     |syndrome<1>    |   10.899|
+data_in<3>     |data_out<0>    |    9.108|
+data_in<3>     |data_out<1>    |   11.810|
+data_in<3>     |data_out<2>    |   11.144|
+data_in<3>     |data_out<3>    |    8.786|
+data_in<3>     |data_out<4>    |   11.307|
+data_in<3>     |data_out<5>    |   11.522|
+data_in<3>     |data_out<6>    |   11.438|
+data_in<3>     |data_out<7>    |   11.796|
+data_in<3>     |err            |   10.776|
+data_in<3>     |syndrome<2>    |    8.620|
+data_in<4>     |data_out<0>    |   11.299|
+data_in<4>     |data_out<1>    |   12.834|
+data_in<4>     |data_out<2>    |   12.168|
+data_in<4>     |data_out<3>    |   10.810|
+data_in<4>     |data_out<4>    |   12.331|
+data_in<4>     |data_out<5>    |   12.546|
+data_in<4>     |data_out<6>    |   12.462|
+data_in<4>     |data_out<7>    |   12.820|
+data_in<4>     |err            |   12.180|
+data_in<4>     |syndrome<0>    |    9.182|
+data_in<4>     |syndrome<2>    |    9.644|
+data_in<5>     |data_out<0>    |   11.363|
+data_in<5>     |data_out<1>    |   13.079|
+data_in<5>     |data_out<2>    |   12.413|
+data_in<5>     |data_out<3>    |   10.874|
+data_in<5>     |data_out<4>    |   12.576|
+data_in<5>     |data_out<5>    |   12.791|
+data_in<5>     |data_out<6>    |   12.707|
+data_in<5>     |data_out<7>    |   13.065|
+data_in<5>     |err            |   12.425|
+data_in<5>     |syndrome<1>    |    9.869|
+data_in<5>     |syndrome<2>    |    9.889|
+data_in<6>     |data_out<0>    |   12.134|
+data_in<6>     |data_out<1>    |   13.173|
+data_in<6>     |data_out<2>    |   12.301|
+data_in<6>     |data_out<3>    |   11.645|
+data_in<6>     |data_out<4>    |   12.356|
+data_in<6>     |data_out<5>    |   12.571|
+data_in<6>     |data_out<6>    |   12.487|
+data_in<6>     |data_out<7>    |   12.845|
+data_in<6>     |err            |   12.205|
+data_in<6>     |syndrome<0>    |    9.778|
+data_in<6>     |syndrome<1>    |   10.640|
+data_in<6>     |syndrome<2>    |    9.669|
+data_in<7>     |data_out<0>    |    9.885|
+data_in<7>     |data_out<1>    |   11.589|
+data_in<7>     |data_out<2>    |   10.921|
+data_in<7>     |data_out<3>    |    9.396|
+data_in<7>     |data_out<4>    |    9.227|
+data_in<7>     |data_out<5>    |   10.583|
+data_in<7>     |data_out<6>    |    9.358|
+data_in<7>     |data_out<7>    |   10.816|
+data_in<7>     |err            |   10.687|
+data_in<7>     |syndrome<3>    |    8.693|
+data_in<8>     |data_out<0>    |   11.357|
+data_in<8>     |data_out<1>    |   12.842|
+data_in<8>     |data_out<2>    |   12.174|
+data_in<8>     |data_out<3>    |   10.868|
+data_in<8>     |data_out<4>    |   11.161|
+data_in<8>     |data_out<5>    |   11.836|
+data_in<8>     |data_out<6>    |   11.292|
+data_in<8>     |data_out<7>    |   12.069|
+data_in<8>     |err            |   12.382|
+data_in<8>     |syndrome<0>    |    8.655|
+data_in<8>     |syndrome<3>    |    9.946|
+data_in<9>     |data_out<0>    |   11.620|
+data_in<9>     |data_out<1>    |   13.105|
+data_in<9>     |data_out<2>    |   12.437|
+data_in<9>     |data_out<3>    |   11.131|
+data_in<9>     |data_out<4>    |   11.424|
+data_in<9>     |data_out<5>    |   12.099|
+data_in<9>     |data_out<6>    |   11.555|
+data_in<9>     |data_out<7>    |   12.332|
+data_in<9>     |err            |   12.645|
+data_in<9>     |syndrome<1>    |    9.600|
+data_in<9>     |syndrome<3>    |   10.209|
+---------------+---------------+---------+
+
+Analysis completed Wed Mar 13 15:42:05 2019
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 85 MB

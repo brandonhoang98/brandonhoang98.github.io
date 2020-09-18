@@ -1,0 +1,152 @@
+Release 6.1.03i Par G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+CS301-5D::  Tue Oct 15 17:15:16 2019
+
+
+C:/XilinxISE6/bin/nt/par.exe -w -intstyle ise -ol std -t 1 RAM_map.ncd RAM.ncd
+RAM.pcf 
+
+
+Constraints file: RAM.pcf
+
+Loading device database for application Par from file "RAM_map.ncd".
+   "RAM" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolved that IOB <din<2>> must be placed at site H14.
+Resolved that IOB <din<3>> must be placed at site H13.
+Resolved that IOB <clk> must be placed at site T9.
+Resolved that IOB <dout<0>> must be placed at site K12.
+Resolved that IOB <dout<1>> must be placed at site P14.
+Resolved that IOB <dout<2>> must be placed at site L12.
+Resolved that IOB <dout<3>> must be placed at site N14.
+Resolved that IOB <we> must be placed at site K14.
+Resolved that IOB <addr<0>> must be placed at site J14.
+Resolved that IOB <din<0>> must be placed at site F12.
+Resolved that IOB <addr<1>> must be placed at site J13.
+Resolved that IOB <din<1>> must be placed at site G12.
+
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 173     6%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of Slices                   14 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896d0) REAL time: 0 secs 
+
+Phase 3.8
+.
+.
+Phase 3.8 (Checksum:98b83f) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file RAM.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 82 unrouted;       REAL time: 0 secs 
+
+Phase 2: 73 unrouted;       REAL time: 0 secs 
+
+Phase 3: 26 unrouted;       REAL time: 0 secs 
+
+Phase 4: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 5: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 6: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |    8 |  0.050     |  0.550      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 78
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        0.616
+   The MAXIMUM PIN DELAY IS:                               1.823
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   0.841
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          71          11           0           0           0           0
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   H | 20.000ns   | 5.527ns    | 2    
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  96 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Writing design to file RAM.ncd.
+
+
+PAR done.

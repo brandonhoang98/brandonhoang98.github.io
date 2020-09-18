@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Dec 06 11:55:55 2017
+# Process ID: 71244
+# Current directory: D:/project_6/project_6/project_1.runs/impl_1
+# Command line: vivado.exe -log SinDigWatch.vdi -applog -messageDb vivado.pb -mode batch -source SinDigWatch.tcl -notrace
+# Log file: D:/project_6/project_6/project_1.runs/impl_1/SinDigWatch.vdi
+# Journal file: D:/project_6/project_6/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SinDigWatch.tcl -notrace
+Command: open_checkpoint SinDigWatch_routed.dcp
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/project_6/project_6/project_1.runs/impl_1/.Xil/Vivado-71244-/dcp/SinDigWatch.xdc]
+Finished Parsing XDC File [D:/project_6/project_6/project_1.runs/impl_1/.Xil/Vivado-71244-/dcp/SinDigWatch.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 462.945 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 462.945 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2015.4 (64-bit) build 1412921
+open_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 462.945 ; gain = 274.133
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-1223] The version limit for your license is '2016.11' and will expire in -371 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (BUFC-1) Input Buffer Connections - Input buffer BTN1_IBUF_inst has no loads. An input buffer must drive an internal load.
+WARNING: [DRC 23-20] Rule violation (BUFC-1) Input Buffer Connections - Input buffer BTN2_IBUF_inst has no loads. An input buffer must drive an internal load.
+WARNING: [DRC 23-20] Rule violation (BUFC-1) Input Buffer Connections - Input buffer BTN3_IBUF_inst has no loads. An input buffer must drive an internal load.
+WARNING: [DRC 23-20] Rule violation (BUFC-1) Input Buffer Connections - Input buffer BTN4_IBUF_inst has no loads. An input buffer must drive an internal load.
+WARNING: [DRC 23-20] Rule violation (BUFC-1) Input Buffer Connections - Input buffer ClkPin_IBUF_inst has no loads. An input buffer must drive an internal load.
+WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 5 net(s) have no routable loads. The problem bus(es) and/or net(s) are BTN1_IBUF, BTN2_IBUF, BTN3_IBUF, BTN4_IBUF, ClkPin_IBUF.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 7 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./SinDigWatch.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 806.445 ; gain = 343.500
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file SinDigWatch.hwdef
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 06 11:56:43 2017...

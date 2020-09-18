@@ -1,0 +1,14 @@
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ModelSim : Simulate Behavioral VHDL Model
+half_adder_half_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_full_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf

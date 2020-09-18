@@ -1,0 +1,124 @@
+# XST flow : Creating project file
+ClockDivider.prj
+# xst flow : Check Syntax
+ClockDivider.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/ClockDivider.xst
+xst
+# XST flow : Creating project file
+ClockDivider.prj
+# xst flow : Check Syntax
+ClockDivider.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/ClockDivider.xst
+xst
+# xst flow : Check Syntax
+ClockDivider.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/ClockDivider.xst
+xst
+# XST flow : Creating project file
+ClockDivider.prj
+# xst flow : Check Syntax
+ClockDivider.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/ClockDivider.xst
+xst
+# XST flow : Creating project file
+top2.prj
+# xst flow : Check Syntax
+top2.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/top2.xst
+xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : Check Syntax
+top1.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/top1.xst
+xst
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+ClockDivider.prj
+# xst flow : Check Syntax
+ClockDivider.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/ClockDivider.xst
+xst
+# xst flow : Check Syntax
+ClockDivider.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/ClockDivider.xst
+xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+ClockDivider.prj
+# xst flow : RunXST
+ClockDivider.prj
+__projnav/ClockDivider.xst
+./xst
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# xst flow : RunXST
+top2.prj
+__projnav/top2.xst
+./xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst
+# XST flow : Creating project file
+top1.prj
+# xst flow : RunXST
+top1.prj
+__projnav/top1.xst
+./xst

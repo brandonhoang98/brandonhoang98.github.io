@@ -1,0 +1,23 @@
+Release  - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab4/_ngo -uc sec.ucf -p
+xc3s200-ft256-4 sec.ngc sec.ngd 
+
+Reading NGO file "D:/EGCP381/Lab4/sec.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "sec.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "sec.ngd" ...
+
+Writing NGDBUILD log file "sec.bld"...

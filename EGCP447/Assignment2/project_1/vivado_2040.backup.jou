@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  5 16:34:27 2019
+# Process ID: 2040
+# Current directory: E:/EGCP447/Assignment2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2088 E:\EGCP447\Assignment2\project_1\project_1.xpr
+# Log file: E:/EGCP447/Assignment2/project_1/vivado.log
+# Journal file: E:/EGCP447/Assignment2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7a12ticsg325-1L E:/EGCP447/Assignment2/project_1/project_1.xpr
+update_compile_order -fileset sources_1

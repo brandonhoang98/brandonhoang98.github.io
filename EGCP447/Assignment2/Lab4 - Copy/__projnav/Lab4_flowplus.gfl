@@ -1,0 +1,45 @@
+# XST flow : Creating project file
+sec_compare.prj
+# xst flow : Check Syntax
+sec_compare.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/sec_compare.xst
+xst
+# XST flow : Creating project file
+sec_corrector.prj
+# xst flow : Check Syntax
+sec_corrector.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/sec_corrector.xst
+xst
+# XST flow : Creating project file
+sec_func.prj
+# xst flow : Check Syntax
+sec_func.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/sec_func.xst
+xst
+# XST flow : Creating project file
+sec.prj
+# xst flow : Check Syntax
+sec.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/sec.xst
+xst
+# XST flow : Creating project file
+sec.prj
+# xst flow : Check Syntax
+sec.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/sec.xst
+xst
+# xst flow : RunXST
+sec.prj
+__projnav/sec.xst
+./xst
+# XST flow : Creating project file
+sec.prj
+# xst flow : RunXST
+sec.prj
+__projnav/sec.xst
+./xst

@@ -1,0 +1,170 @@
+# Reading C:/questasim64_10.5f/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.5f win64 Apr  5 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:40:01 on Oct 31,2019
+# vcom -reportprogress 300 -93 -explicit ScanFF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ScanFF
+# -- Compiling architecture Behavioral of ScanFF
+# End time: 17:40:02 on Oct 31,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:40:02 on Oct 31,2019
+# vcom -reportprogress 300 -93 -explicit ../Assignment2/sec_corrector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sec_corrector
+# -- Compiling architecture behavioral of sec_corrector
+# End time: 17:40:02 on Oct 31,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:40:02 on Oct 31,2019
+# vcom -reportprogress 300 -93 -explicit ../Assignment2/sec_corrector_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sec_corrector_sec_corrector_tb_vhd_tb
+# -- Compiling architecture behavior of sec_corrector_sec_corrector_tb_vhd_tb
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(121): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(129): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(130): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(130): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(132): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(135): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(135): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(138): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(146): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(150): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(153): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(153): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(156): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(158): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(162): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(165): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(167): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(170): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(172): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(175): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(177): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(179): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(181): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(183): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(185): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(188): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(190): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(192): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(194): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(196): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(198): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(200): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(202): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(204): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(206): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(208): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(210): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(212): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(214): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(216): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(218): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(218): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(218): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(219): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(219): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(220): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(220): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(221): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(221): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(222): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(222): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(223): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(223): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(224): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(224): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(225): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(225): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(226): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(226): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(227): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(227): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(228): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(228): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(229): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(229): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(230): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(230): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(231): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(231): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(232): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: ../Assignment2/sec_corrector_tb.vhd(232): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:40:02 on Oct 31,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 100
+# vsim -t 1ps -lib work sec_corrector_sec_corrector_tb_vhd_tb 
+# Start time: 17:40:02 on Oct 31,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sec_corrector_sec_corrector_tb_vhd_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.sec_func(behavioral)
+# Loading work.scanff(behavioral)
+# Loading work.sec_corrector(behavioral)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Causality operation skipped due to absence of debug database file
+# End time: 17:45:24 on Oct 31,2019, Elapsed time: 0:05:22
+# Errors: 0, Warnings: 2

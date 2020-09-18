@@ -1,0 +1,4 @@
+MO vga_sync NULL ../LabNo7/ProjectPartB/vga_sync.v vlg62/vga_sync.bin
+MO pong_graph_animate NULL ../LabNo7/ProjectPartB/pong_graph_animate.v vlg07/pong_graph_animate.bin
+MO pong_top_an NULL ../LabNo7/ProjectPartB/pong_top_an.v vlg28/pong_top_an.bin
+MO One_1 NULL ../LabNo7/ProjectPartB/One.v vlg7E/One_1.bin

@@ -1,0 +1,21 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "ClockDivider.v"
+Module <ClockDivider> compiled
+No errors in compilation
+Analysis of file <ClockDivider.prj> succeeded.
+ 
+CPU : 0.09 / 0.17 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 101176 kilobytes
+
+

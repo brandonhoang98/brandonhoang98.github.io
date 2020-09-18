@@ -1,0 +1,3011 @@
+# XST (Creating Lso File) : 
+top_level.lso
+# Check Syntax
+top_level.stx
+# XST (Creating Lso File) : 
+top_level.lso
+# Check Syntax
+top_level.stx
+# XST (Creating Lso File) : 
+top_level.lso
+# Check Syntax
+top_level.stx
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log
+# XST (Creating Lso File) : 
+top_level.lso
+# xst flow : RunXST
+top_level.syr
+top_level.prj
+top_level.sprj
+top_level.ana
+top_level.stx
+top_level.cmd_log
+top_level.ngc
+top_level.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab6\lab6\lab_6/_ngo
+top_level.ngd
+top_level_ngdbuild.nav
+top_level.bld
+top_level.ucf.untf
+top_level.cmd_log
+# Implementation : Map
+top_level_map.ncd
+top_level.ngm
+top_level.pcf
+top_level.nc1
+top_level.mrp
+top_level_map.mrp
+top_level.mdf
+__projnav/map.log
+top_level.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top_level"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top_level.twr
+top_level.twx
+top_level.tsi
+top_level.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top_level.ncd
+top_level.par
+top_level.pad
+top_level_pad.txt
+top_level_pad.csv
+top_level.pad_txt
+top_level.dly
+reportgen.log
+top_level.xpi
+top_level.grf
+top_level.itr
+top_level_last_par.ncd
+__projnav/par.log
+top_level.placed_ncd_tracker
+top_level.routed_ncd_tracker
+top_level.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top_level"
+# Generate Programming File
+__projnav/top_level_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top_level.ut
+# Generate Programming File
+top_level.bgn
+top_level.rbt
+top_level.ll
+top_level.msk
+top_level.drc
+top_level.nky
+top_level.bit
+top_level.bin
+top_level.isc
+top_level.cmd_log

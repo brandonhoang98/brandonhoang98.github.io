@@ -1,0 +1,113 @@
+; PBlazeIDE Template
+
+;=====================================================
+; generate vhdl file
+;=====================================================
+vhdl	"rom_form.vhd", "lab_6.vhd", "lab_6"
+
+;=====================================================
+; data constants
+;=====================================================
+
+
+
+;=====================================================
+; register aliases
+;=====================================================
+sw_in equ sF
+
+
+;=====================================================
+; port aliases
+;=====================================================
+; input ports
+sw_port		dsin	$00
+
+; output ports
+led_port	dsout	$80
+
+;=====================================================
+; main program
+;=====================================================
+	org $000
+	eint
+	load s3, 15
+foreverloop:
+	call led_print
+	jump foreverloop
+
+
+	
+;=====================================================
+; subroutines
+;=====================================================
+	   ;s0 = data register
+	   ;s1 = operation register
+	   ;s2 = opcount register
+	   ;s3 = LED output register
+switch_read:
+    	in  sw_in, sw_port
+	     load s0, sw_in
+	     load s1, s0
+	     load s2, s0
+	     AND s2, 3
+	     AND s1, 48
+	     
+	     ret
+	     
+operation:
+		 call switch_read
+		 comp s2, 0
+		 ret z
+		 comp s1, 32
+		 jump nc, rotate
+		 jump c, shift
+rotate:
+	   	 comp s1, 48
+	   	 jump z, rright
+	   	 jump nz, rleft
+shift:
+	  	 comp s1, 16
+		 jump z, sright
+		 jump nz, sleft
+endo:
+	 	 call led_print
+		  ret
+		  
+led_print:
+	     out s3, led_port
+	     ret
+
+rright:
+	   	 rr s3
+	   	 sub s2, 1
+	   	 comp s2, 0
+	   	 jump nz, rright
+	   	 jump endo
+rleft:
+	  	 rl s3
+	  	 sub s2, 1
+	  	 comp s2, 0
+	  	 jump nz, rleft
+	  	 jump endo
+sright:
+	   	 sr0 s3
+	   	 sub s2, 1
+	   	 comp s2, 0
+	   	 jump nz, sright
+	   	 jump endo
+sleft:
+	  	 sl0 s3
+	  	 sub s2, 1
+	  	 comp s2, 0
+	  	 jump nz, sleft
+	  	 jump endo
+;=====================================================
+; interrupt service routine (isr)
+;=====================================================
+	org $2B0
+int_routine:
+	call operation
+    reti enable		 													
+	org $3FF
+	JUMP int_routine

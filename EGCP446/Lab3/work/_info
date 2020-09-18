@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/EGCP446/Lab3
+vglbl
+!s110 1569369987
+!i10b 1
+!s100 V<;YN3^4[L6N6ZjbE@C5N0
+IHh]MH:E3DmmUcPjVIEZjm2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1059855545
+8C:/XilinxISE6/verilog/src/glbl.v
+FC:/XilinxISE6/verilog/src/glbl.v
+L0 5
+Z2 OL;L;10.5f;63
+r1
+!s85 0
+31
+!s108 1569369987.000000
+!s107 C:/XilinxISE6/verilog/src/glbl.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|C:/XilinxISE6/verilog/src/glbl.v|
+!i113 1
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 tCvgOpt 0
+vmealy
+!s110 1569370026
+!i10b 1
+!s100 _bBHJ<obDb]WI:b=ikHV?0
+I=K;Pc0Y;l04NI^`b_hiNP1
+R1
+R0
+w1569363104
+8E:/EGCP446/Lab3/mealy.v
+FE:/EGCP446/Lab3/mealy.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1569370026.000000
+!s107 E:/EGCP446/Lab3/mealy.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab3/mealy.v|
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmealy_mealy_tb_v_tf
+!s110 1569370025
+!i10b 1
+!s100 7Q9FMI@]j=YcjQnXEC9Pk0
+I4jCazbjZe:a>32X]Nh2OD2
+R1
+R0
+w1569369982
+8E:/EGCP446/Lab3/mealy_tb.v
+FE:/EGCP446/Lab3/mealy_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1569370025.000000
+!s107 E:/EGCP446/Lab3/mealy_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab3/mealy_tb.v|
+!i113 1
+R4
+R3
+vmoore
+!s110 1569369587
+!i10b 1
+!s100 iHnW269QL2:aaZzE;]PW72
+I^J<mT0BWe`0z0RLUTQOB;1
+R1
+R0
+w1569369504
+8E:/EGCP446/Lab3/moore.v
+FE:/EGCP446/Lab3/moore.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1569369587.000000
+!s107 E:/EGCP446/Lab3/moore.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab3/moore.v|
+!i113 1
+R4
+R3
+vmoore_moore_tb_v_tf
+!s110 1569369586
+!i10b 1
+!s100 RjbaGhF2C;7]63mH7A@cj1
+IEWhNED^EQRNC2U9Da2Fm^1
+R1
+R0
+w1569369574
+8E:/EGCP446/Lab3/moore_tb.v
+FE:/EGCP446/Lab3/moore_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1569369586.000000
+!s107 E:/EGCP446/Lab3/moore_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab3/moore_tb.v|
+!i113 1
+R4
+R3

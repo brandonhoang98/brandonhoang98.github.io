@@ -1,0 +1,3 @@
+MO vga_sync NULL vga_sync.v vlg62/vga_sync.bin
+MO pong_top_st NULL pong_top_st.v vlg08/pong_top_st.bin
+MO pong_graph_st NULL pong_graph_st.v vlg47/pong_graph_st.bin

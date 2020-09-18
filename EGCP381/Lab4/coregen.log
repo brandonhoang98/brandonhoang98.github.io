@@ -1,0 +1,21 @@
+# Xilinx CORE Generator 6.1.03i
+# User = ee-student
+Initializing default project...
+Loading plug-ins...
+All runtime messages will be recorded in D:\EGCP381\Lab4\coregen.log
+# busformat=BusFormatAngleBracketNotRipped
+# designflow=VHDL
+# expandedprojectpath=D:\EGCP381\Lab4
+# flowvendor=Foundation_iSE
+# formalverification=None
+# simulationoutputproducts=VHDL
+# xilinxfamily=Virtex2
+# outputoption=DesignFlow
+# overwritefiles=Default
+# simvendor=ModelSim
+# expandedprojectpath=D:\EGCP381\Lab4
+SETPROJECT .
+Set current Project to D:\EGCP381\Lab4
+SET BusFormat = BusFormatAngleBracketNotRipped
+SETXIPCPORTHOST 2092
+XIPCPJSENDCORES spartan3

@@ -1,0 +1,224 @@
+/*
+
+Xilinx Vivado v2017.3.1 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2035080 on Fri Oct 20 14:20:01 MDT 2017
+IP Build: 2034413 on Fri Oct 20 15:56:25 MDT 2017
+
+Process ID: 16680
+License: Customer
+
+Current time: 	Fri Dec 08 22:44:54 PST 2017
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	Brandon
+User home directory: C:/Users/Brandon
+User working directory: E:/project_6/project_6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2017.3
+RDI_DATADIR: D:/Vivado/2017.3/data
+RDI_BINDIR: D:/Vivado/2017.3/bin
+
+User preferences location: C:/Users/Brandon/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Brandon/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/Brandon/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	E:/project_6/project_6/vivado.log
+Vivado journal file location: 	E:/project_6/project_6/vivado.jou
+Engine tmp dir: 	E:/project_6/project_6/.Xil/Vivado-16680-DESKTOP-8PJ3NA4
+
+GUI allocated memory:	183 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 506 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aL (cl): Older Project Version: addNotify
+// [GUI Memory]: 58 MB (+57893kb) [00:00:06]
+// [Engine Memory]: 502 MB (+375126kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 506 MB. GUI used memory: 30 MB. Current time: 12/8/17 10:44:56 PM PST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: E:\project_6\project_6\project_1.xpr. Version: Vivado v2015.4 
+// bs (cl):  Open Project : addNotify
+dismissDialog("Older Project Version"); // aL (cl)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/project_6/project_6/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/project_6/project_6/project_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/project_6/project_6' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'project_1.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 541 MB (+14607kb) [00:00:24]
+// [GUI Memory]: 62 MB (+1338kb) [00:00:25]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2017.3/data/ip'. 
+// [Engine Memory]: 587 MB (+19899kb) [00:00:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 591 MB. GUI used memory: 36 MB. Current time: 12/8/17 10:45:12 PM PST
+// Project name: project_1; location: E:/project_6/project_6; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 810.633 ; gain = 54.434 
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (cl): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 65 MB (+16kb) [00:01:23]
+// [GUI Memory]: 68 MB (+207kb) [00:07:29]
+// Elapsed time: 417 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SinDigWatch(Behavioral) (SinDigWatch.vhd)]", 1); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, cl)
+// PAPropertyPanels.initPanels (CLK_tb.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CLK_tb(Behavioral) (CLK_tb.vhd)]", 10, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CLK_tb(Behavioral) (CLK_tb.vhd)]", 10, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CLK_tb(Behavioral) (CLK_tb.vhd)]", 10, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// [GUI Memory]: 72 MB (+595kb) [00:07:41]
+// [GUI Memory]: 77 MB (+1465kb) [00:09:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 40 MB. Current time: 12/8/17 10:55:21 PM PST
+// Elapsed time: 683 seconds
+selectCodeEditor("CLK_tb.vhd", 178, 121); // cd (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("CLK_tb.vhd", 143, 176); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 237, 206); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 230, 184); // cd (w, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("CLK_tb.vhd", 236, 185); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 262, 182); // cd (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("CLK_tb.vhd", 206, 175); // cd (w, cl)
+// [GUI Memory]: 81 MB (+10kb) [00:21:11]
+// Elapsed time: 412 seconds
+selectCodeEditor("CLK_tb.vhd", 200, 148); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 155, 108); // cd (w, cl)
+typeControlKey((HResource) null, "CLK_tb.vhd", 'v'); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 186, 164); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 112, 121); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 145, 203); // cd (w, cl)
+selectCodeEditor("CLK_tb.vhd", 155, 157); // cd (w, cl)
+// Elapsed time: 89 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 89 MB (+3866kb) [00:28:43]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 614 MB. GUI used memory: 40 MB. Current time: 12/8/17 11:25:21 PM PST
+// Elapsed time: 726 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+// [Engine Memory]: 617 MB (+395kb) [00:40:48]
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj FBC_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_6/project_1.srcs/sources_1/new/FourBitCounter.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity FourBitCounter INFO: [VRFC 10-163] Analyzing VHDL file "E:/project_6/project_6/project_1.srcs/sim_1/new/FBC_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity FBC_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '5' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim' 
+// Elapsed time: 17 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 17 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 646 MB. GUI used memory: 41 MB. Current time: 12/8/17 11:25:56 PM PST
+// Tcl Message: Built simulation snapshot FBC_tb_behav 
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton (ae, cl)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message:  ****** Webtalk v2017.3.1 (64-bit)   **** SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017   **** IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source E:/project_6/project_6/project_1.sim/sim_1/behav/xsim/xsim.dir/FBC_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// Tcl Message: run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 858.230 ; gain = 40.961 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled INFO: [Vivado 12-5357] 'elaborate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:26 . Memory (MB): peak = 858.230 ; gain = 40.961 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+dismissDialog("Run Simulation"); // e (cl)
+// [GUI Memory]: 95 MB (+1603kb) [00:41:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, FBC_tb(Behavioral) (FBC_tb.vhd)]", 9, true); // B (D, cl) - Node
+// Elapsed time: 451 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true, false, false, false, false, true); // u (O, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true, false, false, false, true, false); // u (O, cl) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (O, cl) - Node
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // Z (cl)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (cl)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN, "Open Implemented Design"); // Z (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN, "Open Implemented Design"); // Z (cl)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // Z (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CLK_tb(Behavioral) (CLK_tb.vhd)]", 10, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CLK_tb(Behavioral) (CLK_tb.vhd)]", 10, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CLK_tb(Behavioral) (CLK_tb.vhd)]", 10, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'FBC_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/project_6/project_6/project_1.sim/sim_1/behav/xsim' 

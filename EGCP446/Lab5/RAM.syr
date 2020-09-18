@@ -1,0 +1,309 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: RAM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : RAM.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : RAM
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : RAM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : RAM.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "ram.v"
+Module <RAM> compiled
+No errors in compilation
+Analysis of file <RAM.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <RAM>.
+Module <RAM> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RAM>.
+    Related source file is ram.v.
+    Found 4-bit 4-to-1 multiplexer for signal <$COND_1>.
+    Found 16-bit register for signal <Mem_out>.
+    Found 4 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  4-bit register                   : 4
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  4-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RAM> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RAM, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : RAM.ngr
+Top Level Output File Name         : RAM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 12
+
+Macro Statistics :
+# Registers                        : 4
+#      4-bit register              : 4
+# Multiplexers                     : 2
+#      2-to-1 multiplexer          : 1
+#      4-bit 4-to-1 multiplexer    : 1
+
+Cell Usage :
+# BELS                             : 20
+#      LUT2                        : 4
+#      LUT3                        : 8
+#      LUT3_D                      : 4
+#      MUXF5                       : 4
+# FlipFlops/Latches                : 16
+#      FDE                         : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 7
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      13  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                16  out of   3840     0%  
+ Number of bonded IOBs:                 11  out of    173     6%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.653ns (Maximum Frequency: 273.748MHz)
+   Minimum input arrival time before clock: 5.151ns
+   Maximum output required time after clock: 7.843ns
+   Maximum combinational path delay: 9.341ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               3.653ns (Levels of Logic = 3)
+  Source:            Mem_out_0_1 (FF)
+  Destination:       Mem_out_1_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Mem_out_0_1 to Mem_out_1_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.619   0.240  Mem_out_0_1 (Mem_out_0_1)
+     LUT3:I1->O            1   0.720   0.000  Mmux__COND_1_inst_mux_f5_1111_F (N604)
+     MUXF5:I0->O           2   0.387   0.465  Mmux__COND_1_inst_mux_f5_1111 (dout_1_OBUF)
+     LUT3_D:I1->LO         1   0.720   0.000  Mmux__n0004_Result<1>1 (N618)
+     FDE:D                     0.502          Mem_out_1_1
+    ----------------------------------------
+    Total                      3.653ns (2.948ns logic, 0.705ns route)
+                                       (80.7% logic, 19.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              5.151ns (Levels of Logic = 4)
+  Source:            addr<1> (PAD)
+  Destination:       Mem_out_1_1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: addr<1> to Mem_out_1_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.492   0.865  addr_1_IBUF (addr_1_IBUF)
+     LUT3:I0->O            1   0.720   0.000  Mmux__COND_1_inst_mux_f5_1111_G (N606)
+     MUXF5:I1->O           2   0.387   0.465  Mmux__COND_1_inst_mux_f5_1111 (dout_1_OBUF)
+     LUT3_D:I1->LO         1   0.720   0.000  Mmux__n0004_Result<1>1 (N618)
+     FDE:D                     0.502          Mem_out_1_1
+    ----------------------------------------
+    Total                      5.151ns (3.821ns logic, 1.330ns route)
+                                       (74.2% logic, 25.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              7.843ns (Levels of Logic = 3)
+  Source:            Mem_out_0_3 (FF)
+  Destination:       dout<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Mem_out_0_3 to dout<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.619   0.240  Mem_out_0_3 (Mem_out_0_3)
+     LUT3:I1->O            1   0.720   0.000  Mmux__COND_1_inst_mux_f5_3111_F (N594)
+     MUXF5:I0->O           2   0.387   0.465  Mmux__COND_1_inst_mux_f5_3111 (dout_3_OBUF)
+     OBUF:I->O                 5.412          dout_3_OBUF (dout<3>)
+    ----------------------------------------
+    Total                      7.843ns (7.138ns logic, 0.705ns route)
+                                       (91.0% logic, 9.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               9.341ns (Levels of Logic = 4)
+  Source:            addr<1> (PAD)
+  Destination:       dout<3> (PAD)
+
+  Data Path: addr<1> to dout<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.492   0.865  addr_1_IBUF (addr_1_IBUF)
+     LUT3:I0->O            1   0.720   0.000  Mmux__COND_1_inst_mux_f5_1111_G (N606)
+     MUXF5:I1->O           2   0.387   0.465  Mmux__COND_1_inst_mux_f5_1111 (dout_1_OBUF)
+     OBUF:I->O                 5.412          dout_1_OBUF (dout<1>)
+    ----------------------------------------
+    Total                      9.341ns (8.011ns logic, 1.330ns route)
+                                       (85.8% logic, 14.2% route)
+
+=========================================================================
+CPU : 2.36 / 2.48 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 119224 kilobytes
+
+

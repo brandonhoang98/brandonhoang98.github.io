@@ -1,0 +1,4 @@
+-- ProjNav VHDL simulation template: lab_2_part_a_lab_2_part_a_bench_vhd_tb.udo
+-- You may edit this file after the line that starts with
+-- '-- START' to customize your simulation
+-- START user-defined simulation commands

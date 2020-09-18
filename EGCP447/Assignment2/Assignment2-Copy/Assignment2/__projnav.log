@@ -1,0 +1,232 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd Line 13. parse error, unexpected IDENTIFIER, expecting END
+WARNING:HDLParsers:3465 - Library  0x1.dbbb00p-980s no units. Did not save reference file xst/work/hdllib.ref for it.
+--> 
+
+Total memory usage is 102824 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd Line 13. parse error, unexpected IDENTIFIER, expecting END
+WARNING:HDLParsers:3465 - Library  0x1.3bbb00p-979s no units. Did not save reference file xst/work/hdllib.ref for it.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd Line 13. parse error, unexpected IDENTIFIER, expecting END
+WARNING:HDLParsers:3465 - Library  0x1.1bbb00p-1009s no units. Did not save reference file xst/work/hdllib.ref for it.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd in Library work.
+ERROR:HDLParsers:1401 - e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd Line 34. Object k of mode OUT can not be read.
+ERROR:HDLParsers:1401 - e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd Line 36. Object k of mode OUT can not be read.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:3312 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 21. Undefined symbol 'data_in'.
+ERROR:HDLParsers:1209 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 21. data_in: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 33. parse error, unexpected THEN, expecting COMMA or CLOSEPAR
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 52. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 57. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 60. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 64. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:3312 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 76. Undefined symbol 'err'.
+ERROR:HDLParsers:1209 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 78. err: Undefined symbol (last report in this block)
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 34. parse error, unexpected PROCESS
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 52. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 57. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 60. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 64. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:3312 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 76. Undefined symbol 'err'.
+ERROR:HDLParsers:1209 - e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd Line 78. err: Undefined symbol (last report in this block)
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2/Assignment2/sec_func.vhd
+in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

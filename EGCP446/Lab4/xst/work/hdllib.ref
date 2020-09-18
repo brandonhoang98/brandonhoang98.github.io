@@ -1,0 +1,6 @@
+MO mealy NULL mealy.v vlg7C/mealy.bin
+MO debounce NULL debounce.v vlg1D/debounce.bin
+MO ClockDivider NULL ClockDivider.v vlg2B/ClockDivider.bin
+MO top1 NULL top1.v vlg5C/top1.bin
+MO top2 NULL top2.v vlg5D/top2.bin
+MO moore NULL moore.v vlg46/moore.bin

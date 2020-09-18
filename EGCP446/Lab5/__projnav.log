@@ -1,0 +1,714 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "ram.v"
+Module <RAM> compiled
+No errors in compilation
+Analysis of file <RAM.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <RAM>.
+Module <RAM> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RAM>.
+    Related source file is ram.v.
+    Found 4-bit 4-to-1 multiplexer for signal <$COND_1>.
+    Found 16-bit register for signal <Mem_out>.
+    Found 4 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  4-bit register                   : 4
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  4-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RAM> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RAM, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      13  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                16  out of   3840     0%  
+ Number of bonded IOBs:                 11  out of    173     6%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.653ns (Maximum Frequency: 273.748MHz)
+   Minimum input arrival time before clock: 5.151ns
+   Maximum output required time after clock: 7.843ns
+   Maximum combinational path delay: 9.341ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab5/_ngo -uc Spartan_3.ucf
+-p xc3s200-ft256-4 RAM.ngc RAM.ngd 
+
+Reading NGO file "e:/egcp446/lab5/RAM.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "Spartan_3.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78664 kilobytes
+
+Writing NGD file "RAM.ngd" ...
+
+Writing NGDBUILD log file "RAM.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab5/_ngo -uc Spartan_3.ucf
+-p xc3s200-ft256-4 RAM.ngc RAM.ngd 
+
+Reading NGO file "e:/egcp446/lab5/RAM.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "Spartan_3.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78040 kilobytes
+
+Writing NGD file "RAM.ngd" ...
+
+Writing NGDBUILD log file "RAM.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          16 out of   3,840    1%
+  Number of 4 input LUTs:              16 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           14 out of   1,920    1%
+    Number of Slices containing only related logic:      14 out of      14  100%
+    Number of Slices containing unrelated logic:          0 out of      14    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:          16 out of   3,840    1%
+  Number of bonded IOBs:               12 out of     173    6%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  239
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "RAM_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module RAM . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o RAM_map.ncd RAM.ngd RAM.pcf
+Mapping Module RAM: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: RAM.pcf
+
+Loading device database for application Par from file "RAM_map.ncd".
+   "RAM" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 173     6%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of Slices                   14 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896d0) REAL time: 0 secs 
+
+Phase 3.8
+.
+.
+Phase 3.8 (Checksum:98b83f) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file RAM.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 82 unrouted;       REAL time: 0 secs 
+
+Phase 2: 73 unrouted;       REAL time: 0 secs 
+
+Phase 3: 26 unrouted;       REAL time: 0 secs 
+
+Phase 4: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 5: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 6: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |    8 |  0.050     |  0.550      |
++-------------------------+----------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   H | 20.000ns   | 5.527ns    | 2    
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  96 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Writing design to file RAM.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Tue Oct 08 17:22:09 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module RAM . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 RAM_map.ncd RAM.ncd RAM.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "ram.v"
+Module <RAM> compiled
+No errors in compilation
+Analysis of file <RAM.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <RAM>.
+Module <RAM> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RAM>.
+    Related source file is ram.v.
+    Found 4-bit 4-to-1 multiplexer for signal <$COND_1>.
+    Found 16-bit register for signal <Mem_out>.
+    Found 4 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  4-bit register                   : 4
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  4-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RAM> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RAM, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      13  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                16  out of   3840     0%  
+ Number of bonded IOBs:                 11  out of    173     6%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.653ns (Maximum Frequency: 273.748MHz)
+   Minimum input arrival time before clock: 5.151ns
+   Maximum output required time after clock: 7.843ns
+   Maximum combinational path delay: 9.341ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab5/_ngo -uc Spartan_3.ucf
+-p xc3s200-ft256-4 RAM.ngc RAM.ngd 
+
+Reading NGO file "E:/EGCP446/Lab5/RAM.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "Spartan_3.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78668 kilobytes
+
+Writing NGD file "RAM.ngd" ...
+
+Writing NGDBUILD log file "RAM.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          16 out of   3,840    1%
+  Number of 4 input LUTs:              16 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           14 out of   1,920    1%
+    Number of Slices containing only related logic:      14 out of      14  100%
+    Number of Slices containing unrelated logic:          0 out of      14    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:          16 out of   3,840    1%
+  Number of bonded IOBs:               12 out of     173    6%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  239
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "RAM_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module RAM . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o RAM_map.ncd RAM.ngd RAM.pcf
+Mapping Module RAM: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: RAM.pcf
+
+Loading device database for application Par from file "RAM_map.ncd".
+   "RAM" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 173     6%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of Slices                   14 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896d0) REAL time: 0 secs 
+
+Phase 3.8
+.
+.
+Phase 3.8 (Checksum:98b83f) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file RAM.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 82 unrouted;       REAL time: 0 secs 
+
+Phase 2: 73 unrouted;       REAL time: 0 secs 
+
+Phase 3: 26 unrouted;       REAL time: 0 secs 
+
+Phase 4: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 5: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 6: 26 unrouted; (0)      REAL time: 0 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |    8 |  0.050     |  0.550      |
++-------------------------+----------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   H | 20.000ns   | 5.527ns    | 2    
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  96 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Writing design to file RAM.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Tue Oct 15 17:15:20 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module RAM . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 RAM_map.ncd RAM.ncd RAM.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+

@@ -1,0 +1,295 @@
+# XST (Creating Lso File) : 
+pong_top_st.lso
+# xst flow : RunXST
+pong_top_st.syr
+pong_top_st.prj
+pong_top_st.sprj
+pong_top_st.ana
+pong_top_st.stx
+pong_top_st.cmd_log
+pong_top_st.ngc
+pong_top_st.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab_6/_ngo
+pong_top_st.ngd
+pong_top_st_ngdbuild.nav
+pong_top_st.bld
+pong_top.ucf.untf
+pong_top_st.cmd_log
+# XST (Creating Lso File) : 
+pong_top_st.lso
+# xst flow : RunXST
+pong_top_st.syr
+pong_top_st.prj
+pong_top_st.sprj
+pong_top_st.ana
+pong_top_st.stx
+pong_top_st.cmd_log
+pong_top_st.ngc
+pong_top_st.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab_6/_ngo
+pong_top_st.ngd
+pong_top_st_ngdbuild.nav
+pong_top_st.bld
+pong_top.ucf.untf
+pong_top_st.cmd_log
+# Implementation : Map
+pong_top_st_map.ncd
+pong_top_st.ngm
+pong_top_st.pcf
+pong_top_st.nc1
+pong_top_st.mrp
+pong_top_st_map.mrp
+pong_top_st.mdf
+__projnav/map.log
+pong_top_st.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_st"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_st.twr
+pong_top_st.twx
+pong_top_st.tsi
+pong_top_st.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_st.ncd
+pong_top_st.par
+pong_top_st.pad
+pong_top_st_pad.txt
+pong_top_st_pad.csv
+pong_top_st.pad_txt
+pong_top_st.dly
+reportgen.log
+pong_top_st.xpi
+pong_top_st.grf
+pong_top_st.itr
+pong_top_st_last_par.ncd
+__projnav/par.log
+pong_top_st.placed_ncd_tracker
+pong_top_st.routed_ncd_tracker
+pong_top_st.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_st"
+# Generate Programming File
+__projnav/pong_top_st_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_st.ut
+# Generate Programming File
+pong_top_st.bgn
+pong_top_st.rbt
+pong_top_st.ll
+pong_top_st.msk
+pong_top_st.drc
+pong_top_st.nky
+pong_top_st.bit
+pong_top_st.bin
+pong_top_st.isc
+pong_top_st.cmd_log
+# Generate Programming File
+__projnav/pong_top_st_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_st.ut
+# Generate Programming File
+pong_top_st.bgn
+pong_top_st.rbt
+pong_top_st.ll
+pong_top_st.msk
+pong_top_st.drc
+pong_top_st.nky
+pong_top_st.bit
+pong_top_st.bin
+pong_top_st.isc
+pong_top_st.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab_6/_ngo
+pong_top_st.ngd
+pong_top_st_ngdbuild.nav
+pong_top_st.bld
+pong_top.ucf.untf
+pong_top_st.cmd_log
+# Implementation : Map
+pong_top_st_map.ncd
+pong_top_st.ngm
+pong_top_st.pcf
+pong_top_st.nc1
+pong_top_st.mrp
+pong_top_st_map.mrp
+pong_top_st.mdf
+__projnav/map.log
+pong_top_st.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_st"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_st.twr
+pong_top_st.twx
+pong_top_st.tsi
+pong_top_st.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_st.ncd
+pong_top_st.par
+pong_top_st.pad
+pong_top_st_pad.txt
+pong_top_st_pad.csv
+pong_top_st.pad_txt
+pong_top_st.dly
+reportgen.log
+pong_top_st.xpi
+pong_top_st.grf
+pong_top_st.itr
+pong_top_st_last_par.ncd
+__projnav/par.log
+pong_top_st.placed_ncd_tracker
+pong_top_st.routed_ncd_tracker
+pong_top_st.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_st"
+# Generate Programming File
+__projnav/pong_top_st_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_st.ut
+# Generate Programming File
+pong_top_st.bgn
+pong_top_st.rbt
+pong_top_st.ll
+pong_top_st.msk
+pong_top_st.drc
+pong_top_st.nky
+pong_top_st.bit
+pong_top_st.bin
+pong_top_st.isc
+pong_top_st.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab_6/_ngo
+pong_top_st.ngd
+pong_top_st_ngdbuild.nav
+pong_top_st.bld
+pong_top.ucf.untf
+pong_top_st.cmd_log
+# Implementation : Map
+pong_top_st_map.ncd
+pong_top_st.ngm
+pong_top_st.pcf
+pong_top_st.nc1
+pong_top_st.mrp
+pong_top_st_map.mrp
+pong_top_st.mdf
+__projnav/map.log
+pong_top_st.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_st"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_st.twr
+pong_top_st.twx
+pong_top_st.tsi
+pong_top_st.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_st.ncd
+pong_top_st.par
+pong_top_st.pad
+pong_top_st_pad.txt
+pong_top_st_pad.csv
+pong_top_st.pad_txt
+pong_top_st.dly
+reportgen.log
+pong_top_st.xpi
+pong_top_st.grf
+pong_top_st.itr
+pong_top_st_last_par.ncd
+__projnav/par.log
+pong_top_st.placed_ncd_tracker
+pong_top_st.routed_ncd_tracker
+pong_top_st.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_st"
+# Generate Programming File
+__projnav/pong_top_st_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_st.ut
+# Generate Programming File
+pong_top_st.bgn
+pong_top_st.rbt
+pong_top_st.ll
+pong_top_st.msk
+pong_top_st.drc
+pong_top_st.nky
+pong_top_st.bit
+pong_top_st.bin
+pong_top_st.isc
+pong_top_st.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab_6/_ngo
+pong_top_st.ngd
+pong_top_st_ngdbuild.nav
+pong_top_st.bld
+pong_top.ucf.untf
+pong_top_st.cmd_log
+# Implementation : Map
+pong_top_st_map.ncd
+pong_top_st.ngm
+pong_top_st.pcf
+pong_top_st.nc1
+pong_top_st.mrp
+pong_top_st_map.mrp
+pong_top_st.mdf
+__projnav/map.log
+pong_top_st.cmd_log
+MAP_NO_GUIDE_FILE_CPF "pong_top_st"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+pong_top_st.twr
+pong_top_st.twx
+pong_top_st.tsi
+pong_top_st.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+pong_top_st.ncd
+pong_top_st.par
+pong_top_st.pad
+pong_top_st_pad.txt
+pong_top_st_pad.csv
+pong_top_st.pad_txt
+pong_top_st.dly
+reportgen.log
+pong_top_st.xpi
+pong_top_st.grf
+pong_top_st.itr
+pong_top_st_last_par.ncd
+__projnav/par.log
+pong_top_st.placed_ncd_tracker
+pong_top_st.routed_ncd_tracker
+pong_top_st.cmd_log
+PAR_NO_GUIDE_FILE_CPF "pong_top_st"
+# Generate Programming File
+__projnav/pong_top_st_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+pong_top_st.ut
+# Generate Programming File
+pong_top_st.bgn
+pong_top_st.rbt
+pong_top_st.ll
+pong_top_st.msk
+pong_top_st.drc
+pong_top_st.nky
+pong_top_st.bit
+pong_top_st.bin
+pong_top_st.isc
+pong_top_st.cmd_log

@@ -1,0 +1,4 @@
+Mapping Module top_level . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o top_level_map.ncd top_level.ngd top_level.pcf
+Mapping Module top_level: DONE

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Jan 30 16:06:15 2019
+# Process ID: 11036
+# Current directory: D:/EGCP 281/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1704 D:\EGCP 281\project_2\project_2.xpr
+# Log file: D:/EGCP 281/project_2/vivado.log
+# Journal file: D:/EGCP 281/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {D:/EGCP 281/project_2/project_2.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/project_2' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ee-student/Desktop/Nexys4DDR_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'project_2.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 30 16:42:29 2019...

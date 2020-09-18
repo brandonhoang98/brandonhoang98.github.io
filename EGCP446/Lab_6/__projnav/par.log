@@ -1,0 +1,3 @@
+Place & Route Module pong_top_st . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 pong_top_st_map.ncd pong_top_st.ncd pong_top_st.pcf
+PAR completed successfully

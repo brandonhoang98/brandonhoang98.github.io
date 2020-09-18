@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/EGCP446/Lab2
+vfull_adder
+!s110 1568938853
+!i10b 1
+!s100 LDEMkDF]N3^V>E4JhzVVd0
+I>2:Rg38<U_BjWYlP2lFKW0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1568937986
+8E:/EGCP446/Lab2/full_adder.v
+FE:/EGCP446/Lab2/full_adder.v
+L0 1
+Z2 OL;L;10.5f;63
+r1
+!s85 0
+31
+Z3 !s108 1568938853.000000
+!s107 E:/EGCP446/Lab2/full_adder.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab2/full_adder.v|
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vfull_adder_full_adder_tb_v_tf
+!s110 1568938854
+!i10b 1
+!s100 ;>E<oADzmjRfkK7RH3Rdd0
+I31Vghmnn?2MSV[KoeoG`C1
+R1
+R0
+w1568335076
+8E:/EGCP446/Lab2/full_adder_tb.v
+FE:/EGCP446/Lab2/full_adder_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+!s107 E:/EGCP446/Lab2/full_adder_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab2/full_adder_tb.v|
+!i113 1
+R4
+R5
+vfull_subtractor
+Z6 !s110 1568938364
+!i10b 1
+!s100 [WPaLV@V[gL7^I@dfUiD41
+I^;<W>]W[0NmzkZEO=I;A21
+R1
+R0
+w1568936158
+8E:/EGCP446/Lab2/full_subtractor.v
+FE:/EGCP446/Lab2/full_subtractor.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z7 !s108 1568938364.000000
+!s107 E:/EGCP446/Lab2/full_subtractor.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab2/full_subtractor.v|
+!i113 1
+R4
+R5
+vfull_subtractor_full_subtractor_tb_v_tf
+R6
+!i10b 1
+!s100 ;?4_L]TGYLW?=<Y9Fk;z>3
+I3eI4Dz4n;5YlJP_DRmWT;0
+R1
+R0
+w1568335268
+8E:/EGCP446/Lab2/full_subtractor_tb.v
+FE:/EGCP446/Lab2/full_subtractor_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+R7
+!s107 E:/EGCP446/Lab2/full_subtractor_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab2/full_subtractor_tb.v|
+!i113 1
+R4
+R5
+vglbl
+!s110 1568938759
+!i10b 1
+!s100 V<;YN3^4[L6N6ZjbE@C5N0
+IHh]MH:E3DmmUcPjVIEZjm2
+R1
+R0
+w1059855545
+8C:/XilinxISE6/verilog/src/glbl.v
+FC:/XilinxISE6/verilog/src/glbl.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1568938758.000000
+!s107 C:/XilinxISE6/verilog/src/glbl.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|C:/XilinxISE6/verilog/src/glbl.v|
+!i113 1
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vmultiplexer
+!s110 1568938582
+!i10b 1
+!s100 ]hze]KQVGZ2Z;_ZR^=UX;3
+Ig:@=Q>dlc0S7z_YzKl9G90
+R1
+R0
+w1568938262
+8E:/EGCP446/Lab2/multiplexer.v
+FE:/EGCP446/Lab2/multiplexer.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1568938582.000000
+!s107 E:/EGCP446/Lab2/multiplexer.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab2/multiplexer.v|
+!i113 1
+R4
+R5
+vmultiplexer_multiplexer_tb_v_tf
+!s110 1568938581
+!i10b 1
+!s100 nScdnMi:VL@ETL4gHP=VB0
+IX`mnE=^j@Z_Q9Pg>A@07z2
+R1
+R0
+w1568749166
+8E:/EGCP446/Lab2/multiplexer_tb.v
+FE:/EGCP446/Lab2/multiplexer_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1568938581.000000
+!s107 E:/EGCP446/Lab2/multiplexer_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.5f/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|E:/EGCP446/Lab2/multiplexer_tb.v|
+!i113 1
+R4
+R5

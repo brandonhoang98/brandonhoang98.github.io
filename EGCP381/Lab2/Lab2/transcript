@@ -1,0 +1,58 @@
+# Reading C:/questasim64_10.5f/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.5f win64 Apr  5 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do lab_2_part_a_lab_2_part_a_bench_vhd_tb.fdo
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 15:09:04 on Feb 18,2019
+# vcom -reportprogress 300 -93 -explicit lab_2_part_a.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity lab_2_part_a
+# -- Compiling architecture behavioral of lab_2_part_a
+# End time: 15:09:05 on Feb 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 15:09:05 on Feb 18,2019
+# vcom -reportprogress 300 -93 -explicit lab_2_part_a_bench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab_2_part_a_lab_2_part_a_bench_vhd_tb
+# -- Compiling architecture behavior of lab_2_part_a_lab_2_part_a_bench_vhd_tb
+# ** Warning: lab_2_part_a_bench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 15:09:05 on Feb 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -lib work lab_2_part_a_lab_2_part_a_bench_vhd_tb 
+# Start time: 15:09:05 on Feb 18,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_2_part_a_lab_2_part_a_bench_vhd_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.lab_2_part_a(behavioral)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 16:16:03 on Feb 18,2019, Elapsed time: 1:06:58
+# Errors: 0, Warnings: 1

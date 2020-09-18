@@ -1,0 +1,257 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.10 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.10 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: scanff.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : scanff.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : scanff
+Output Format                      : NGC
+Target Device                      : xc3s50-4-pq208
+
+---- Source Options
+Top Module Name                    : scanff
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : scanff.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <scanff> (Architecture <behavioral>).
+Entity <scanff> analyzed. Unit <scanff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <scanff>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd.
+    Found 1-bit register for signal <output>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <scanff> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+  1-bit register                   : 1
+# Multiplexers                     : 1
+  2-to-1 multiplexer               : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <scanff> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block scanff, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : scanff.ngr
+Top Level Output File Name         : scanff
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 6
+
+Macro Statistics :
+# Registers                        : 1
+#      1-bit register              : 1
+# Multiplexers                     : 1
+#      2-to-1 multiplexer          : 1
+
+Cell Usage :
+# BELS                             : 1
+#      LUT3                        : 1
+# FlipFlops/Latches                : 1
+#      FDC                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 4
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of Slice Flip Flops:             1  out of   1536     0%  
+ Number of 4 input LUTs:                 1  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.954ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              2.954ns (Levels of Logic = 2)
+  Source:            sel (PAD)
+  Destination:       output (FF)
+  Destination Clock: clk rising
+
+  Data Path: sel to output
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.492   0.240  sel_IBUF (sel_IBUF)
+     LUT3:I0->O            1   0.720   0.000  Mmux__n0001_Result1 (_n0001)
+     FDC:D                     0.502          output
+    ----------------------------------------
+    Total                      2.954ns (2.714ns logic, 0.240ns route)
+                                       (91.9% logic, 8.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.271ns (Levels of Logic = 1)
+  Source:            output (FF)
+  Destination:       output (PAD)
+  Source Clock:      clk rising
+
+  Data Path: output to output
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.619   0.240  output (output_OBUF)
+     OBUF:I->O                 5.412          output_OBUF (output)
+    ----------------------------------------
+    Total                      6.271ns (6.031ns logic, 0.240ns route)
+                                       (96.2% logic, 3.8% route)
+
+=========================================================================
+CPU : 1.08 / 1.23 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 118584 kilobytes
+
+

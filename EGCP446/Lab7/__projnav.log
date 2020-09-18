@@ -1,0 +1,1618 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "pong_graph_animate.v"
+Module <pong_graph_animate> compiled
+Compiling source file "pong_top_an.v"
+Module <pong_top_an> compiled
+No errors in compilation
+Analysis of file <pong_top_an.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong_top_an>.
+Module <pong_top_an> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_animate>.
+Module <pong_graph_animate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pong_graph_animate>.
+    Related source file is pong_graph_animate.v.
+    Found 1-bit 8-to-1 multiplexer for signal <$COND_1>.
+    Found 7-bit adder for signal <$n0000> created at line 139.
+    Found 7-bit adder for signal <$n0001> created at line 138.
+    Found 7-bit adder for signal <$n0002> created at line 115.
+    Found 8-bit adder for signal <$n0003> created at line 127.
+    Found 10-bit adder for signal <$n0004> created at line 153.
+    Found 10-bit adder for signal <$n0005> created at line 155.
+    Found 10-bit comparator less for signal <$n0006> created at line 162.
+    Found 10-bit comparator greater for signal <$n0007> created at line 164.
+    Found 10-bit comparator lessequal for signal <$n0016> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0017> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0018> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0019> created at line 141.
+    Found 10-bit comparator greatequal for signal <$n0020> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0021> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0022> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0023> created at line 117.
+    Found 10-bit comparator greatequal for signal <$n0024> created at line 107.
+    Found 10-bit comparator lessequal for signal <$n0025> created at line 107.
+    Found 10-bit comparator less for signal <$n0028> created at line 126.
+    Found 10-bit comparator greater for signal <$n0029> created at line 128.
+    Found 10-bit subtractor for signal <$n0030> created at line 129.
+    Found 10-bit comparator lessequal for signal <$n0031> created at line 166.
+    Found 10-bit comparator greatequal for signal <$n0032> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0033> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0034> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0035> created at line 168.
+    Found 10-bit subtractor for signal <ball_x_r>.
+    Found 10-bit register for signal <ball_x_reg>.
+    Found 10-bit subtractor for signal <ball_y_b>.
+    Found 10-bit register for signal <ball_y_reg>.
+    Found 10-bit subtractor for signal <bar_y_b>.
+    Found 10-bit register for signal <bar_y_reg>.
+    Found 3-bit subtractor for signal <rom_addr>.
+    Found 3-bit subtractor for signal <rom_col>.
+    Found 10-bit register for signal <x_delta_reg>.
+    Found 10-bit register for signal <y_delta_reg>.
+    Found 20 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  30 D-type flip-flop(s).
+	inferred  12 Adder/Subtracter(s).
+	inferred  19 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <pong_graph_animate> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_an>.
+    Related source file is pong_top_an.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_an> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 11
+  10-bit register                  : 7
+  1-bit register                   : 3
+  3-bit register                   : 1
+# Multiplexers                     : 3
+  2-to-1 multiplexer               : 2
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 14
+  3-bit subtractor                 : 2
+  10-bit subtractor                : 4
+  7-bit adder                      : 3
+  8-bit adder                      : 1
+  10-bit adder                     : 4
+# Comparators                      : 25
+  10-bit comparator less           : 4
+  10-bit comparator greatequal     : 5
+  10-bit comparator lessequal      : 14
+  10-bit comparator greater        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Process interrupted by the user.
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "pong_graph_animate.v"
+Module <pong_graph_animate> compiled
+Compiling source file "pong_top_an.v"
+Module <pong_top_an> compiled
+No errors in compilation
+Analysis of file <pong_top_an.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong_top_an>.
+Module <pong_top_an> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_animate>.
+Module <pong_graph_animate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pong_graph_animate>.
+    Related source file is pong_graph_animate.v.
+    Found 1-bit 8-to-1 multiplexer for signal <$COND_1>.
+    Found 7-bit adder for signal <$n0000> created at line 139.
+    Found 7-bit adder for signal <$n0001> created at line 138.
+    Found 7-bit adder for signal <$n0002> created at line 115.
+    Found 8-bit adder for signal <$n0003> created at line 127.
+    Found 10-bit adder for signal <$n0004> created at line 153.
+    Found 10-bit adder for signal <$n0005> created at line 155.
+    Found 10-bit comparator less for signal <$n0006> created at line 162.
+    Found 10-bit comparator greater for signal <$n0007> created at line 164.
+    Found 10-bit comparator lessequal for signal <$n0016> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0017> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0018> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0019> created at line 141.
+    Found 10-bit comparator greatequal for signal <$n0020> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0021> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0022> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0023> created at line 117.
+    Found 10-bit comparator greatequal for signal <$n0024> created at line 107.
+    Found 10-bit comparator lessequal for signal <$n0025> created at line 107.
+    Found 10-bit comparator less for signal <$n0028> created at line 126.
+    Found 10-bit comparator greater for signal <$n0029> created at line 128.
+    Found 10-bit subtractor for signal <$n0030> created at line 129.
+    Found 10-bit comparator lessequal for signal <$n0031> created at line 166.
+    Found 10-bit comparator greatequal for signal <$n0032> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0033> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0034> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0035> created at line 168.
+    Found 10-bit subtractor for signal <ball_x_r>.
+    Found 10-bit register for signal <ball_x_reg>.
+    Found 10-bit subtractor for signal <ball_y_b>.
+    Found 10-bit register for signal <ball_y_reg>.
+    Found 10-bit subtractor for signal <bar_y_b>.
+    Found 10-bit register for signal <bar_y_reg>.
+    Found 3-bit subtractor for signal <rom_addr>.
+    Found 3-bit subtractor for signal <rom_col>.
+    Found 10-bit register for signal <x_delta_reg>.
+    Found 10-bit register for signal <y_delta_reg>.
+    Found 20 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  30 D-type flip-flop(s).
+	inferred  12 Adder/Subtracter(s).
+	inferred  19 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <pong_graph_animate> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_an>.
+    Related source file is pong_top_an.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_an> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 11
+  10-bit register                  : 7
+  1-bit register                   : 3
+  3-bit register                   : 1
+# Multiplexers                     : 3
+  2-to-1 multiplexer               : 2
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 14
+  3-bit subtractor                 : 2
+  10-bit subtractor                : 4
+  7-bit adder                      : 3
+  8-bit adder                      : 1
+  10-bit adder                     : 4
+# Comparators                      : 25
+  10-bit comparator less           : 4
+  10-bit comparator greatequal     : 5
+  10-bit comparator lessequal      : 14
+  10-bit comparator greater        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <y_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+WARNING:Xst:1710 - FF/Latch  <x_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+
+Optimizing unit <pong_top_an> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <pong_graph_animate> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong_top_an, actual ratio is 10.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     193  out of   1920    10%  
+ Number of Slice Flip Flops:            74  out of   3840     1%  
+ Number of 4 input LUTs:               345  out of   3840     8%  
+ Number of bonded IOBs:                  8  out of    173     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 74    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.928ns (Maximum Frequency: 83.836MHz)
+   Minimum input arrival time before clock: 6.681ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab7/_ngo -uc pong_top.ucf
+-p xc3s200-ft256-4 pong_top_an.ngc pong_top_an.ngd 
+
+Reading NGO file "E:/EGCP446/Lab7/pong_top_an.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "pong_top.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 79068 kilobytes
+
+Writing NGD file "pong_top_an.ngd" ...
+
+Writing NGDBUILD log file "pong_top_an.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          69 out of   3,840    1%
+  Number of 4 input LUTs:             298 out of   3,840    7%
+Logic Distribution:
+  Number of occupied Slices:                          184 out of   1,920    9%
+    Number of Slices containing only related logic:     184 out of     184  100%
+    Number of Slices containing unrelated logic:          0 out of     184    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            350 out of   3,840    9%
+  Number used as logic:                298
+  Number used as a route-thru:          52
+  Number of bonded IOBs:                9 out of     173    5%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  3,211
+Additional JTAG gate count for IOBs:  432
+Peak Memory Usage:  131 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "pong_top_an_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module pong_top_an . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o pong_top_an_map.ncd pong_top_an.ngd pong_top_an.pcf
+Mapping Module pong_top_an: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: pong_top_an.pcf
+
+Loading device database for application Par from file "pong_top_an_map.ncd".
+   "pong_top_an" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs             9 out of 173     5%
+      Number of LOCed External IOBs    9 out of 9     100%
+
+   Number of Slices                  184 out of 1920    9%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9898cd) REAL time: 0 secs 
+
+Phase 3.8
+...........
+.
+Phase 3.8 (Checksum:99d044) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file pong_top_an.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 1054 unrouted;       REAL time: 0 secs 
+
+Phase 2: 982 unrouted;       REAL time: 0 secs 
+
+Phase 3: 363 unrouted;       REAL time: 0 secs 
+
+Phase 4: 363 unrouted; (0)      REAL time: 0 secs 
+
+Phase 5: 363 unrouted; (0)      REAL time: 0 secs 
+
+Phase 6: 363 unrouted; (0)      REAL time: 0 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   49 |  0.265     |  0.590      |
++-------------------------+----------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   H | 20.000ns   | 14.211ns   | 8    
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  100 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Writing design to file pong_top_an.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Tue Oct 22 16:50:37 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module pong_top_an . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 pong_top_an_map.ncd pong_top_an.ncd pong_top_an.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "pong_graph_animate.v"
+Module <pong_graph_animate> compiled
+Compiling source file "pong_top_an.v"
+Module <pong_top_an> compiled
+No errors in compilation
+Analysis of file <pong_top_an.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong_top_an>.
+Module <pong_top_an> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_animate>.
+Module <pong_graph_animate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pong_graph_animate>.
+    Related source file is pong_graph_animate.v.
+    Found 1-bit 8-to-1 multiplexer for signal <$COND_1>.
+    Found 7-bit adder for signal <$n0000> created at line 139.
+    Found 7-bit adder for signal <$n0001> created at line 138.
+    Found 7-bit adder for signal <$n0002> created at line 115.
+    Found 8-bit adder for signal <$n0003> created at line 127.
+    Found 10-bit adder for signal <$n0004> created at line 153.
+    Found 10-bit adder for signal <$n0005> created at line 155.
+    Found 10-bit comparator less for signal <$n0006> created at line 162.
+    Found 10-bit comparator greater for signal <$n0007> created at line 164.
+    Found 10-bit comparator lessequal for signal <$n0016> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0017> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0018> created at line 141.
+    Found 10-bit comparator lessequal for signal <$n0019> created at line 141.
+    Found 10-bit comparator greatequal for signal <$n0020> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0021> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0022> created at line 117.
+    Found 10-bit comparator lessequal for signal <$n0023> created at line 117.
+    Found 10-bit comparator greatequal for signal <$n0024> created at line 107.
+    Found 10-bit comparator lessequal for signal <$n0025> created at line 107.
+    Found 10-bit comparator less for signal <$n0028> created at line 126.
+    Found 10-bit comparator greater for signal <$n0029> created at line 128.
+    Found 10-bit subtractor for signal <$n0030> created at line 129.
+    Found 10-bit comparator lessequal for signal <$n0031> created at line 166.
+    Found 10-bit comparator greatequal for signal <$n0032> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0033> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0034> created at line 168.
+    Found 10-bit comparator lessequal for signal <$n0035> created at line 168.
+    Found 10-bit subtractor for signal <ball_x_r>.
+    Found 10-bit register for signal <ball_x_reg>.
+    Found 10-bit subtractor for signal <ball_y_b>.
+    Found 10-bit register for signal <ball_y_reg>.
+    Found 10-bit subtractor for signal <bar_y_b>.
+    Found 10-bit register for signal <bar_y_reg>.
+    Found 3-bit subtractor for signal <rom_addr>.
+    Found 3-bit subtractor for signal <rom_col>.
+    Found 10-bit register for signal <x_delta_reg>.
+    Found 10-bit register for signal <y_delta_reg>.
+    Found 20 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  30 D-type flip-flop(s).
+	inferred  12 Adder/Subtracter(s).
+	inferred  19 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <pong_graph_animate> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_an>.
+    Related source file is pong_top_an.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_an> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 11
+  10-bit register                  : 7
+  1-bit register                   : 3
+  3-bit register                   : 1
+# Multiplexers                     : 3
+  2-to-1 multiplexer               : 2
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 14
+  3-bit subtractor                 : 2
+  10-bit subtractor                : 4
+  7-bit adder                      : 3
+  8-bit adder                      : 1
+  10-bit adder                     : 4
+# Comparators                      : 25
+  10-bit comparator less           : 4
+  10-bit comparator greatequal     : 5
+  10-bit comparator lessequal      : 14
+  10-bit comparator greater        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <y_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+WARNING:Xst:1710 - FF/Latch  <x_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+
+Optimizing unit <pong_top_an> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <pong_graph_animate> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong_top_an, actual ratio is 10.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     196  out of   1920    10%  
+ Number of Slice Flip Flops:            74  out of   3840     1%  
+ Number of 4 input LUTs:               354  out of   3840     9%  
+ Number of bonded IOBs:                  8  out of    173     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 74    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.928ns (Maximum Frequency: 83.836MHz)
+   Minimum input arrival time before clock: 6.681ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab7/_ngo -uc pong_top.ucf
+-p xc3s200-ft256-4 pong_top_an.ngc pong_top_an.ngd 
+
+Reading NGO file "E:/EGCP446/Lab7/pong_top_an.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "pong_top.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 79068 kilobytes
+
+Writing NGD file "pong_top_an.ngd" ...
+
+Writing NGDBUILD log file "pong_top_an.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          69 out of   3,840    1%
+  Number of 4 input LUTs:             307 out of   3,840    7%
+Logic Distribution:
+  Number of occupied Slices:                          190 out of   1,920    9%
+    Number of Slices containing only related logic:     190 out of     190  100%
+    Number of Slices containing unrelated logic:          0 out of     190    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            359 out of   3,840    9%
+  Number used as logic:                307
+  Number used as a route-thru:          52
+  Number of bonded IOBs:                9 out of     173    5%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  3,265
+Additional JTAG gate count for IOBs:  432
+Peak Memory Usage:  130 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "pong_top_an_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module pong_top_an . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o pong_top_an_map.ncd pong_top_an.ngd pong_top_an.pcf
+Mapping Module pong_top_an: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: pong_top_an.pcf
+
+Loading device database for application Par from file "pong_top_an_map.ncd".
+   "pong_top_an" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs             9 out of 173     5%
+      Number of LOCed External IOBs    9 out of 9     100%
+
+   Number of Slices                  190 out of 1920    9%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9898eb) REAL time: 0 secs 
+
+Phase 3.8
+............
+..
+Phase 3.8 (Checksum:99eb83) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file pong_top_an.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 1087 unrouted;       REAL time: 0 secs 
+
+Phase 2: 1011 unrouted;       REAL time: 0 secs 
+
+Phase 3: 328 unrouted;       REAL time: 0 secs 
+
+Phase 4: 328 unrouted; (0)      REAL time: 0 secs 
+
+Phase 5: 328 unrouted; (0)      REAL time: 0 secs 
+
+Phase 6: 328 unrouted; (0)      REAL time: 0 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   53 |  0.259     |  0.584      |
++-------------------------+----------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   H | 20.000ns   | 13.482ns   | 8    
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  100 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Writing design to file pong_top_an.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Tue Oct 22 17:13:27 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module pong_top_an . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 pong_top_an_map.ncd pong_top_an.ncd pong_top_an.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "../LabNo7/ProjectPartB/vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "../LabNo7/ProjectPartB/One.v"
+Module <One_1> compiled
+Compiling source file "../LabNo7/ProjectPartB/pong_graph_animate.v"
+Module <pong_graph_animate> compiled
+Compiling source file "../LabNo7/ProjectPartB/pong_top_an.v"
+Module <pong_top_an> compiled
+No errors in compilation
+Analysis of file <pong_top_an.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong_top_an>.
+Module <pong_top_an> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_animate>.
+Module <pong_graph_animate> is correct for synthesis.
+ 
+Analyzing module <One_1>.
+Module <One_1> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <One_1>.
+    Related source file is ../LabNo7/ProjectPartB/One.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <One_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <One_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <One_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <One_rom_bit>.
+    Found 5-bit subtractor for signal <One_rom_col>.
+    Found 10-bit subtractor for signal <One_x_r>.
+    Found 10-bit register for signal <One_x_reg>.
+    Found 10-bit subtractor for signal <One_y_b>.
+    Found 10-bit register for signal <One_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <One_1> synthesized.
+
+
+Synthesizing Unit <pong_graph_animate>.
+    Related source file is ../LabNo7/ProjectPartB/pong_graph_animate.v.
+WARNING:Xst:1780 - Signal <Logo_on> is never used or assigned.
+    Found 1-bit 8-to-1 multiplexer for signal <$COND_1>.
+    Found 7-bit adder for signal <$n0000> created at line 147.
+    Found 7-bit adder for signal <$n0001> created at line 146.
+    Found 7-bit adder for signal <$n0002> created at line 123.
+    Found 8-bit adder for signal <$n0003> created at line 135.
+    Found 10-bit adder for signal <$n0004> created at line 161.
+    Found 10-bit adder for signal <$n0005> created at line 163.
+    Found 10-bit comparator less for signal <$n0006> created at line 170.
+    Found 10-bit comparator greater for signal <$n0007> created at line 172.
+    Found 10-bit comparator lessequal for signal <$n0016> created at line 149.
+    Found 10-bit comparator lessequal for signal <$n0017> created at line 149.
+    Found 10-bit comparator lessequal for signal <$n0018> created at line 149.
+    Found 10-bit comparator lessequal for signal <$n0019> created at line 149.
+    Found 10-bit comparator greatequal for signal <$n0020> created at line 125.
+    Found 10-bit comparator lessequal for signal <$n0021> created at line 125.
+    Found 10-bit comparator lessequal for signal <$n0022> created at line 125.
+    Found 10-bit comparator lessequal for signal <$n0023> created at line 125.
+    Found 10-bit comparator greatequal for signal <$n0024> created at line 115.
+    Found 10-bit comparator lessequal for signal <$n0025> created at line 115.
+    Found 10-bit comparator less for signal <$n0028> created at line 134.
+    Found 10-bit comparator greater for signal <$n0029> created at line 136.
+    Found 10-bit subtractor for signal <$n0030> created at line 137.
+    Found 10-bit comparator lessequal for signal <$n0031> created at line 174.
+    Found 10-bit comparator greatequal for signal <$n0032> created at line 176.
+    Found 10-bit comparator lessequal for signal <$n0033> created at line 176.
+    Found 10-bit comparator lessequal for signal <$n0034> created at line 176.
+    Found 10-bit comparator lessequal for signal <$n0035> created at line 176.
+    Found 10-bit subtractor for signal <ball_x_r>.
+    Found 10-bit register for signal <ball_x_reg>.
+    Found 10-bit subtractor for signal <ball_y_b>.
+    Found 10-bit register for signal <ball_y_reg>.
+    Found 10-bit subtractor for signal <bar_y_b>.
+    Found 10-bit register for signal <bar_y_reg>.
+    Found 3-bit subtractor for signal <rom_addr>.
+    Found 3-bit subtractor for signal <rom_col>.
+    Found 10-bit register for signal <x_delta_reg>.
+    Found 10-bit register for signal <y_delta_reg>.
+    Found 20 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  30 D-type flip-flop(s).
+	inferred  12 Adder/Subtracter(s).
+	inferred  19 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <pong_graph_animate> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is ../LabNo7/ProjectPartB/vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_an>.
+    Related source file is ../LabNo7/ProjectPartB/pong_top_an.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_an> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+  16x32-bit ROM                    : 1
+# Registers                        : 13
+  10-bit register                  : 9
+  1-bit register                   : 3
+  3-bit register                   : 1
+# Multiplexers                     : 4
+  2-to-1 multiplexer               : 2
+  1-bit 32-to-1 multiplexer        : 1
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 20
+  5-bit subtractor                 : 1
+  10-bit adder                     : 4
+  10-bit subtractor                : 6
+  4-bit subtractor                 : 1
+  6-bit adder                      : 1
+  5-bit adder                      : 1
+  3-bit subtractor                 : 2
+  7-bit adder                      : 3
+  8-bit adder                      : 1
+# Comparators                      : 29
+  10-bit comparator greatequal     : 7
+  10-bit comparator less           : 4
+  10-bit comparator greater        : 2
+  10-bit comparator lessequal      : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_9> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_9> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_0> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_2> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_4> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_5> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_6> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_7> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_8> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_0> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_1> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_4> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_6> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_7> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <y_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+WARNING:Xst:1710 - FF/Latch  <x_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+
+Optimizing unit <pong_top_an> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <One_1> ...
+
+Optimizing unit <pong_graph_animate> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong_top_an, actual ratio is 12.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     239  out of   1920    12%  
+ Number of Slice Flip Flops:            80  out of   3840     2%  
+ Number of 4 input LUTs:               421  out of   3840    10%  
+ Number of bonded IOBs:                  8  out of    173     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 80    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.786ns (Maximum Frequency: 84.846MHz)
+   Minimum input arrival time before clock: 6.681ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab7/_ngo -uc
+pong_top_an.ucf -p xc3s200-ft256-4 pong_top_an.ngc pong_top_an.ngd 
+
+Reading NGO file "E:/EGCP446/Lab7/pong_top_an.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "pong_top_an.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78668 kilobytes
+
+Writing NGD file "pong_top_an.ngd" ...
+
+Writing NGDBUILD log file "pong_top_an.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "../LabNo7/ProjectPartB/vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "../LabNo7/ProjectPartB/One.v"
+Module <One_1> compiled
+Compiling source file "../LabNo7/ProjectPartB/pong_graph_animate.v"
+Module <pong_graph_animate> compiled
+Compiling source file "../LabNo7/ProjectPartB/pong_top_an.v"
+Module <pong_top_an> compiled
+No errors in compilation
+Analysis of file <pong_top_an.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong_top_an>.
+Module <pong_top_an> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_animate>.
+Module <pong_graph_animate> is correct for synthesis.
+ 
+Analyzing module <One_1>.
+Module <One_1> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <One_1>.
+    Related source file is ../LabNo7/ProjectPartB/One.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <One_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <One_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <One_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <One_rom_bit>.
+    Found 5-bit subtractor for signal <One_rom_col>.
+    Found 10-bit subtractor for signal <One_x_r>.
+    Found 10-bit register for signal <One_x_reg>.
+    Found 10-bit subtractor for signal <One_y_b>.
+    Found 10-bit register for signal <One_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <One_1> synthesized.
+
+
+Synthesizing Unit <pong_graph_animate>.
+    Related source file is ../LabNo7/ProjectPartB/pong_graph_animate.v.
+WARNING:Xst:1780 - Signal <Logo_on> is never used or assigned.
+    Found 1-bit 8-to-1 multiplexer for signal <$COND_1>.
+    Found 7-bit adder for signal <$n0000> created at line 147.
+    Found 7-bit adder for signal <$n0001> created at line 146.
+    Found 7-bit adder for signal <$n0002> created at line 123.
+    Found 8-bit adder for signal <$n0003> created at line 135.
+    Found 10-bit adder for signal <$n0004> created at line 161.
+    Found 10-bit adder for signal <$n0005> created at line 163.
+    Found 10-bit comparator less for signal <$n0006> created at line 170.
+    Found 10-bit comparator greater for signal <$n0007> created at line 172.
+    Found 10-bit comparator lessequal for signal <$n0016> created at line 149.
+    Found 10-bit comparator lessequal for signal <$n0017> created at line 149.
+    Found 10-bit comparator lessequal for signal <$n0018> created at line 149.
+    Found 10-bit comparator lessequal for signal <$n0019> created at line 149.
+    Found 10-bit comparator greatequal for signal <$n0020> created at line 125.
+    Found 10-bit comparator lessequal for signal <$n0021> created at line 125.
+    Found 10-bit comparator lessequal for signal <$n0022> created at line 125.
+    Found 10-bit comparator lessequal for signal <$n0023> created at line 125.
+    Found 10-bit comparator greatequal for signal <$n0024> created at line 115.
+    Found 10-bit comparator lessequal for signal <$n0025> created at line 115.
+    Found 10-bit comparator less for signal <$n0028> created at line 134.
+    Found 10-bit comparator greater for signal <$n0029> created at line 136.
+    Found 10-bit subtractor for signal <$n0030> created at line 137.
+    Found 10-bit comparator lessequal for signal <$n0031> created at line 174.
+    Found 10-bit comparator greatequal for signal <$n0032> created at line 176.
+    Found 10-bit comparator lessequal for signal <$n0033> created at line 176.
+    Found 10-bit comparator lessequal for signal <$n0034> created at line 176.
+    Found 10-bit comparator lessequal for signal <$n0035> created at line 176.
+    Found 10-bit subtractor for signal <ball_x_r>.
+    Found 10-bit register for signal <ball_x_reg>.
+    Found 10-bit subtractor for signal <ball_y_b>.
+    Found 10-bit register for signal <ball_y_reg>.
+    Found 10-bit subtractor for signal <bar_y_b>.
+    Found 10-bit register for signal <bar_y_reg>.
+    Found 3-bit subtractor for signal <rom_addr>.
+    Found 3-bit subtractor for signal <rom_col>.
+    Found 10-bit register for signal <x_delta_reg>.
+    Found 10-bit register for signal <y_delta_reg>.
+    Found 20 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  30 D-type flip-flop(s).
+	inferred  12 Adder/Subtracter(s).
+	inferred  19 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <pong_graph_animate> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is ../LabNo7/ProjectPartB/vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_an>.
+    Related source file is ../LabNo7/ProjectPartB/pong_top_an.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_an> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+  16x32-bit ROM                    : 1
+# Registers                        : 13
+  10-bit register                  : 9
+  1-bit register                   : 3
+  3-bit register                   : 1
+# Multiplexers                     : 4
+  2-to-1 multiplexer               : 2
+  1-bit 32-to-1 multiplexer        : 1
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 20
+  5-bit subtractor                 : 1
+  10-bit adder                     : 4
+  10-bit subtractor                : 6
+  4-bit subtractor                 : 1
+  6-bit adder                      : 1
+  5-bit adder                      : 1
+  3-bit subtractor                 : 2
+  7-bit adder                      : 3
+  8-bit adder                      : 1
+# Comparators                      : 29
+  10-bit comparator greatequal     : 7
+  10-bit comparator less           : 4
+  10-bit comparator greater        : 2
+  10-bit comparator lessequal      : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_9> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_9> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_0> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_2> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_4> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_5> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_6> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_7> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_8> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_0> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_1> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_4> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_6> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_7> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <y_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+WARNING:Xst:1710 - FF/Latch  <x_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+
+Optimizing unit <pong_top_an> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <One_1> ...
+
+Optimizing unit <pong_graph_animate> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong_top_an, actual ratio is 12.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     239  out of   1920    12%  
+ Number of Slice Flip Flops:            80  out of   3840     2%  
+ Number of 4 input LUTs:               421  out of   3840    10%  
+ Number of bonded IOBs:                  8  out of    173     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 80    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.786ns (Maximum Frequency: 84.846MHz)
+   Minimum input arrival time before clock: 6.681ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd e:\egcp446\lab7/_ngo -uc
+pong_top_an.ucf -p xc3s200-ft256-4 pong_top_an.ngc pong_top_an.ngd 
+
+Reading NGO file "E:/EGCP446/Lab7/pong_top_an.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "pong_top_an.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78044 kilobytes
+
+Writing NGD file "pong_top_an.ngd" ...
+
+Writing NGDBUILD log file "pong_top_an.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+

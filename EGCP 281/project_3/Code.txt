@@ -1,0 +1,94 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity SevenDD_d is
+    Port ( I : in STD_LOGIC_VECTOR (3 downto 0);
+           O : out STD_LOGIC_VECTOR (6 downto 0));
+end SevenDD_d;
+
+architecture Behavioral of SevenDD_d is
+begin
+--Zeros will activate the led
+    O <="0000001" when I = "0000" else 
+        "1001111" when I = "0001" else
+        "0010010" when I = "0010" else
+        "0000110" when I = "0011" else
+        "1001100" when I = "0100" else
+        "0100100" when I = "0101" else
+        "0100000" when I = "0110" else
+        "0001111" when I = "0111" else
+        "0000000" when I = "1000" else
+        "0001100" when I = "1001" else
+        "0001000" when I = "1010" else
+        "1100000" when I = "1011" else
+        "0110001" when I = "1100" else
+        "1000010" when I = "1101" else
+        "0110000" when I = "1110" else
+        "0111000" when I = "1111" else
+        "1111111";
+
+end Behavioral;
+
+-----------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_unsigned.all;
+
+entity ALU_d is
+    Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
+           B : in STD_LOGIC_VECTOR (3 downto 0);
+           Sel : in STD_LOGIC_VECTOR (2 downto 0);
+           Y : out STD_LOGIC_VECTOR (3 downto 0));
+end ALU_d;
+
+architecture Behavioral of ALU_d is
+
+begin
+    with Sel select
+    Y <= A + B when "000",
+         A + "0001" when "001",
+         A - B when "010",
+         "0000" when "011",
+         (A xor B) when "100",
+         (not(A)) when "101",
+         (A or B) when "110",
+         (A and B) when others;
+         
+end Behavioral;
+
+-----------------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_unsigned.all;
+
+entity ALU_B_d is
+    Port ( IA: in STD_LOGIC_VECTOR (3 downto 0);
+           IB: in STD_LOGIC_VECTOR (3 downto 0);
+           ISel: in STD_LOGIC_VECTOR (2 downto 0);
+           IO: out STD_LOGIC_VECTOR (6 downto 0));
+end ALU_B_d;
+
+architecture Behavioral of ALU_B_d is
+    component SevenDD_d
+     Port ( I : in STD_LOGIC_VECTOR (3 downto 0);
+           O : out STD_LOGIC_VECTOR (6 downto 0));
+     end component;
+     
+     component ALU_d
+         Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
+                  B : in STD_LOGIC_VECTOR (3 downto 0);
+                  Sel : in STD_LOGIC_VECTOR (2 downto 0);
+                  Y : out STD_LOGIC_VECTOR (3 downto 0));
+        end component;
+        
+     signal c: STD_LOGIC_VECTOR(3 downto 0);
+     
+begin
+    ALU: ALU_d port map(IA, IB, ISel, c);
+    SevenD: SevenDD_d port map( c, IO);
+
+end Behavioral;

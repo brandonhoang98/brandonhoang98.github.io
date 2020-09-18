@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Dec 15 08:34:07 2017
+# Process ID: 3784
+# Current directory: E:/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10376 E:\project_6\project_1.xpr
+# Log file: E:/project_6/vivado.log
+# Journal file: E:/project_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/project_6/project_1.xpr
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+set_property top SDS_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source SDS_tb.tcl
+close_sim
+launch_simulation
+source SDS_tb.tcl
+close_sim
+launch_simulation
+source SDS_tb.tcl
+close_sim
+launch_simulation
+source SDS_tb.tcl
+set_property top Ctrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source Ctrl_tb.tcl
+close_sim
+launch_simulation
+source Ctrl_tb.tcl
+close_sim
+launch_simulation
+source Ctrl_tb.tcl
+set_property top SDS_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+close_sim
+launch_simulation
+close_project
+open_project E:/project_6/project_1.xpr
+launch_simulation
+source SDS_tb.tcl
+set_property top FBC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim
+launch_simulation
+source FBC_tb.tcl
+set_property top SDS_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source SDS_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source SDS_tb.tcl
+close_sim
+launch_simulation
+source SDS_tb.tcl
+set_property top SinDigWatch [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source SinDigWatch.tcl
+close_sim
+close_sim
+set_property top FBC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source FBC_tb.tcl
+close_sim
+close_sim
+launch_simulation
+source FBC_tb.tcl
+close_sim

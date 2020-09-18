@@ -1,0 +1,420 @@
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_func.lso
+# Check Syntax
+sec_func.stx
+# XST (Creating Lso File) : 
+sec_func.lso
+# Check Syntax
+sec_func.stx
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+scanff.lso
+# Check Syntax
+scanff.stx
+# XST (Creating Lso File) : 
+scanff.lso
+# Check Syntax
+scanff.stx
+# XST (Creating Lso File) : 
+scanff.lso
+# Check Syntax
+scanff.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_func.lso
+# Check Syntax
+sec_func.stx
+# XST (Creating Lso File) : 
+sec_func.lso
+# Check Syntax
+sec_func.stx
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ModelSim : Simulate Behavioral VHDL Model
+scanff_f_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+scanff_f_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+sec_func.lso
+# xst flow : RunXST
+sec_func.syr
+sec_func.prj
+sec_func.sprj
+sec_func.ana
+sec_func.stx
+sec_func.cmd_log
+sec_func.ngc
+sec_func.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo
+sec_func.ngd
+sec_func_ngdbuild.nav
+sec_func.bld
+.untf
+sec_func.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+sec_func_translate.vhd
+sec_func_translate.vhd
+sec_func_translate.nlf
+sec_func.xlate_nlf
+sec_func.vhdsim_xlate
+sec_func.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+sec_func_ff_vhd_tb.ndo
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+scanff.lso
+# xst flow : RunXST
+scanff.syr
+scanff.prj
+scanff.sprj
+scanff.ana
+scanff.stx
+scanff.cmd_log
+scanff.ngc
+scanff.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo
+scanff.ngd
+scanff_ngdbuild.nav
+scanff.bld
+.untf
+scanff.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+scanff_translate.vhd
+scanff_translate.vhd
+scanff_translate.nlf
+scanff.xlate_nlf
+scanff.vhdsim_xlate
+scanff.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+scanff_f_vhd_tb.ndo
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+scanff.lso
+# Check Syntax
+scanff.stx
+scanff.ngc
+# xst flow : RunXST
+scanff.syr
+scanff.prj
+scanff.sprj
+scanff.ana
+scanff.stx
+scanff.cmd_log
+scanff.ngc
+scanff.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo
+scanff.ngd
+scanff_ngdbuild.nav
+scanff.bld
+.untf
+scanff.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+scanff_translate.vhd
+scanff_translate.vhd
+scanff_translate.nlf
+scanff.xlate_nlf
+scanff.vhdsim_xlate
+scanff.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+scanff_f_vhd_tb.ndo
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+scanff_f_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+scanff.lso
+# Check Syntax
+scanff.stx
+scanff.ngc
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+scanff.ngc
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_kk_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_ff_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf

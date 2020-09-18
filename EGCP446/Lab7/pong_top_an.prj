@@ -1,0 +1,4 @@
+verilog work ../LabNo7/ProjectPartB/vga_sync.v
+verilog work ../LabNo7/ProjectPartB/One.v
+verilog work ../LabNo7/ProjectPartB/pong_graph_animate.v
+verilog work ../LabNo7/ProjectPartB/pong_top_an.v

@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------------
+Release 6.1.03i Trace G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+C:/XilinxISE6/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml RAM RAM.ncd -o
+RAM.twr RAM.pcf
+
+
+Design file:              RAM.ncd
+Physical constraint file: RAM.pcf
+Device,speed:             xc3s200,-4 (PREVIEW 1.27 2003-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD =  20 nS   HIGH 50.000000 % ;
+
+ 64 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.527ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.071|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 64 paths, 0 nets, and 77 connections
+
+Design statistics:
+   Minimum period:   5.527ns (Maximum frequency: 180.930MHz)
+
+
+Analysis completed Tue Oct 15 17:15:20 2019
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 88 MB

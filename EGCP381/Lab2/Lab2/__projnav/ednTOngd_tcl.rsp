@@ -1,0 +1,3 @@
+set ADucfFile {lab_2_part_b.ucf}
+set AD {}
+set ADcdcFile {}

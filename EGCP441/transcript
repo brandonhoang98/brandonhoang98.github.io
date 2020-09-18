@@ -1,0 +1,78 @@
+# Reading C:/questasim64_10.5f/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.5f win64 Apr  5 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do full_adder_full_tb_vhd_tb.fdo
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 10:41:43 on Apr 23,2019
+# vcom -reportprogress 300 -93 -explicit Half_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Half_adder
+# -- Compiling architecture Behavioral of Half_adder
+# End time: 10:41:43 on Apr 23,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 10:41:43 on Apr 23,2019
+# vcom -reportprogress 300 -93 -explicit Full_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Full_Adder
+# -- Compiling architecture Behavioral of Full_Adder
+# End time: 10:41:44 on Apr 23,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 10:41:44 on Apr 23,2019
+# vcom -reportprogress 300 -93 -explicit full_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_full_tb_vhd_tb
+# -- Compiling architecture behavior of full_adder_full_tb_vhd_tb
+# ** Warning: full_tb.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: full_tb.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 10:41:44 on Apr 23,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# vsim -t 1ps -lib work full_adder_full_tb_vhd_tb 
+# Start time: 10:41:44 on Apr 23,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.full_adder_full_tb_vhd_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Causality operation skipped due to absence of debug database file
+# End time: 10:46:22 on Apr 23,2019, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 2

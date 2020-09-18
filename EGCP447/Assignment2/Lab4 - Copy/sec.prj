@@ -1,0 +1,4 @@
+vhdl work sec_func.vhd
+vhdl work sec_compare.vhd
+vhdl work sec_corrector.vhd
+vhdl work sec.vhd

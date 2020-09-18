@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn __projnav/top2.xst -ofn top2.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab4/_ngo -uc Spartan_3.ucf  -p xc3s200-ft256-4 top2.ngc top2.ngd
+ngdbuild -intstyle ise -dd e:\egcp446\lab4/_ngo -uc Spartan_3.ucf  -p xc3s200-ft256-4 top2.ngc top2.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o top2_map.ncd top2.ngd top2.pcf
+par -w -intstyle ise -ol std -t 1 top2_map.ncd top2.ncd top2.pcf
+trce -intstyle ise -e 3 -l 3 -xml top2 top2.ncd -o top2.twr top2.pcf
+bitgen -intstyle ise -f top2.ut top2.ncd
+ngdbuild -intstyle ise -dd e:\egcp446\lab4/_ngo -uc Spartan_3.ucf  -p xc3s200-ft256-4 top2.ngc top2.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o top2_map.ncd top2.ngd top2.pcf
+par -w -intstyle ise -ol std -t 1 top2_map.ncd top2.ncd top2.pcf
+trce -intstyle ise -e 3 -l 3 -xml top2 top2.ncd -o top2.twr top2.pcf
+bitgen -intstyle ise -f top2.ut top2.ncd
+ngdbuild -intstyle ise -dd e:\egcp446\lab4/_ngo -uc Spartan_3.ucf  -p xc3s200-ft256-4 top2.ngc top2.ngd
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o top2_map.ncd top2.ngd top2.pcf
+par -w -intstyle ise -ol std -t 1 top2_map.ncd top2.ncd top2.pcf
+trce -intstyle ise -e 3 -l 3 -xml top2 top2.ncd -o top2.twr top2.pcf
+bitgen -intstyle ise -f top2.ut top2.ncd

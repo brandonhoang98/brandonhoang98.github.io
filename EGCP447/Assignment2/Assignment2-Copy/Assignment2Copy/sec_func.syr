@@ -1,0 +1,305 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: sec_func.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : sec_func.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : sec_func
+Output Format                      : NGC
+Target Device                      : xc3s50-4-pq208
+
+---- Source Options
+Top Module Name                    : sec_func
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : sec_func.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sec_func> (Architecture <behavioral>).
+Entity <sec_func> analyzed. Unit <sec_func> generated.
+
+Analyzing Entity <ScanFF> (Architecture <behavioral>).
+INFO:Xst:1561 - E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd line 34: Mux is complete : default of case is discarded
+Entity <ScanFF> analyzed. Unit <ScanFF> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ScanFF>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd.
+    Found 1-bit register for signal <output>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <ScanFF> synthesized.
+
+
+Synthesizing Unit <sec_func>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd.
+    Register <scanout> equivalent to <dataout<2>> has been removed
+    Found 7-bit register for signal <dataout>.
+    Found 1-bit xor2 for signal <$n0000> created at line 50.
+    Found 1-bit xor2 for signal <$n0001> created at line 49.
+    Found 1-bit xor3 for signal <$n0002> created at line 48.
+    Found 1-bit xor2 for signal <$n0003> created at line 50.
+    Found 3-bit register for signal <k>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <sec_func> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 14
+  1-bit register                   : 14
+# Multiplexers                     : 4
+  2-to-1 multiplexer               : 4
+# Xors                             : 4
+  1-bit xor2                       : 3
+  1-bit xor3                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sec_func> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sec_func, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sec_func.ngr
+Top Level Output File Name         : sec_func
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 16
+
+Macro Statistics :
+# Registers                        : 14
+#      1-bit register              : 14
+# Multiplexers                     : 4
+#      2-to-1 multiplexer          : 4
+# Xors                             : 1
+#      1-bit xor3                  : 1
+
+Cell Usage :
+# BELS                             : 8
+#      LUT1                        : 1
+#      LUT3                        : 1
+#      LUT3_L                      : 6
+# FlipFlops/Latches                : 14
+#      FDC                         : 7
+#      FDE                         : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 7
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       8  out of    768     1%  
+ Number of Slice Flip Flops:            14  out of   1536     0%  
+ Number of 4 input LUTs:                 8  out of   1536     0%  
+ Number of bonded IOBs:                 15  out of    124    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 14    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.499ns (Maximum Frequency: 400.160MHz)
+   Minimum input arrival time before clock: 4.310ns
+   Maximum output required time after clock: 6.496ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               2.499ns (Levels of Logic = 1)
+  Source:            FF4_output (FF)
+  Destination:       FF3_output (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: FF4_output to FF3_output
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.619   0.658  FF4_output (FF4_output)
+     LUT3_L:I1->LO         1   0.720   0.000  FF3_Mmux__n0001_Result1 (FF3__n0001)
+     FDC:D                     0.502          FF3_output
+    ----------------------------------------
+    Total                      2.499ns (1.841ns logic, 0.658ns route)
+                                       (73.7% logic, 26.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              4.310ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       dataout_4 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to dataout_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.492   0.747  rst_IBUF (rst_IBUF)
+     LUT1:I0->O            7   0.720   0.717  dataout_4_N461 (dataout_4_N46)
+     FDE:CE                    0.634          dataout_4
+    ----------------------------------------
+    Total                      4.310ns (2.846ns logic, 1.464ns route)
+                                       (66.0% logic, 34.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.496ns (Levels of Logic = 1)
+  Source:            dataout_2 (FF)
+  Destination:       scanout (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dataout_2 to scanout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.619   0.465  dataout_2 (dataout_2)
+     OBUF:I->O                 5.412          scanout_OBUF (scanout)
+    ----------------------------------------
+    Total                      6.496ns (6.031ns logic, 0.465ns route)
+                                       (92.8% logic, 7.2% route)
+
+=========================================================================
+CPU : 1.38 / 1.49 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 118584 kilobytes
+
+

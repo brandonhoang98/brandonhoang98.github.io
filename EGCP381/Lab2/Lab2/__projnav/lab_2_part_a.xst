@@ -1,0 +1,4 @@
+set -tmpdir .
+elaborate
+-ifn lab_2_part_a.prj
+-ifmt mixed

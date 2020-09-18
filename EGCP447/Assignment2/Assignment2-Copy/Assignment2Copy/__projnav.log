@@ -1,0 +1,1150 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 23. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 25. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 28. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 31. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 34. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 37. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 40. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 43. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 63. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 65. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 67. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 69. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 72. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 74. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 77. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 80. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 83. Index size for dimension 1 of mSig is not 4.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 24. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 26. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 29. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 32. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 35. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 38. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 41. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 44. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 64. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 66. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 68. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 70. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 73. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 75. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 78. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 81. Index size for dimension 1 of mSig is not 4.
+ERROR:HDLParsers:837 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 84. Index size for dimension 1 of mSig is not 4.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 24. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 26. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 29. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 32. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 35. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 38. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 41. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 44. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 24. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 26. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 29. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 32. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 35. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 38. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 41. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR:HDLParsers:164 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd Line 44. parse error, unexpected WHEN, expecting SEMICOLON
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file e:\egcp447\assignment2\assignment2-copy\assignment2copy/../Assignment2/sec_corrector.vhd, automatic determination of correct order of compilation of files in project file sec_corrector_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file e:\egcp447\assignment2\assignment2-copy\assignment2copy/../Assignment2/sec_corrector.vhd in Library work.
+ERROR:HDLParsers:164 - e:\egcp447\assignment2\assignment2-copy\assignment2copy/../Assignment2/sec_corrector.vhd Line 26. parse error, unexpected IDENTIFIER, expecting THEN
+ERROR:HDLParsers:164 - e:\egcp447\assignment2\assignment2-copy\assignment2copy/../Assignment2/sec_corrector.vhd Line 35. parse error, unexpected IDENTIFIER, expecting THEN
+ERROR:HDLParsers:164 - e:\egcp447\assignment2\assignment2-copy\assignment2copy/../Assignment2/sec_corrector.vhd Line 83. parse error, unexpected IF, expecting PROCESS
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_func.vhd in Library work.
+ERROR:HDLParsers:3312 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_func.vhd Line 32. Undefined symbol 'k'.
+ERROR:HDLParsers:1209 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_func.vhd Line 46. k: Undefined symbol (last report in this block)
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/../Assignment2/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/ScanFF.vhd in Library work.
+ERROR:HDLParsers:3312 - e:/egcp447/assignment2/assignment2-copy/assignment2copy/ScanFF.vhd Line 34. Undefined symbol 'ouput'.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file e:/egcp447/assignment2/assignment2-copy/assignment2copy/ScanFF.vhd in Library work.
+Entity <ScanFF> (Architecture <Behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd in Library work.
+ERROR:HDLParsers:3313 - E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd Line 36. Undefined symbol 'sel'.  Should it be: del, bel, srl, sll or shl?
+ERROR:HDLParsers:1209 - E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd Line 36. sel: Undefined symbol (last report in this block)
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file
+E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library
+work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file
+E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library
+work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Compiling vhdl file
+E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.
+vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sec_func> (Architecture <behavioral>).
+Entity <sec_func> analyzed. Unit <sec_func> generated.
+
+Analyzing Entity <ScanFF> (Architecture <behavioral>).
+INFO:Xst:1561 - E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd line 34: Mux is complete : default of case is discarded
+Entity <ScanFF> analyzed. Unit <ScanFF> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ScanFF>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd.
+    Found 1-bit register for signal <output>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <ScanFF> synthesized.
+
+
+Synthesizing Unit <sec_func>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd.
+    Register <scanout> equivalent to <dataout<2>> has been removed
+    Found 7-bit register for signal <dataout>.
+    Found 1-bit xor2 for signal <$n0000> created at line 50.
+    Found 1-bit xor2 for signal <$n0001> created at line 49.
+    Found 1-bit xor3 for signal <$n0002> created at line 48.
+    Found 1-bit xor2 for signal <$n0003> created at line 50.
+    Found 3-bit register for signal <k>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <sec_func> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 14
+  1-bit register                   : 14
+# Multiplexers                     : 4
+  2-to-1 multiplexer               : 4
+# Xors                             : 4
+  1-bit xor2                       : 3
+  1-bit xor3                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sec_func> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sec_func, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       8  out of    768     1%  
+ Number of Slice Flip Flops:            14  out of   1536     0%  
+ Number of 4 input LUTs:                 8  out of   1536     0%  
+ Number of bonded IOBs:                 15  out of    124    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 14    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.499ns (Maximum Frequency: 400.160MHz)
+   Minimum input arrival time before clock: 4.310ns
+   Maximum output required time after clock: 6.496ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo -i -p
+xc3s50-pq208-4 sec_func.ngc sec_func.ngd 
+
+Reading NGO file
+"E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/sec_func.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77644 kilobytes
+
+Writing NGD file "sec_func.ngd" ...
+
+Writing NGDBUILD log file "sec_func.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <scanff> (Architecture <behavioral>).
+INFO:Xst:1561 - E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd line 34: Mux is complete : default of case is discarded
+Entity <scanff> analyzed. Unit <scanff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <scanff>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd.
+    Found 1-bit register for signal <output>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <scanff> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+  1-bit register                   : 1
+# Multiplexers                     : 1
+  2-to-1 multiplexer               : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <scanff> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block scanff, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of Slice Flip Flops:             1  out of   1536     0%  
+ Number of 4 input LUTs:                 1  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.954ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo -i -p
+xc3s50-pq208-4 scanff.ngc scanff.ngd 
+
+Reading NGO file
+"E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/scanff.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "scanff.ngd" ...
+
+Writing NGDBUILD log file "scanff.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Architecture behavioral of Entity scanff is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <scanff> (Architecture <behavioral>).
+Entity <scanff> analyzed. Unit <scanff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <scanff>.
+    Related source file is E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd.
+    Found 1-bit register for signal <output>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <scanff> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+  1-bit register                   : 1
+# Multiplexers                     : 1
+  2-to-1 multiplexer               : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <scanff> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block scanff, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       1  out of    768     0%  
+ Number of Slice Flip Flops:             1  out of   1536     0%  
+ Number of 4 input LUTs:                 1  out of   1536     0%  
+ Number of bonded IOBs:                  5  out of    124     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.954ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo -i -p
+xc3s50-pq208-4 scanff.ngc scanff.ngd 
+
+Reading NGO file
+"E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/scanff.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 75996 kilobytes
+
+Writing NGD file "scanff.ngd" ...
+
+Writing NGDBUILD log file "scanff.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Generate Post-Translate Simulation Model".
+
+Completed process "Generate Post-Translate Simulation Model".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file
+E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library
+work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Compiling vhdl file
+E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_corre
+ctor.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

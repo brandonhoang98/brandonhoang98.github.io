@@ -1,0 +1,4 @@
+Mapping Module Half_Adder . . .
+MAP command line:
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf
+Mapping Module Half_Adder: DONE

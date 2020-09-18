@@ -1,0 +1,832 @@
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# Check Syntax
+ClockDivider.stx
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# Check Syntax
+ClockDivider.stx
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# Check Syntax
+ClockDivider.stx
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# Check Syntax
+ClockDivider.stx
+# XST (Creating Lso File) : 
+top2.lso
+# Check Syntax
+top2.stx
+# XST (Creating Lso File) : 
+top1.lso
+# Check Syntax
+top1.stx
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# Check Syntax
+ClockDivider.stx
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# Check Syntax
+ClockDivider.stx
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+top1.ngc
+top1.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# XST (Creating Lso File) : 
+ClockDivider.lso
+# xst flow : RunXST
+ClockDivider.syr
+ClockDivider.prj
+ClockDivider.sprj
+ClockDivider.ana
+ClockDivider.stx
+ClockDivider.cmd_log
+ClockDivider.ngr
+# View RTL Schematic
+ClockDivider.ngr
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+top1.ngc
+ClockDivider.ngr
+top1.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+top1.ngc
+ClockDivider.ngr
+top1.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log
+# xst flow : RunXST
+top2.syr
+top2.prj
+top2.sprj
+top2.ana
+top2.stx
+top2.cmd_log
+top2.ngc
+top2.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top2.ngd
+top2_ngdbuild.nav
+top2.bld
+Spartan_3.ucf.untf
+top2.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top2.ngd
+top2_ngdbuild.nav
+top2.bld
+Spartan_3.ucf.untf
+top2.cmd_log
+# Implementation : Map
+top2_map.ncd
+top2.ngm
+top2.pcf
+top2.nc1
+top2.mrp
+top2_map.mrp
+top2.mdf
+__projnav/map.log
+top2.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top2"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top2.twr
+top2.twx
+top2.tsi
+top2.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top2.ncd
+top2.par
+top2.pad
+top2_pad.txt
+top2_pad.csv
+top2.pad_txt
+top2.dly
+reportgen.log
+top2.xpi
+top2.grf
+top2.itr
+top2_last_par.ncd
+__projnav/par.log
+top2.placed_ncd_tracker
+top2.routed_ncd_tracker
+top2.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top2"
+# Generate Programming File
+__projnav/top2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top2.ut
+# Generate Programming File
+top2.bgn
+top2.rbt
+top2.ll
+top2.msk
+top2.drc
+top2.nky
+top2.bit
+top2.bin
+top2.isc
+top2.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top2.ngd
+top2_ngdbuild.nav
+top2.bld
+Spartan_3.ucf.untf
+top2.cmd_log
+# Implementation : Map
+top2_map.ncd
+top2.ngm
+top2.pcf
+top2.nc1
+top2.mrp
+top2_map.mrp
+top2.mdf
+__projnav/map.log
+top2.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top2"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top2.twr
+top2.twx
+top2.tsi
+top2.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top2.ncd
+top2.par
+top2.pad
+top2_pad.txt
+top2_pad.csv
+top2.pad_txt
+top2.dly
+reportgen.log
+top2.xpi
+top2.grf
+top2.itr
+top2_last_par.ncd
+__projnav/par.log
+top2.placed_ncd_tracker
+top2.routed_ncd_tracker
+top2.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top2"
+# Generate Programming File
+__projnav/top2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top2.ut
+# Generate Programming File
+top2.bgn
+top2.rbt
+top2.ll
+top2.msk
+top2.drc
+top2.nky
+top2.bit
+top2.bin
+top2.isc
+top2.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top2.ngd
+top2_ngdbuild.nav
+top2.bld
+Spartan_3.ucf.untf
+top2.cmd_log
+# Implementation : Map
+top2_map.ncd
+top2.ngm
+top2.pcf
+top2.nc1
+top2.mrp
+top2_map.mrp
+top2.mdf
+__projnav/map.log
+top2.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top2"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top2.twr
+top2.twx
+top2.tsi
+top2.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top2.ncd
+top2.par
+top2.pad
+top2_pad.txt
+top2_pad.csv
+top2.pad_txt
+top2.dly
+reportgen.log
+top2.xpi
+top2.grf
+top2.itr
+top2_last_par.ncd
+__projnav/par.log
+top2.placed_ncd_tracker
+top2.routed_ncd_tracker
+top2.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top2"
+# Generate Programming File
+__projnav/top2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top2.ut
+# Generate Programming File
+top2.bgn
+top2.rbt
+top2.ll
+top2.msk
+top2.drc
+top2.nky
+top2.bit
+top2.bin
+top2.isc
+top2.cmd_log
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+top1.ngc
+ClockDivider.ngr
+top1.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3-Copy.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log
+# XST (Creating Lso File) : 
+top1.lso
+# xst flow : RunXST
+top1.syr
+top1.prj
+top1.sprj
+top1.ana
+top1.stx
+top1.cmd_log
+top1.ngc
+ClockDivider.ngr
+top1.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab4/_ngo
+top1.ngd
+top1_ngdbuild.nav
+top1.bld
+Spartan_3-Copy.ucf.untf
+top1.cmd_log
+# Implementation : Map
+top1_map.ncd
+top1.ngm
+top1.pcf
+top1.nc1
+top1.mrp
+top1_map.mrp
+top1.mdf
+__projnav/map.log
+top1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "top1"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+top1.twr
+top1.twx
+top1.tsi
+top1.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+top1.ncd
+top1.par
+top1.pad
+top1_pad.txt
+top1_pad.csv
+top1.pad_txt
+top1.dly
+reportgen.log
+top1.xpi
+top1.grf
+top1.itr
+top1_last_par.ncd
+__projnav/par.log
+top1.placed_ncd_tracker
+top1.routed_ncd_tracker
+top1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "top1"
+# Generate Programming File
+__projnav/top1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+top1.ut
+# Generate Programming File
+top1.bgn
+top1.rbt
+top1.ll
+top1.msk
+top1.drc
+top1.nky
+top1.bit
+top1.bin
+top1.isc
+top1.cmd_log

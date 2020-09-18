@@ -1,0 +1,18 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.15 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+CPU : 0.18 / 0.33 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 103172 kilobytes
+
+

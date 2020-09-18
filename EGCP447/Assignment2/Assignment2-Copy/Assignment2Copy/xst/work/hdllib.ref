@@ -1,0 +1,6 @@
+EN sec_func NULL E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd sub00/vhpl02
+AR sec_corrector behavioral E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_corrector.vhd sub00/vhpl01
+AR sec_func behavioral E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_func.vhd sub00/vhpl03
+EN sec_corrector NULL E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_corrector.vhd sub00/vhpl00
+EN scanff NULL E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd sub00/vhpl04
+AR scanff behavioral E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd sub00/vhpl05

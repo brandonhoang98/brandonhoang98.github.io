@@ -1,0 +1,281 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: sec.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : sec.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : sec
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : sec
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : sec.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec.vhd in Library work.
+Architecture struct of Entity sec is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sec> (Architecture <struct>).
+Entity <sec> analyzed. Unit <sec> generated.
+
+Analyzing Entity <sec_func> (Architecture <behavioral>).
+Entity <sec_func> analyzed. Unit <sec_func> generated.
+
+Analyzing Entity <sec_compare> (Architecture <behavioral>).
+Entity <sec_compare> analyzed. Unit <sec_compare> generated.
+
+Analyzing Entity <sec_corrector> (Architecture <behavioral>).
+Entity <sec_corrector> analyzed. Unit <sec_corrector> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sec_corrector>.
+    Related source file is D:/EGCP381/Lab4/sec_corrector.vhd.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <sec_corrector> synthesized.
+
+
+Synthesizing Unit <sec_compare>.
+    Related source file is D:/EGCP381/Lab4/sec_compare.vhd.
+    Found 4-bit xor2 for signal <syndrome>.
+    Found 4-bit comparator equal for signal <$n0001> created at line 19.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <sec_compare> synthesized.
+
+
+Synthesizing Unit <sec_func>.
+    Related source file is D:/EGCP381/Lab4/sec_func.vhd.
+    Found 2-bit xor3 for signal <k<3:2>>.
+    Found 1-bit xor3 for signal <k<1>>.
+    Found 1-bit xor3 for signal <k<0>>.
+    Found 1-bit xor3 for signal <$n0000> created at line 21.
+    Summary:
+	inferred   5 Xor(s).
+Unit <sec_func> synthesized.
+
+
+Synthesizing Unit <sec>.
+    Related source file is D:/EGCP381/Lab4/sec.vhd.
+Unit <sec> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                     : 8
+  2-to-1 multiplexer               : 8
+# Comparators                      : 1
+  4-bit comparator equal           : 1
+# Xors                             : 9
+  1-bit xor2                       : 4
+  1-bit xor3                       : 3
+  1-bit xor4                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sec> ...
+
+Optimizing unit <sec_corrector> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sec, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sec.ngr
+Top Level Output File Name         : sec
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 25
+
+Macro Statistics :
+# Multiplexers                     : 8
+#      2-to-1 multiplexer          : 8
+# Comparators                      : 1
+#      4-bit comparator equal      : 1
+# Xors                             : 5
+#      1-bit xor3                  : 3
+#      1-bit xor4                  : 2
+
+Cell Usage :
+# BELS                             : 24
+#      LUT2                        : 6
+#      LUT3                        : 4
+#      LUT4                        : 14
+# IO Buffers                       : 25
+#      IBUF                        : 12
+#      OBUF                        : 13
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      14  out of   1920     0%  
+ Number of 4 input LUTs:                24  out of   3840     0%  
+ Number of bonded IOBs:                 25  out of    173    14%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 12.435ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               12.435ns (Levels of Logic = 6)
+  Source:            data_in<5> (PAD)
+  Destination:       data_out<6> (PAD)
+
+  Data Path: data_in<5> to data_out<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.492   0.629  data_in_5_IBUF (data_in_5_IBUF)
+     LUT4:I2->O            4   0.720   0.629  FUNC_Mxor_k<2>_Xo<2>1 (kq<2>)
+     LUT2:I0->O            6   0.720   0.688  COMPARE_Mxor_syndrome<2>_Result1 (syndrome_2_OBUF)
+     LUT4:I1->O            2   0.720   0.465  CORRECT_Ker9221 (CORRECT_N924)
+     LUT3:I1->O            1   0.720   0.240  CORRECT_Mmux_mp<4>_Result1 (data_out_4_OBUF)
+     OBUF:I->O                 5.412          data_out_4_OBUF (data_out<4>)
+    ----------------------------------------
+    Total                     12.435ns (9.784ns logic, 2.651ns route)
+                                       (78.7% logic, 21.3% route)
+
+=========================================================================
+CPU : 1.44 / 1.59 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 121616 kilobytes
+
+

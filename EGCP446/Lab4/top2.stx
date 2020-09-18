@@ -1,0 +1,25 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.14 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "debounce.v"
+Module <debounce> compiled
+Compiling source file "mealy.v"
+Module <mealy> compiled
+Compiling source file "top2.v"
+Module <top2> compiled
+No errors in compilation
+Analysis of file <top2.prj> succeeded.
+ 
+CPU : 0.26 / 0.40 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 101800 kilobytes
+
+

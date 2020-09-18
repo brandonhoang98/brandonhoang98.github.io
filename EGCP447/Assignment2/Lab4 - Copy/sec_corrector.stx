@@ -1,0 +1,18 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+CPU : 0.17 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 101520 kilobytes
+
+

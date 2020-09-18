@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn __projnav/full_subtractor.xst -ofn full_subtractor.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 full_subtractor.ngc full_subtractor.ngd
+netgen -intstyle ise -w -ofmt verilog -sim full_subtractor.ngd full_subtractor_translate.v
+xst -intstyle ise -ifn __projnav/full_subtractor.xst -ofn full_subtractor.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab2/_ngo -i  -p xc3s50-pq208-4 full_subtractor.ngc full_subtractor.ngd
+netgen -intstyle ise -w -ofmt verilog -sim full_subtractor.ngd full_subtractor_translate.v
+xst -intstyle ise -ifn __projnav/full_subtractor.xst -ofn full_subtractor.syr

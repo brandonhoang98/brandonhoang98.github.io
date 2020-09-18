@@ -1,0 +1,32 @@
+Circuit: *** Lab No 6 Part 2
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+tplh=-9.99279e-007 FROM 1e-006 TO 7.2271e-010
+
+
+Date: Thu Apr 18 09:56:43 2019
+Total elapsed time: 0.170 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4310
+traniter = 4299
+tranpoints = 1954
+accept = 1811
+rejected = 143
+matrix size = 13
+fillins = 0
+solver = Normal
+Matrix Compiler1: 532 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.2
+

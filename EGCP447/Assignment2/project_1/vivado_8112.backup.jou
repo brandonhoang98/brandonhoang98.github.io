@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov  7 16:51:01 2019
+# Process ID: 8112
+# Current directory: E:/EGCP447/Assignment2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11732 E:\EGCP447\Assignment2\project_1\project_1.xpr
+# Log file: E:/EGCP447/Assignment2/project_1/vivado.log
+# Journal file: E:/EGCP447/Assignment2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/EGCP447/Assignment2/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/kk.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+source sec_corrector_sec_corrector_tb_vhd_tb.tcl
+close_sim
+set_property top sec_corrector_kk_vhd_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source sec_corrector_kk_vhd_tb.tcl
+close_sim

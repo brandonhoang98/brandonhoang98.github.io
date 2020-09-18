@@ -1,0 +1,23 @@
+Release  - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77940 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...

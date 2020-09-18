@@ -1,0 +1,4 @@
+set -tmpdir .
+elaborate
+-ifn Four_RCA.prj
+-ifmt mixed

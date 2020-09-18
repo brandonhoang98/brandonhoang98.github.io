@@ -1,0 +1,46 @@
+Questionable use of curly braces in ".measure energy param = {1.8*curr}"
+    Error: undefined symbol in: "1.8*[curr]"
+Circuit: **** Lab no 5 circuit
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+
+Measurement "s_pwr" FAIL'ed
+
+Measurement "curr" FAIL'ed
+
+Measurement "energy" FAIL'ed
+charge_volt: INTEG(v(out))=1.62726e-009 FROM 1e-009 TO 3e-009
+tphl=3.96424e-011 FROM 5e-013 TO 4.01424e-011
+tplh=8.39444e-011 FROM 6.0015e-009 TO 6.08544e-009
+
+
+Date: Sun Apr 07 14:08:37 2019
+Total elapsed time: 0.152 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4584
+traniter = 4566
+tranpoints = 1868
+accept = 1646
+rejected = 222
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 468 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 1021 bytes object code size  0.1/0.1/[0.1]
+

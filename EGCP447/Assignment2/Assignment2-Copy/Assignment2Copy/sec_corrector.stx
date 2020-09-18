@@ -1,0 +1,20 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/ScanFF.vhd in Library work.
+Entity <scanff> (Architecture <behavioral>) compiled.
+Compiling vhdl file E:/EGCP447/Assignment2/Assignment2-Copy/Assignment2Copy/../Assignment2/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+CPU : 0.35 / 0.43 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 103224 kilobytes
+
+

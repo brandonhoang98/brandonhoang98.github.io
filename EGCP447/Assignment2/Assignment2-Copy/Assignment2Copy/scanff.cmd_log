@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/scanff.xst -ofn scanff.syr
+ngdbuild -intstyle ise -dd e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo -i  -p xc3s50-pq208-4 scanff.ngc scanff.ngd
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -xon true -w -ofmt vhdl -sim scanff.ngd scanff_translate.vhd
+xst -intstyle ise -ifn __projnav/scanff.xst -ofn scanff.syr
+ngdbuild -intstyle ise -dd e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo -i  -p xc3s50-pq208-4 scanff.ngc scanff.ngd
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -xon true -w -ofmt vhdl -sim scanff.ngd scanff_translate.vhd

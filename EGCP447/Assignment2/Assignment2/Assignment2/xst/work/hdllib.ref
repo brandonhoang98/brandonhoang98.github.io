@@ -1,0 +1,4 @@
+EN sec_func NULL E:/EGCP447/Assignment2/Assignment2/Assignment2/sec_func.vhd sub00/vhpl00
+AR sec_corrector behavioral e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd sub00/vhpl03
+AR sec_func behavioral E:/EGCP447/Assignment2/Assignment2/Assignment2/sec_func.vhd sub00/vhpl01
+EN sec_corrector NULL e:/egcp447/assignment2/assignment2/assignment2/sec_corrector.vhd sub00/vhpl02

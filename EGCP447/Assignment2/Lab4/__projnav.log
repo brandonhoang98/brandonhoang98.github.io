@@ -1,0 +1,900 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Entity <sec_compare> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Entity <sec_corrector> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+ERROR:HDLParsers:3367 - D:/EGCP381/Lab4/sec_func.vhd Line 24. 8 is not included
+   in the index range, 7 downto 0, of array m.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Architecture behavioral of Entity sec_func is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec.vhd in Library work.
+ERROR:HDLParsers:164 - D:/EGCP381/Lab4/sec.vhd Line 33. parse error, unexpected TICK, expecting COMMA or COLON
+ERROR:HDLParsers:3312 - D:/EGCP381/Lab4/sec.vhd Line 49. Undefined symbol 'k'.
+ERROR:HDLParsers:1209 - D:/EGCP381/Lab4/sec.vhd Line 49. k: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - D:/EGCP381/Lab4/sec.vhd Line 49. parse error, unexpected CLOSEPAR, expecting OPENPAR or IDENTIFIER
+ERROR:HDLParsers:164 - D:/EGCP381/Lab4/sec.vhd Line 54. parse error, unexpected COMMA, expecting OPENPAR or IDENTIFIER
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Architecture behavioral of Entity sec_func is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec.vhd in Library work.
+Entity <sec> (Architecture <struct>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Architecture behavioral of Entity sec_func is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec.vhd in Library work.
+Architecture struct of Entity sec is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sec> (Architecture <struct>).
+Entity <sec> analyzed. Unit <sec> generated.
+
+Analyzing Entity <sec_func> (Architecture <behavioral>).
+Entity <sec_func> analyzed. Unit <sec_func> generated.
+
+Analyzing Entity <sec_compare> (Architecture <behavioral>).
+Entity <sec_compare> analyzed. Unit <sec_compare> generated.
+
+Analyzing Entity <sec_corrector> (Architecture <behavioral>).
+Entity <sec_corrector> analyzed. Unit <sec_corrector> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sec_corrector>.
+    Related source file is D:/EGCP381/Lab4/sec_corrector.vhd.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <sec_corrector> synthesized.
+
+
+Synthesizing Unit <sec_compare>.
+    Related source file is D:/EGCP381/Lab4/sec_compare.vhd.
+    Found 4-bit xor2 for signal <syndrome>.
+    Found 4-bit comparator equal for signal <$n0001> created at line 19.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <sec_compare> synthesized.
+
+
+Synthesizing Unit <sec_func>.
+    Related source file is D:/EGCP381/Lab4/sec_func.vhd.
+    Found 4-bit xor3 for signal <k>.
+    Found 1-bit xor2 for signal <$n0000> created at line 21.
+    Found 1-bit xor2 for signal <$n0001> created at line 21.
+    Found 1-bit xor2 for signal <$n0002> created at line 22.
+    Summary:
+	inferred   4 Xor(s).
+Unit <sec_func> synthesized.
+
+
+Synthesizing Unit <sec>.
+    Related source file is D:/EGCP381/Lab4/sec.vhd.
+Unit <sec> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                     : 8
+  2-to-1 multiplexer               : 8
+# Comparators                      : 1
+  4-bit comparator equal           : 1
+# Xors                             : 11
+  1-bit xor2                       : 7
+  1-bit xor3                       : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sec> ...
+
+Optimizing unit <sec_corrector> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sec, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      14  out of   1920     0%  
+ Number of 4 input LUTs:                25  out of   3840     0%  
+ Number of bonded IOBs:                 25  out of    173    14%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.342ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab4/_ngo -uc sec.ucf -p
+xc3s200-ft256-4 sec.ngc sec.ngd 
+
+Reading NGO file "D:/EGCP381/Lab4/sec.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "sec.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77992 kilobytes
+
+Writing NGD file "sec.ngd" ...
+
+Writing NGDBUILD log file "sec.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab4/_ngo -uc sec.ucf -p
+xc3s200-ft256-4 sec.ngc sec.ngd 
+
+Reading NGO file "D:/EGCP381/Lab4/sec.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "sec.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78196 kilobytes
+
+Writing NGD file "sec.ngd" ...
+
+Writing NGDBUILD log file "sec.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:              25 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           14 out of   1,920    1%
+    Number of Slices containing only related logic:      14 out of      14  100%
+    Number of Slices containing unrelated logic:          0 out of      14    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:          25 out of   3,840    1%
+  Number of bonded IOBs:               25 out of     173   14%
+
+Total equivalent gate count for design:  150
+Additional JTAG gate count for IOBs:  1,200
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "sec_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module sec . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o sec_map.ncd sec.ngd sec.pcf
+Mapping Module sec: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: sec.pcf
+
+Loading device database for application Par from file "sec_map.ncd".
+   "sec" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            25 out of 173    14%
+      Number of LOCed External IOBs   17 out of 25     68%
+
+   Number of Slices                   14 out of 1920    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896cd) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98eb75) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file sec.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 95 unrouted;       REAL time: 0 secs 
+
+Phase 2: 95 unrouted;       REAL time: 0 secs 
+
+Phase 3: 45 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  90 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file sec.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Mar 13 15:27:45 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module sec . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 sec_map.ncd sec.ncd sec.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+Compiling vhdl file D:/EGCP381/Lab4/sec_compare.vhd in Library work.
+Architecture behavioral of Entity sec_compare is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec_corrector.vhd in Library work.
+Architecture behavioral of Entity sec_corrector is up to date.
+Compiling vhdl file D:/EGCP381/Lab4/sec.vhd in Library work.
+Architecture struct of Entity sec is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sec> (Architecture <struct>).
+Entity <sec> analyzed. Unit <sec> generated.
+
+Analyzing Entity <sec_func> (Architecture <behavioral>).
+Entity <sec_func> analyzed. Unit <sec_func> generated.
+
+Analyzing Entity <sec_compare> (Architecture <behavioral>).
+Entity <sec_compare> analyzed. Unit <sec_compare> generated.
+
+Analyzing Entity <sec_corrector> (Architecture <behavioral>).
+Entity <sec_corrector> analyzed. Unit <sec_corrector> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sec_corrector>.
+    Related source file is D:/EGCP381/Lab4/sec_corrector.vhd.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <sec_corrector> synthesized.
+
+
+Synthesizing Unit <sec_compare>.
+    Related source file is D:/EGCP381/Lab4/sec_compare.vhd.
+    Found 4-bit xor2 for signal <syndrome>.
+    Found 4-bit comparator equal for signal <$n0001> created at line 19.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <sec_compare> synthesized.
+
+
+Synthesizing Unit <sec_func>.
+    Related source file is D:/EGCP381/Lab4/sec_func.vhd.
+    Found 2-bit xor3 for signal <k<3:2>>.
+    Found 1-bit xor3 for signal <k<1>>.
+    Found 1-bit xor3 for signal <k<0>>.
+    Found 1-bit xor3 for signal <$n0000> created at line 21.
+    Summary:
+	inferred   5 Xor(s).
+Unit <sec_func> synthesized.
+
+
+Synthesizing Unit <sec>.
+    Related source file is D:/EGCP381/Lab4/sec.vhd.
+Unit <sec> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                     : 8
+  2-to-1 multiplexer               : 8
+# Comparators                      : 1
+  4-bit comparator equal           : 1
+# Xors                             : 9
+  1-bit xor2                       : 4
+  1-bit xor3                       : 3
+  1-bit xor4                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sec> ...
+
+Optimizing unit <sec_corrector> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sec, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      14  out of   1920     0%  
+ Number of 4 input LUTs:                24  out of   3840     0%  
+ Number of bonded IOBs:                 25  out of    173    14%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 12.435ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab4/_ngo -uc sec.ucf -p
+xc3s200-ft256-4 sec.ngc sec.ngd 
+
+Reading NGO file "D:/EGCP381/Lab4/sec.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "sec.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "sec.ngd" ...
+
+Writing NGDBUILD log file "sec.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:              24 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           13 out of   1,920    1%
+    Number of Slices containing only related logic:      13 out of      13  100%
+    Number of Slices containing unrelated logic:          0 out of      13    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:          24 out of   3,840    1%
+  Number of bonded IOBs:               25 out of     173   14%
+
+Total equivalent gate count for design:  144
+Additional JTAG gate count for IOBs:  1,200
+Peak Memory Usage:  127 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "sec_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module sec . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o sec_map.ncd sec.ngd sec.pcf
+Mapping Module sec: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: sec.pcf
+
+Loading device database for application Par from file "sec_map.ncd".
+   "sec" is an NCD, version 2.38, device xc3s200, package ft256, speed -4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            25 out of 173    14%
+      Number of LOCed External IOBs   17 out of 25     68%
+
+   Number of Slices                   13 out of 1920    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896cb) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98e6c5) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file sec.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 93 unrouted;       REAL time: 0 secs 
+
+Phase 2: 93 unrouted;       REAL time: 0 secs 
+
+Phase 3: 48 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  89 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file sec.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Mar 13 15:42:05 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module sec . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 sec_map.ncd sec.ncd sec.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

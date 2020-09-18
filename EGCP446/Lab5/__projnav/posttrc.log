@@ -1,0 +1,4 @@
+Post Route Timing Report for Module RAM . . .
+TRACE command line and options:
+trce -intstyle ise -e 3 -l 3 -xml RAM RAM.ncd -o RAM.twr RAM.pcf
+Post Route Timing Report for Module RAM : DONE

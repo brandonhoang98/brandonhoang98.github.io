@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn __projnav/sec_func.xst -ofn sec_func.syr
+ngdbuild -intstyle ise -dd e:\egcp447\assignment2\assignment2-copy\assignment2copy/_ngo -i  -p xc3s50-pq208-4 sec_func.ngc sec_func.ngd
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -xon true -w -ofmt vhdl -sim sec_func.ngd sec_func_translate.vhd

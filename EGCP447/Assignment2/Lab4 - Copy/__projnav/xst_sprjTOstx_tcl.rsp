@@ -1,0 +1,1 @@
+set allSynthModules {sec_func.MOD sec_compare.MOD sec_corrector.MOD sec.MOD}

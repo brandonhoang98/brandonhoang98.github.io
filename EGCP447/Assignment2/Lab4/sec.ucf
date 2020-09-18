@@ -1,0 +1,21 @@
+#lights
+NET "syndrome<0>" LOC = "K12";
+NET "syndrome<1>" LOC = "P14";
+NET "syndrome<2>" LOC = "L12";
+NET "syndrome<3>" LOC = "N14";
+NET "err" LOC = "P11";
+
+#Buttons
+NET "data_in<0>" LOC = "M13";
+NET "data_in<1>" LOC = "M14";
+NET "data_in<3>" LOC = "L13";
+NET "data_in<7>" LOC = "L14";
+#Switches
+NET "data_in<2>" LOC = "F12";
+NET "data_in<4>" LOC = "G12";
+NET "data_in<5>" LOC = "H14";
+NET "data_in<6>" LOC = "H13";
+NET "data_in<8>" LOC = "J14";
+NET "data_in<9>" LOC = "J13";
+NET "data_in<10>" LOC = "K14";
+NET "data_in<11>" LOC = "K13";

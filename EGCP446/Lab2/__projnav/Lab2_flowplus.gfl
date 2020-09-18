@@ -1,0 +1,391 @@
+# XST flow : Creating project file
+full_subtractor.prj
+# xst flow : Check Syntax
+full_subtractor.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_subtractor.xst
+xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : Check Syntax
+full_adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_adder.xst
+xst
+# XST flow : Creating project file
+full_subtractor.prj
+# xst flow : Check Syntax
+full_subtractor.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_subtractor.xst
+xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : Check Syntax
+multiplexer.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/multiplexer.xst
+xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : Check Syntax
+multiplexer.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/multiplexer.xst
+xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : Check Syntax
+multiplexer.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/multiplexer.xst
+xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : Check Syntax
+multiplexer.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/multiplexer.xst
+xst
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# xst flow : RunXST
+full_subtractor.prj
+__projnav/full_subtractor.xst
+./xst
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : Check Syntax
+full_adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_adder.xst
+xst
+# XST flow : Creating project file
+full_subtractor.prj
+# xst flow : Check Syntax
+full_subtractor.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_subtractor.xst
+xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# xst flow : RunXST
+full_subtractor.prj
+__projnav/full_subtractor.xst
+./xst
+# xst flow : Check Syntax
+full_adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_adder.xst
+xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : Check Syntax
+full_adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/full_adder.xst
+xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# XST flow : Creating project file
+full_subtractor.prj
+# xst flow : RunXST
+full_subtractor.prj
+__projnav/full_subtractor.xst
+./xst
+# XST flow : Creating project file
+multiplexer.prj
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst
+# xst flow : RunXST
+multiplexer.prj
+__projnav/multiplexer.xst
+./xst

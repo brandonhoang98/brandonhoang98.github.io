@@ -1,0 +1,5418 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file D:\EGCP381\Lab2\Lab2/lab_2_part_a.vhd, automatic determination of correct order of compilation of files in project file lab_2_part_a_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file D:\EGCP381\Lab2\Lab2/lab_2_part_a.vhd in Library work.
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_a.vhd Line 48. parse error, unexpected LT
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_a.vhd Line 54. parse error, unexpected PROCESS, expecting CASE
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd in Library work.
+ERROR:HDLParsers:164 - D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd Line 48. parse error, unexpected LT
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd in Library work.
+ERROR:HDLParsers:164 - D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd Line 48. parse error, unexpected LT
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd in Library work.
+ERROR:HDLParsers:808 - D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd Line 48. sll can not have such operands in this context.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd in Library work.
+Entity <lab_2_part_a> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd in Library work.
+Entity <lab_2_part_a> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd, automatic determination of correct order of compilation of files in project file lab_2_part_b_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd in Library work.
+ERROR:HDLParsers:3260 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 26. Object name expected: Type 'INTEGER' unexpected.
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 31. parse error, unexpected SEMICOLON, expecting COMMA or CLOSEPAR
+ERROR:HDLParsers:410 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 35. Variable 'count' count is at left hand side of signal assignment statement.
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 37. parse error, unexpected IF, expecting PROCESS
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 59. parse error, unexpected PROCESS, expecting CASE
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd, automatic determination of correct order of compilation of files in project file lab_2_part_b_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd in Library work.
+ERROR:HDLParsers:3260 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 26. Object name expected: Type 'INTEGER' unexpected.
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 32. parse error, unexpected IDENTIFIER, expecting THEN
+ERROR:HDLParsers:164 - D:\EGCP381\Lab2\Lab2/lab_2_part_b.vhd Line 37. parse error, unexpected IF, expecting PROCESS
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_a.vhd in Library work.
+Entity <lab_2_part_a> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 4.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      35  out of    768     4%  
+ Number of Slice Flip Flops:            43  out of   1536     2%  
+ Number of 4 input LUTs:                63  out of   1536     4%  
+ Number of bonded IOBs:                 17  out of    124    13%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.589ns (Maximum Frequency: 151.768MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s50-pq208-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77992 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s50-pq208-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s50pq208-4".
+ERROR:MapLib:681 - LOC constraint M13 on reset is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint K12 on r1_reg<0> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint P14 on r1_reg<1> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint L12 on r1_reg<2> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint N14 on r1_reg<3> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint N12 on r1_reg<5> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :   6
+Number of warnings :   0
+ERROR: MAP failed
+Process "Map" did not complete.
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: failed
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s50-pq208-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78324 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s50pq208-4".
+ERROR:MapLib:681 - LOC constraint M13 on reset is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint K12 on r1_reg<0> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint P14 on r1_reg<1> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint L12 on r1_reg<2> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint N14 on r1_reg<3> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint N12 on r1_reg<5> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :   6
+Number of warnings :   0
+ERROR: MAP failed
+Process "Map" did not complete.
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: failed
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Map".
+
+Using target part "3s50pq208-4".
+ERROR:MapLib:681 - LOC constraint M13 on reset is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint K12 on r1_reg<0> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint P14 on r1_reg<1> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint L12 on r1_reg<2> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint N14 on r1_reg<3> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:681 - LOC constraint N12 on r1_reg<5> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :   6
+Number of warnings :   0
+ERROR: MAP failed
+Process "Map" did not complete.
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s50-pq208-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: failed
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      35  out of   1920     1%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                63  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.589ns (Maximum Frequency: 151.768MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              25 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           40 out of   1,920    2%
+    Number of Slices containing only related logic:      40 out of      40  100%
+    Number of Slices containing unrelated logic:          0 out of      40    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             63 out of   3,840    1%
+  Number used as logic:                 25
+  Number used as a route-thru:          38
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  725
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   40 out of 1920    2%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98974c) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fa66) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 235 unrouted;       REAL time: 0 secs 
+
+Phase 2: 197 unrouted;       REAL time: 0 secs 
+
+Phase 3: 32 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   25 |  0.210     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:25:20 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:29:42 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+ERROR: PAR failed
+Process "Place & Route" did not complete.
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+ERROR: PAR failed
+Reason: 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:34:08 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:34:40 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      49  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                78  out of   3840     2%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.020ns (Maximum Frequency: 124.681MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              30 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           40 out of   1,920    2%
+    Number of Slices containing only related logic:      40 out of      40  100%
+    Number of Slices containing unrelated logic:          0 out of      40    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             76 out of   3,840    1%
+  Number used as logic:                 30
+  Number used as a route-thru:          46
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  833
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   40 out of 1920    2%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98ec56) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 238 unrouted;       REAL time: 0 secs 
+
+Phase 2: 201 unrouted;       REAL time: 0 secs 
+
+Phase 3: 33 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:36:37 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs   10 out of 18     55%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:48:56 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs   10 out of 18     55%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:49:43 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+ERROR:MapLib:681 - LOC constraint P55 on clk is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+ERROR: MAP failed
+Process "Map" did not complete.
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: failed
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Architecture behavioral of Entity lab_2_part_b is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      48  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.688ns (Maximum Frequency: 130.064MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              27 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           38 out of   1,920    1%
+    Number of Slices containing only related logic:      38 out of      38  100%
+    Number of Slices containing unrelated logic:          0 out of      38    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             72 out of   3,840    1%
+  Number used as logic:                 27
+  Number used as a route-thru:          45
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs   10 out of 18     55%
+
+   Number of Slices                   38 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98fd54) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 44 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.187     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 15:55:34 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 43: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0001 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0000> created at line 50.
+    Found 32-bit comparator greatequal for signal <$n0001> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      45  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                72  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.507ns (Maximum Frequency: 133.200MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              28 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           37 out of   1,920    1%
+    Number of Slices containing only related logic:      37 out of      37  100%
+    Number of Slices containing unrelated logic:          0 out of      37    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             70 out of   3,840    1%
+  Number used as logic:                 28
+  Number used as a route-thru:          42
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  803
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   37 out of 1920    1%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98972d) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98f5b6) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 232 unrouted;       REAL time: 0 secs 
+
+Phase 2: 195 unrouted;       REAL time: 0 secs 
+
+Phase 3: 42 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   23 |  0.204     |  0.535      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 16:03:42 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 44: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+INFO:Xst:1799 - State s3 is never reached in FSM <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0002 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0001> created at line 51.
+    Found 32-bit comparator greatequal for signal <$n0002> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      39  out of   1920     2%  
+ Number of Slice Flip Flops:            43  out of   3840     1%  
+ Number of 4 input LUTs:                73  out of   3840     1%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.532ns (Maximum Frequency: 86.715MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78388 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          43 out of   3,840    1%
+  Number of 4 input LUTs:              58 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           40 out of   1,920    2%
+    Number of Slices containing only related logic:      40 out of      40  100%
+    Number of Slices containing unrelated logic:          0 out of      40    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             74 out of   3,840    1%
+  Number used as logic:                 58
+  Number used as a route-thru:          16
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  995
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   40 out of 1920    2%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989733) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98f232) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 253 unrouted;       REAL time: 0 secs 
+
+Phase 2: 215 unrouted;       REAL time: 0 secs 
+
+Phase 3: 40 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   24 |  0.207     |  0.555      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 16:07:33 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd in Library work.
+Entity <lab_2_part_b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab_2_part_b> (Architecture <behavioral>).
+WARNING:Xst:819 - D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd line 44: The following signals are missing in the process sensitivity list:
+   r1_reg, r2_reg.
+INFO:Xst:1304 - Contents of register <r2_reg> in unit <lab_2_part_b> never changes during circuit operation. The register is replaced by logic.
+Entity <lab_2_part_b> analyzed. Unit <lab_2_part_b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab_2_part_b>.
+    Related source file is D:/EGCP381/Lab2/Lab2/lab_2_part_b.vhd.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Clock enable       | $n0002 (positive)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <r1_reg>.
+    Found 8-bit adder for signal <$n0001> created at line 51.
+    Found 32-bit comparator greatequal for signal <$n0002> created at line 31.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <lab_2_part_b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# Registers                        : 1
+  8-bit register                   : 1
+# Counters                         : 1
+  32-bit up counter                : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+# Comparators                      : 1
+  32-bit comparator greatequal     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab_2_part_b> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab_2_part_b, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      41  out of   1920     2%  
+ Number of Slice Flip Flops:            44  out of   3840     1%  
+ Number of 4 input LUTs:                77  out of   3840     2%  
+ Number of bonded IOBs:                 17  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.533ns (Maximum Frequency: 86.707MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.660ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\egcp381\lab2\lab2/_ngo -uc
+lab_2_part_b.ucf -p xc3s200-ft256-4 lab_2_part_b.ngc lab_2_part_b.ngd 
+
+Reading NGO file "D:/EGCP381/Lab2/Lab2/lab_2_part_b.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "lab_2_part_b.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77940 kilobytes
+
+Writing NGD file "lab_2_part_b.ngd" ...
+
+Writing NGDBUILD log file "lab_2_part_b.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-4".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          44 out of   3,840    1%
+  Number of 4 input LUTs:              62 out of   3,840    1%
+Logic Distribution:
+  Number of occupied Slices:                           42 out of   1,920    2%
+    Number of Slices containing only related logic:      42 out of      42  100%
+    Number of Slices containing unrelated logic:          0 out of      42    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             78 out of   3,840    2%
+  Number used as logic:                 62
+  Number used as a route-thru:          16
+  Number of bonded IOBs:               18 out of     173   10%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  1,027
+Additional JTAG gate count for IOBs:  864
+Peak Memory Usage:  128 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "lab_2_part_b_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module lab_2_part_b . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -tx off -o lab_2_part_b_map.ncd lab_2_part_b.ngd lab_2_part_b.pcf
+Mapping Module lab_2_part_b: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: lab_2_part_b.pcf
+
+Loading device database for application Par from file "lab_2_part_b_map.ncd".
+   "lab_2_part_b" is an NCD, version 2.38, device xc3s200, package ft256, speed
+-4
+Loading device for application Par from file '3s200.nph' in environment
+C:/XilinxISE6.
+Device speed data version:  PREVIEW 1.27 2003-11-04.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            18 out of 173    10%
+      Number of LOCed External IOBs    9 out of 18     50%
+
+   Number of Slices                   42 out of 1920    2%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98973f) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98f3f4) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file lab_2_part_b.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 279 unrouted;       REAL time: 0 secs 
+
+Phase 2: 240 unrouted;       REAL time: 0 secs 
+
+Phase 3: 54 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|         clk_BUFGP       |  BUFGMUX0| No   |   26 |  0.221     |  0.555      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  92 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file lab_2_part_b.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Mon Feb 18 16:09:32 2019
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Feb 05 09:27:01 2019
+# Process ID: 11360
+# Current directory: D:/EGCP 281/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4704 D:\EGCP 281\project_2\project_2.xpr
+# Log file: D:/EGCP 281/project_2/vivado.log
+# Journal file: D:/EGCP 281/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {D:/EGCP 281/project_2/project_2.xpr}

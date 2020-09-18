@@ -1,0 +1,3 @@
+Place & Route Module sec . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 sec_map.ncd sec.ncd sec.pcf
+PAR completed successfully

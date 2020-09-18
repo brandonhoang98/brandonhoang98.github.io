@@ -1,0 +1,223 @@
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# XST (Creating Lso File) : 
+sec_compare.lso
+# Check Syntax
+sec_compare.stx
+# XST (Creating Lso File) : 
+sec_corrector.lso
+# Check Syntax
+sec_corrector.stx
+# XST (Creating Lso File) : 
+sec_func.lso
+# Check Syntax
+sec_func.stx
+# XST (Creating Lso File) : 
+sec.lso
+# Check Syntax
+sec.stx
+# XST (Creating Lso File) : 
+sec.lso
+# Check Syntax
+sec.stx
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_sec_func_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_corrector_sec_corrector_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_compare_sec_compare_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+sec_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# xst flow : RunXST
+sec.syr
+sec.prj
+sec.sprj
+sec.ana
+sec.stx
+sec.cmd_log
+sec.ngc
+sec.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab4/_ngo
+sec.ngd
+sec_ngdbuild.nav
+sec.bld
+sec.ucf.untf
+sec.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab4/_ngo
+sec.ngd
+sec_ngdbuild.nav
+sec.bld
+sec.ucf.untf
+sec.cmd_log
+# Implementation : Map
+sec_map.ncd
+sec.ngm
+sec.pcf
+sec.nc1
+sec.mrp
+sec_map.mrp
+sec.mdf
+__projnav/map.log
+sec.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sec"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+sec.twr
+sec.twx
+sec.tsi
+sec.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sec.ncd
+sec.par
+sec.pad
+sec_pad.txt
+sec_pad.csv
+sec.pad_txt
+sec.dly
+reportgen.log
+sec.xpi
+sec.grf
+sec.itr
+sec_last_par.ncd
+__projnav/par.log
+sec.placed_ncd_tracker
+sec.routed_ncd_tracker
+sec.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sec"
+# Generate Programming File
+__projnav/sec_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sec.ut
+# Generate Programming File
+sec.bgn
+sec.rbt
+sec.ll
+sec.msk
+sec.drc
+sec.nky
+sec.bit
+sec.bin
+sec.isc
+sec.cmd_log
+# Generate Programming File
+__projnav/sec_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sec.ut
+# Generate Programming File
+sec.bgn
+sec.rbt
+sec.ll
+sec.msk
+sec.drc
+sec.nky
+sec.bit
+sec.bin
+sec.isc
+sec.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+sec_func_sec_func_tb_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+sec.lso
+# xst flow : RunXST
+sec.syr
+sec.prj
+sec.sprj
+sec.ana
+sec.stx
+sec.cmd_log
+sec.ngc
+sec.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab4/_ngo
+sec.ngd
+sec_ngdbuild.nav
+sec.bld
+sec.ucf.untf
+sec.cmd_log
+# Implementation : Map
+sec_map.ncd
+sec.ngm
+sec.pcf
+sec.nc1
+sec.mrp
+sec_map.mrp
+sec.mdf
+__projnav/map.log
+sec.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sec"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+sec.twr
+sec.twx
+sec.tsi
+sec.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sec.ncd
+sec.par
+sec.pad
+sec_pad.txt
+sec_pad.csv
+sec.pad_txt
+sec.dly
+reportgen.log
+sec.xpi
+sec.grf
+sec.itr
+sec_last_par.ncd
+__projnav/par.log
+sec.placed_ncd_tracker
+sec.routed_ncd_tracker
+sec.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sec"
+# Generate Programming File
+__projnav/sec_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sec.ut
+# Generate Programming File
+sec.bgn
+sec.rbt
+sec.ll
+sec.msk
+sec.drc
+sec.nky
+sec.bit
+sec.bin
+sec.isc
+sec.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+sec_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf

@@ -1,0 +1,10 @@
+V1 7
+FL d:/egcp441/Full_Adder.vhd 2019/04/23.10:15:02
+EN work/FULL_ADDER      FL d:/egcp441/Full_Adder.vhd PB ieee/STD_LOGIC_1164 \
+      PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/FULL_ADDER/BEHAVIORAL FL d:/egcp441/Full_Adder.vhd EN work/FULL_ADDER \
+      CP HALF_ADDER
+FL d:/egcp441/Half_adder.vhd 2019/04/23.10:05:00
+EN work/HALF_ADDER      FL d:/egcp441/Half_adder.vhd PB ieee/STD_LOGIC_1164 \
+      PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/HALF_ADDER/BEHAVIORAL FL d:/egcp441/Half_adder.vhd EN work/HALF_ADDER

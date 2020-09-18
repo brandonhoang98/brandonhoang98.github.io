@@ -1,0 +1,3 @@
+Place & Route Module lab_2_part_b . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 lab_2_part_b_map.ncd lab_2_part_b.ncd lab_2_part_b.pcf
+PAR completed successfully

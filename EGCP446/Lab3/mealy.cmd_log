@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn __projnav/mealy.xst -ofn mealy.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab3/_ngo -i  -p xc3s50-pq208-4 mealy.ngc mealy.ngd
+netgen -intstyle ise -w -ofmt verilog -sim mealy.ngd mealy_translate.v

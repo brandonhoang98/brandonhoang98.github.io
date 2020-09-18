@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Dec 09 13:58:42 2017
+# Process ID: 13052
+# Current directory: C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7112 C:\Users\Brandon\Desktop\EGCP Project 6 Backup\project_6\project_1.xpr
+# Log file: C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6/vivado.log
+# Journal file: C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Brandon/Desktop/EGCP Project 6 Backup/project_6/project_1.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,6 @@
+EN lab_6 NULL D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd sub00/vhpl02
+AR top_level behavioral D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd sub00/vhpl05
+AR lab_6 low_level_definition D:/EGCP381/Lab6/Lab6/Lab_6/lab_6.vhd sub00/vhpl03
+AR kcpsm3 low_level_definition D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd sub00/vhpl01
+EN kcpsm3 NULL D:/EGCP381/Lab6/Lab6/Lab_6/kcpsm3.vhd sub00/vhpl00
+EN top_level NULL D:/EGCP381/Lab6/Lab6/Lab_6/top_level.vhd sub00/vhpl04

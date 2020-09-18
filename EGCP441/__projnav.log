@@ -1,0 +1,29 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file d:/egcp441/Half_adder.vhd in Library work.
+Entity <Half_adder> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+Compiling vhdl file d:/egcp441/Half_adder.vhd in Library work.
+Entity <half_adder> (Architecture <behavioral>) compiled.
+Compiling vhdl file d:/egcp441/Full_Adder.vhd in Library work.
+Entity <Full_Adder> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+

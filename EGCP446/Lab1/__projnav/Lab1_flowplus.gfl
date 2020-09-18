@@ -1,0 +1,78 @@
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : Check Syntax
+Half_Adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/Half_Adder.xst
+xst
+# XST flow : Creating project file
+Full_Adder.prj
+# xst flow : Check Syntax
+Full_Adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/Full_Adder.xst
+xst
+# XST flow : Creating project file
+Four_RCA.prj
+# xst flow : Check Syntax
+Four_RCA.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/Four_RCA.xst
+xst
+# xst flow : RunXST
+Half_Adder.prj
+__projnav/Half_Adder.xst
+./xst
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : Check Syntax
+Half_Adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/Half_Adder.xst
+xst
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : Check Syntax
+Half_Adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/Half_Adder.xst
+xst
+# xst flow : RunXST
+Half_Adder.prj
+__projnav/Half_Adder.xst
+./xst
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : Check Syntax
+Half_Adder.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/Half_Adder.xst
+xst
+# xst flow : RunXST
+Half_Adder.prj
+__projnav/Half_Adder.xst
+./xst
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : RunXST
+Half_Adder.prj
+__projnav/Half_Adder.xst
+./xst
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : RunXST
+Half_Adder.prj
+__projnav/Half_Adder.xst
+./xst
+# XST flow : Creating project file
+Full_Adder.prj
+# xst flow : RunXST
+Full_Adder.prj
+__projnav/Full_Adder.xst
+./xst
+# XST flow : Creating project file
+Half_Adder.prj
+# xst flow : RunXST
+Half_Adder.prj
+__projnav/Half_Adder.xst
+./xst

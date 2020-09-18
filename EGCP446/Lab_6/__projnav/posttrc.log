@@ -1,0 +1,4 @@
+Post Route Timing Report for Module pong_top_st . . .
+TRACE command line and options:
+trce -intstyle ise -e 3 -l 3 -xml pong_top_st pong_top_st.ncd -o pong_top_st.twr pong_top_st.pcf
+Post Route Timing Report for Module pong_top_st : DONE

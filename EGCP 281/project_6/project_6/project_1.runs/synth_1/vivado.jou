@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Dec 06 11:51:33 2017
+# Process ID: 74296
+# Current directory: D:/project_6/project_6/project_1.runs/synth_1
+# Command line: vivado.exe -log SinDigWatch.vds -mode batch -messageDb vivado.pb -notrace -source SinDigWatch.tcl
+# Log file: D:/project_6/project_6/project_1.runs/synth_1/SinDigWatch.vds
+# Journal file: D:/project_6/project_6/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SinDigWatch.tcl -notrace

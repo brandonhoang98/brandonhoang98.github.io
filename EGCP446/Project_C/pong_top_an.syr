@@ -1,0 +1,1044 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: pong_top_an.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : pong_top_an.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : pong_top_an
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : pong_top_an
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : pong_top_an.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "Zero.v"
+Module <Zero_0> compiled
+Compiling source file "One.v"
+Module <One_1> compiled
+Compiling source file "Two.v"
+Module <Two_2> compiled
+Compiling source file "Three.v"
+Module <Three_3> compiled
+Compiling source file "Four_4.v"
+Module <Four_4> compiled
+Compiling source file "Five.v"
+Module <Five_5> compiled
+Compiling source file "Six.v"
+Module <Six_6> compiled
+Compiling source file "Seven_7.v"
+Module <Seven_7> compiled
+Compiling source file "Eight.v"
+Module <Eight_8> compiled
+Compiling source file "Nine_9.v"
+Module <Nine_9> compiled
+Compiling source file "debounce.v"
+Module <debounce> compiled
+Compiling source file "Seven_Segment.v"
+Module <Seven_Segment> compiled
+Compiling source file "pong_graph_animate.v"
+Module <pong_graph_animate> compiled
+Compiling source file "pong_top_an.v"
+Module <pong_top_an> compiled
+No errors in compilation
+Analysis of file <pong_top_an.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - pong_graph_animate.v line 97 Connection to output port 'Four_rgb' does not match port size
+WARNING:HDLCompilers:261 - pong_graph_animate.v line 98 Connection to output port 'five_rgb' does not match port size
+WARNING:HDLCompilers:261 - pong_graph_animate.v line 99 Connection to output port 'six_rgb' does not match port size
+WARNING:HDLCompilers:261 - pong_graph_animate.v line 100 Connection to output port 'Seven_rgb' does not match port size
+WARNING:HDLCompilers:261 - pong_graph_animate.v line 101 Connection to output port 'eight_rgb' does not match port size
+WARNING:HDLCompilers:261 - pong_graph_animate.v line 102 Connection to output port 'Nine_rgb' does not match port size
+Analyzing top module <pong_top_an>.
+Module <pong_top_an> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_animate>.
+Module <pong_graph_animate> is correct for synthesis.
+ 
+Analyzing module <Zero_0>.
+Module <Zero_0> is correct for synthesis.
+ 
+Analyzing module <One_1>.
+Module <One_1> is correct for synthesis.
+ 
+Analyzing module <Two_2>.
+Module <Two_2> is correct for synthesis.
+ 
+Analyzing module <Three_3>.
+Module <Three_3> is correct for synthesis.
+ 
+Analyzing module <Four_4>.
+Module <Four_4> is correct for synthesis.
+ 
+Analyzing module <Five_5>.
+Module <Five_5> is correct for synthesis.
+ 
+Analyzing module <Six_6>.
+Module <Six_6> is correct for synthesis.
+ 
+Analyzing module <Seven_7>.
+Module <Seven_7> is correct for synthesis.
+ 
+Analyzing module <Eight_8>.
+Module <Eight_8> is correct for synthesis.
+ 
+Analyzing module <Nine_9>.
+Module <Nine_9> is correct for synthesis.
+ 
+Analyzing module <debounce>.
+Module <debounce> is correct for synthesis.
+ 
+Analyzing module <Seven_Segment>.
+Module <Seven_Segment> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Seven_Segment>.
+    Related source file is Seven_Segment.v.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 10                                             |
+    | Inputs             | 0                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000001                                     |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Seven_Segment> synthesized.
+
+
+Synthesizing Unit <debounce>.
+    Related source file is debounce.v.
+    Found 1-bit register for signal <btn_clr>.
+    Found 1-bit xor2 for signal <$n0005> created at line 13.
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <xnew>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <Nine_9>.
+    Related source file is Nine_9.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Nine_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Nine_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <Nine_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Nine_rom_bit>.
+    Found 5-bit subtractor for signal <Nine_rom_col>.
+    Found 10-bit subtractor for signal <Nine_x_r>.
+    Found 10-bit register for signal <Nine_x_reg>.
+    Found 10-bit subtractor for signal <Nine_y_b>.
+    Found 10-bit register for signal <Nine_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Nine_9> synthesized.
+
+
+Synthesizing Unit <Eight_8>.
+    Related source file is Eight.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Eight_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Eight_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 87.
+    Found 5-bit adder for signal <$n0001> created at line 86.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 89.
+    Found 4-bit subtractor for signal <Eight_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Eight_rom_bit>.
+    Found 5-bit subtractor for signal <Eight_rom_col>.
+    Found 10-bit subtractor for signal <Eight_x_r>.
+    Found 10-bit register for signal <Eight_x_reg>.
+    Found 10-bit subtractor for signal <Eight_y_b>.
+    Found 10-bit register for signal <Eight_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Eight_8> synthesized.
+
+
+Synthesizing Unit <Seven_7>.
+    Related source file is Seven_7.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Seven_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Seven_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <Seven_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Seven_rom_bit>.
+    Found 5-bit subtractor for signal <Seven_rom_col>.
+    Found 10-bit subtractor for signal <Seven_x_r>.
+    Found 10-bit register for signal <Seven_x_reg>.
+    Found 10-bit subtractor for signal <Seven_y_b>.
+    Found 10-bit register for signal <Seven_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Seven_7> synthesized.
+
+
+Synthesizing Unit <Six_6>.
+    Related source file is Six.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Six_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Six_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 88.
+    Found 5-bit adder for signal <$n0001> created at line 87.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 90.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 90.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 90.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 90.
+    Found 4-bit subtractor for signal <Six_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Six_rom_bit>.
+    Found 5-bit subtractor for signal <Six_rom_col>.
+    Found 10-bit subtractor for signal <Six_x_r>.
+    Found 10-bit register for signal <Six_x_reg>.
+    Found 10-bit subtractor for signal <Six_y_b>.
+    Found 10-bit register for signal <Six_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Six_6> synthesized.
+
+
+Synthesizing Unit <Five_5>.
+    Related source file is Five.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Five_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Five_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 86.
+    Found 5-bit adder for signal <$n0001> created at line 85.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 88.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 88.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 88.
+    Found 4-bit subtractor for signal <Five_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Five_rom_bit>.
+    Found 5-bit subtractor for signal <Five_rom_col>.
+    Found 10-bit subtractor for signal <Five_x_r>.
+    Found 10-bit register for signal <Five_x_reg>.
+    Found 10-bit subtractor for signal <Five_y_b>.
+    Found 10-bit register for signal <Five_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Five_5> synthesized.
+
+
+Synthesizing Unit <Four_4>.
+    Related source file is Four_4.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Four_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Four_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <Four_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Four_rom_bit>.
+    Found 5-bit subtractor for signal <Four_rom_col>.
+    Found 10-bit subtractor for signal <Four_x_r>.
+    Found 10-bit register for signal <Four_x_reg>.
+    Found 10-bit subtractor for signal <Four_y_b>.
+    Found 10-bit register for signal <Four_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Four_4> synthesized.
+
+
+Synthesizing Unit <Three_3>.
+    Related source file is Three.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Three_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Three_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <Three_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Three_rom_bit>.
+    Found 5-bit subtractor for signal <Three_rom_col>.
+    Found 10-bit subtractor for signal <Three_x_r>.
+    Found 10-bit register for signal <Three_x_reg>.
+    Found 10-bit subtractor for signal <Three_y_b>.
+    Found 10-bit register for signal <Three_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Three_3> synthesized.
+
+
+Synthesizing Unit <Two_2>.
+    Related source file is Two.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Two_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Two_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <Two_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Two_rom_bit>.
+    Found 5-bit subtractor for signal <Two_rom_col>.
+    Found 10-bit subtractor for signal <Two_x_r>.
+    Found 10-bit register for signal <Two_x_reg>.
+    Found 10-bit subtractor for signal <Two_y_b>.
+    Found 10-bit register for signal <Two_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Two_2> synthesized.
+
+
+Synthesizing Unit <One_1>.
+    Related source file is One.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <One_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <One_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 89.
+    Found 5-bit adder for signal <$n0001> created at line 88.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 91.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 91.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 91.
+    Found 4-bit subtractor for signal <One_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <One_rom_bit>.
+    Found 5-bit subtractor for signal <One_rom_col>.
+    Found 10-bit subtractor for signal <One_x_r>.
+    Found 10-bit register for signal <One_x_reg>.
+    Found 10-bit subtractor for signal <One_y_b>.
+    Found 10-bit register for signal <One_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <One_1> synthesized.
+
+
+Synthesizing Unit <Zero_0>.
+    Related source file is Zero.v.
+WARNING:Xst:647 - Input <video_on> is never used.
+WARNING:Xst:1780 - Signal <Zero_Logo_on> is never used or assigned.
+    Found 16x32-bit ROM for signal <Zero_rom_data>.
+    Found 6-bit adder for signal <$n0000> created at line 87.
+    Found 5-bit adder for signal <$n0001> created at line 86.
+    Found 10-bit comparator greatequal for signal <$n0002> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0005> created at line 89.
+    Found 4-bit subtractor for signal <Zero_rom_addr>.
+    Found 1-bit 32-to-1 multiplexer for signal <Zero_rom_bit>.
+    Found 5-bit subtractor for signal <Zero_rom_col>.
+    Found 10-bit subtractor for signal <Zero_x_r>.
+    Found 10-bit register for signal <Zero_x_reg>.
+    Found 10-bit subtractor for signal <Zero_y_b>.
+    Found 10-bit register for signal <Zero_y_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Zero_0> synthesized.
+
+
+Synthesizing Unit <pong_graph_animate>.
+    Related source file is pong_graph_animate.v.
+WARNING:Xst:1780 - Signal <score_reset> is never used or assigned.
+    Found 1-bit 8-to-1 multiplexer for signal <$COND_1>.
+    Found 7-bit adder for signal <$n0001> created at line 189.
+    Found 7-bit adder for signal <$n0002> created at line 188.
+    Found 7-bit adder for signal <$n0003> created at line 165.
+    Found 8-bit adder for signal <$n0004> created at line 177.
+    Found 10-bit adder for signal <$n0006> created at line 203.
+    Found 10-bit adder for signal <$n0007> created at line 205.
+    Found 10-bit comparator less for signal <$n0008> created at line 214.
+    Found 10-bit comparator greater for signal <$n0009> created at line 217.
+    Found 4-bit comparator less for signal <$n0010> created at line 250.
+    Found 10-bit comparator lessequal for signal <$n0019> created at line 191.
+    Found 10-bit comparator lessequal for signal <$n0020> created at line 191.
+    Found 10-bit comparator lessequal for signal <$n0021> created at line 191.
+    Found 10-bit comparator lessequal for signal <$n0022> created at line 191.
+    Found 10-bit comparator greatequal for signal <$n0023> created at line 167.
+    Found 10-bit comparator lessequal for signal <$n0024> created at line 167.
+    Found 10-bit comparator lessequal for signal <$n0025> created at line 167.
+    Found 10-bit comparator lessequal for signal <$n0026> created at line 167.
+    Found 10-bit comparator greatequal for signal <$n0027> created at line 157.
+    Found 10-bit comparator lessequal for signal <$n0028> created at line 157.
+    Found 10-bit comparator less for signal <$n0041> created at line 176.
+    Found 10-bit comparator greater for signal <$n0042> created at line 178.
+    Found 10-bit subtractor for signal <$n0043> created at line 179.
+    Found 10-bit comparator lessequal for signal <$n0044> created at line 220.
+    Found 10-bit comparator greatequal for signal <$n0045> created at line 223.
+    Found 10-bit comparator lessequal for signal <$n0046> created at line 223.
+    Found 10-bit comparator lessequal for signal <$n0047> created at line 223.
+    Found 10-bit comparator lessequal for signal <$n0048> created at line 223.
+    Found 4-bit adder for signal <$n0053> created at line 251.
+    Found 10-bit subtractor for signal <ball_x_r>.
+    Found 10-bit register for signal <ball_x_reg>.
+    Found 10-bit subtractor for signal <ball_y_b>.
+    Found 10-bit register for signal <ball_y_reg>.
+    Found 10-bit subtractor for signal <bar_y_b>.
+    Found 10-bit register for signal <bar_y_reg>.
+    Found 4-bit register for signal <counter>.
+    Found 3-bit subtractor for signal <rom_addr>.
+    Found 3-bit subtractor for signal <rom_col>.
+    Found 10-bit register for signal <x_delta_reg>.
+    Found 10-bit register for signal <y_delta_reg>.
+    Found 20 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  34 D-type flip-flop(s).
+	inferred  13 Adder/Subtracter(s).
+	inferred  20 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <pong_graph_animate> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_an>.
+    Related source file is pong_top_an.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_an> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# ROMs                             : 10
+  16x32-bit ROM                    : 10
+# Registers                        : 34
+  1-bit register                   : 5
+  4-bit register                   : 1
+  3-bit register                   : 1
+  10-bit register                  : 27
+# Counters                         : 1
+  32-bit up counter                : 1
+# Multiplexers                     : 13
+  2-to-1 multiplexer               : 2
+  1-bit 32-to-1 multiplexer        : 10
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 75
+  5-bit subtractor                 : 10
+  10-bit adder                     : 4
+  10-bit subtractor                : 24
+  4-bit adder                      : 1
+  4-bit subtractor                 : 10
+  6-bit adder                      : 10
+  5-bit adder                      : 10
+  3-bit subtractor                 : 2
+  7-bit adder                      : 3
+  8-bit adder                      : 1
+# Comparators                      : 66
+  10-bit comparator greatequal     : 25
+  10-bit comparator lessequal      : 34
+  10-bit comparator less           : 4
+  10-bit comparator greater        : 2
+  4-bit comparator less            : 1
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state_reg> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_9> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_x_reg_9> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_0> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_2> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_4> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_5> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_6> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_7> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_y_reg_8> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_x_reg_0> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_x_reg_1> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_x_reg_4> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_x_reg_6> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <Zero_x_reg_7> (without init value) is constant in block <Zero_0>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_9> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_9> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_0> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_2> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_4> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_5> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_6> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_7> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_y_reg_8> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_0> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_1> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_4> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_6> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <One_x_reg_7> (without init value) is constant in block <One_1>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_9> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_x_reg_9> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_0> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_2> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_4> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_5> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_6> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_7> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_y_reg_8> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_x_reg_0> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_x_reg_1> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_x_reg_4> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_x_reg_6> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Two_x_reg_7> (without init value) is constant in block <Two_2>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_9> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_x_reg_9> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_0> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_2> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_4> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_5> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_6> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_7> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_y_reg_8> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_x_reg_0> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_x_reg_1> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_x_reg_4> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_x_reg_6> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Three_x_reg_7> (without init value) is constant in block <Three_3>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_9> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_x_reg_9> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_0> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_2> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_4> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_5> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_6> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_7> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_y_reg_8> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_x_reg_0> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_x_reg_1> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_x_reg_4> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_x_reg_6> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Four_x_reg_7> (without init value) is constant in block <Four_4>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_9> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_x_reg_9> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_0> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_2> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_4> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_5> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_6> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_7> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_y_reg_8> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_x_reg_0> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_x_reg_1> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_x_reg_4> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_x_reg_6> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Five_x_reg_7> (without init value) is constant in block <Five_5>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_9> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_x_reg_9> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_0> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_2> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_4> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_5> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_6> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_7> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_y_reg_8> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_x_reg_0> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_x_reg_1> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_x_reg_4> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_x_reg_6> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Six_x_reg_7> (without init value) is constant in block <Six_6>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_9> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_x_reg_9> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_0> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_2> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_4> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_5> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_6> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_7> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_y_reg_8> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_x_reg_0> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_x_reg_1> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_x_reg_4> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_x_reg_6> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Seven_x_reg_7> (without init value) is constant in block <Seven_7>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_9> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_x_reg_9> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_0> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_2> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_4> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_5> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_6> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_7> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_y_reg_8> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_x_reg_0> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_x_reg_1> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_x_reg_4> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_x_reg_6> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Eight_x_reg_7> (without init value) is constant in block <Eight_8>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_9> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_x_reg_9> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_0> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_2> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_4> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_5> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_6> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_7> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_y_reg_8> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_x_reg_0> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_x_reg_1> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_x_reg_4> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_x_reg_6> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <Nine_x_reg_7> (without init value) is constant in block <Nine_9>.
+WARNING:Xst:1710 - FF/Latch  <y_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+WARNING:Xst:1710 - FF/Latch  <x_delta_reg_0> (without init value) is constant in block <pong_graph_animate>.
+
+Optimizing unit <pong_top_an> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <Zero_0> ...
+
+Optimizing unit <One_1> ...
+
+Optimizing unit <Two_2> ...
+
+Optimizing unit <Three_3> ...
+
+Optimizing unit <Four_4> ...
+
+Optimizing unit <Five_5> ...
+
+Optimizing unit <Six_6> ...
+
+Optimizing unit <Seven_7> ...
+
+Optimizing unit <Eight_8> ...
+
+Optimizing unit <Nine_9> ...
+
+Optimizing unit <debounce> ...
+
+Optimizing unit <pong_graph_animate> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong_top_an, actual ratio is 36.
+FlipFlop vsync_unit_v_count_reg_1 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_0 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_2 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_3 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_8 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_9 has been replicated 1 time(s)
+FlipFlop vsync_unit_h_count_reg_2 has been replicated 1 time(s)
+FlipFlop vsync_unit_h_count_reg_7 has been replicated 1 time(s)
+FlipFlop vsync_unit_h_count_reg_5 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_7 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_5 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_6 has been replicated 1 time(s)
+FlipFlop vsync_unit_v_count_reg_4 has been replicated 1 time(s)
+FlipFlop vsync_unit_h_count_reg_6 has been replicated 1 time(s)
+FlipFlop vsync_unit_h_count_reg_4 has been replicated 1 time(s)
+FlipFlop vsync_unit_h_count_reg_3 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pong_top_an.ngr
+Top Level Output File Name         : pong_top_an
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 21
+
+Macro Statistics :
+# ROMs                             : 10
+#      16x32-bit ROM               : 10
+# Registers                        : 53
+#      1-bit register              : 25
+#      10-bit register             : 25
+#      3-bit register              : 1
+#      32-bit register             : 1
+#      4-bit register              : 1
+# Multiplexers                     : 13
+#      1-bit 32-to-1 multiplexer   : 10
+#      1-bit 8-to-1 multiplexer    : 1
+#      2-to-1 multiplexer          : 2
+# Adders/Subtractors               : 63
+#      10-bit adder                : 4
+#      10-bit subtractor           : 24
+#      32-bit adder                : 1
+#      4-bit subtractor            : 10
+#      5-bit subtractor            : 10
+#      6-bit adder                 : 10
+#      7-bit adder                 : 3
+#      8-bit adder                 : 1
+# Comparators                      : 66
+#      10-bit comparator greatequal: 25
+#      10-bit comparator greater   : 2
+#      10-bit comparator less      : 4
+#      10-bit comparator lessequal : 34
+#      4-bit comparator less       : 1
+# Xors                             : 4
+#      1-bit xor3                  : 4
+
+Cell Usage :
+# BELS                             : 1944
+#      GND                         : 1
+#      LUT1                        : 132
+#      LUT1_D                      : 3
+#      LUT1_L                      : 155
+#      LUT2                        : 157
+#      LUT2_D                      : 2
+#      LUT2_L                      : 193
+#      LUT3                        : 81
+#      LUT3_D                      : 3
+#      LUT3_L                      : 25
+#      LUT4                        : 162
+#      LUT4_D                      : 4
+#      LUT4_L                      : 86
+#      MUXCY                       : 546
+#      MUXF5                       : 40
+#      MUXF6                       : 21
+#      MUXF7                       : 18
+#      MUXF8                       : 5
+#      VCC                         : 1
+#      XORCY                       : 309
+# FlipFlops/Latches                : 198
+#      FDC                         : 117
+#      FDCE                        : 1
+#      FDE                         : 45
+#      FDP                         : 3
+#      FDRE                        : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 3
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     612  out of   1920    31%  
+ Number of Slice Flip Flops:           198  out of   3840     5%  
+ Number of 4 input LUTs:              1003  out of   3840    26%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 184   |
+pong_graph_an_unit_db_btn_clr:Q    | NONE                   | 14    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 13.578ns (Maximum Frequency: 73.649MHz)
+   Minimum input arrival time before clock: 5.584ns
+   Maximum output required time after clock: 9.569ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               13.578ns (Levels of Logic = 13)
+  Source:            vsync_unit_v_count_reg_0 (FF)
+  Destination:       rgb_reg_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: vsync_unit_v_count_reg_0 to rgb_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.619   0.806  vsync_unit_v_count_reg_0 (vsync_unit_v_count_reg_0)
+     LUT1_L:I0->LO         1   0.720   0.000  pong_graph_an_unit_Z4_Msub_Four_rom_addr_inst_lut2_5711 (pong_graph_an_unit_Z4_Msub_Four_rom_addr_inst_lut2_57)
+     MUXCY:S->O            1   0.629   0.000  pong_graph_an_unit_Z4_Msub_Four_rom_addr_inst_cy_57 (pong_graph_an_unit_Z4_Msub_Four_rom_addr_inst_cy_57)
+     XORCY:CI->O          13   0.939   0.895  pong_graph_an_unit_Z4_Msub_Four_rom_addr_inst_sum_48 (pong_graph_an_unit_Z4_Four_rom_addr<1>)
+     LUT2:I0->O            5   0.720   0.658  pong_graph_an_unit_Z4_Mmux_Four_rom_bit_inst_lut3_721_SW1_SW0 (N35927)
+     LUT4_L:I3->LO         1   0.720   0.000  pong_graph_an_unit_Z4_Mmux_Four_rom_bit_inst_lut3_701 (pong_graph_an_unit_Z4_Mmux_Four_rom_bit__net134)
+     MUXF5:I0->O           1   0.387   0.000  pong_graph_an_unit_Z4_Mmux_Four_rom_bit_inst_mux_f5_35 (pong_graph_an_unit_Z4_Mmux_Four_rom_bit__net136)
+     MUXF6:I1->O           1   0.563   0.000  pong_graph_an_unit_Z4_Mmux_Four_rom_bit_inst_mux_f6_17 (pong_graph_an_unit_Z4_Mmux_Four_rom_bit__net137)
+     MUXF7:I1->O           1   0.563   0.240  pong_graph_an_unit_Z4_Mmux_Four_rom_bit_inst_mux_f7_8 (pong_graph_an_unit_Z4_Mmux_Four_rom_bit__net138)
+     LUT4:I0->O            1   0.720   0.240  pong_graph_an_unit_Score_on420 (CHOICE664)
+     LUT4_L:I2->LO         1   0.720   0.100  pong_graph_an_unit_Score_on455 (CHOICE667)
+     LUT4:I0->O            3   0.720   0.577  pong_graph_an_unit_Score_on482 (CHOICE670)
+     LUT4_L:I0->LO         1   0.720   0.100  pong_graph_an_unit_Score_on1095 (pong_graph_an_unit_Score_on)
+     LUT4_L:I0->LO         1   0.720   0.000  pong_graph_an_unit_graph_rgb<0>174 (rgb_next<0>)
+     FDE:D                     0.502          rgb_reg_0
+    ----------------------------------------
+    Total                     13.578ns (9.962ns logic, 3.616ns route)
+                                       (73.4% logic, 26.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'pong_graph_an_unit_db_btn_clr:Q'
+Delay:               2.766ns (Levels of Logic = 1)
+  Source:            pong_graph_an_unit_counter_3 (FF)
+  Destination:       pong_graph_an_unit_counter_3 (FF)
+  Source Clock:      pong_graph_an_unit_db_btn_clr:Q rising
+  Destination Clock: pong_graph_an_unit_db_btn_clr:Q rising
+
+  Data Path: pong_graph_an_unit_counter_3 to pong_graph_an_unit_counter_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             14   0.619   0.925  pong_graph_an_unit_counter_3 (pong_graph_an_unit_counter_3)
+     LUT4:I3->O            1   0.720   0.000  pong_graph_an_unit__n0000<3> (pong_graph_an_unit__n0000<3>)
+     FDC:D                     0.502          pong_graph_an_unit_counter_3
+    ----------------------------------------
+    Total                      2.766ns (1.841ns logic, 0.925ns route)
+                                       (66.6% logic, 33.4% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              5.584ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       pong_graph_an_unit_Z0_Zero_x_reg_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to pong_graph_an_unit_Z0_Zero_x_reg_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           122   1.492   1.409  reset_IBUF (reset_IBUF)
+     LUT1:I0->O           40   0.720   1.329  pong_graph_an_unit_Z0_Zero_x_reg_ClkEn_INV1 (pong_graph_an_unit_Z0_Zero_x_reg_N1219)
+     FDE:CE                    0.634          pong_graph_an_unit_Z0_Zero_x_reg_8
+    ----------------------------------------
+    Total                      5.584ns (2.846ns logic, 2.738ns route)
+                                       (51.0% logic, 49.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.271ns (Levels of Logic = 1)
+  Source:            vsync_unit_v_sync_reg (FF)
+  Destination:       vsync (PAD)
+  Source Clock:      clk rising
+
+  Data Path: vsync_unit_v_sync_reg to vsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.619   0.240  vsync_unit_v_sync_reg (vsync_unit_v_sync_reg)
+     OBUF:I->O                 5.412          vsync_OBUF (vsync)
+    ----------------------------------------
+    Total                      6.271ns (6.031ns logic, 0.240ns route)
+                                       (96.2% logic, 3.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'pong_graph_an_unit_db_btn_clr:Q'
+Offset:              9.569ns (Levels of Logic = 4)
+  Source:            pong_graph_an_unit_ss_state_reg_FFd6 (FF)
+  Destination:       Disp<6> (PAD)
+  Source Clock:      pong_graph_an_unit_db_btn_clr:Q rising
+
+  Data Path: pong_graph_an_unit_ss_state_reg_FFd6 to Disp<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.619   0.658  pong_graph_an_unit_ss_state_reg_FFd6 (pong_graph_an_unit_ss_state_reg_FFd6)
+     LUT4:I0->O            1   0.720   0.240  pong_graph_an_unit_ss_state_reg_Out221 (CHOICE130)
+     LUT4:I0->O            1   0.720   0.240  pong_graph_an_unit_ss_state_reg_Out245_SW0 (N36050)
+     LUT4:I3->O            1   0.720   0.240  pong_graph_an_unit_ss_state_reg_Out245 (Disp_6_OBUF)
+     OBUF:I->O                 5.412          Disp_6_OBUF (Disp<6>)
+    ----------------------------------------
+    Total                      9.569ns (8.191ns logic, 1.378ns route)
+                                       (85.6% logic, 14.4% route)
+
+=========================================================================
+CPU : 8.30 / 8.43 s | Elapsed : 9.00 / 9.00 s
+ 
+--> 
+
+Total memory usage is 136184 kilobytes
+
+

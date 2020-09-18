@@ -1,0 +1,376 @@
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# Check Syntax
+Half_Adder.stx
+# XST (Creating Lso File) : 
+Full_Adder.lso
+# Check Syntax
+Full_Adder.stx
+# XST (Creating Lso File) : 
+Four_RCA.lso
+# Check Syntax
+Four_RCA.stx
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral Verilog Model
+Full_Adder_Full_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# xst flow : RunXST
+Half_Adder.syr
+Half_Adder.prj
+Half_Adder.sprj
+Half_Adder.ana
+Half_Adder.stx
+Half_Adder.cmd_log
+Half_Adder.ngc
+Half_Adder.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab1/_ngo
+Half_Adder.ngd
+Half_Adder_ngdbuild.nav
+Half_Adder.bld
+.untf
+Half_Adder.cmd_log
+# Implementation : Map
+Half_Adder_map.ncd
+Half_Adder.ngm
+Half_Adder.pcf
+Half_Adder.nc1
+Half_Adder.mrp
+Half_Adder_map.mrp
+Half_Adder.mdf
+__projnav/map.log
+Half_Adder.cmd_log
+MAP_NO_GUIDE_FILE_CPF "Half_Adder"
+# Implementation : Generate Post-Map Simulation Model
+Half_Adder_map.v
+SimModelBaseName.sdf
+Half_Adder_map.sdf
+Half_Adder_map.v
+Half_Adder_map.nlf
+Half_Adder.map_nlf
+Half_Adder.versim_map
+Half_Adder.cmd_log
+__projnav/netgen_map_tcl.rsp
+# ModelSim : Simulate Post-Map VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.mdo
+# ModelSim : Simulate Post-Map Verilog Model
+vsim.wlf
+# Implementation : Generate Post-Translate Simulation Model
+Half_Adder_translate.v
+Half_Adder_translate.v
+Half_Adder_translate.nlf
+Half_Adder.xlate_nlf
+Half_Adder.versim_xlate
+Half_Adder.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# Check Syntax
+Half_Adder.stx
+Half_Adder.ngc
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# Check Syntax
+Half_Adder.stx
+Half_Adder.ngc
+# xst flow : RunXST
+Half_Adder.syr
+Half_Adder.prj
+Half_Adder.sprj
+Half_Adder.ana
+Half_Adder.stx
+Half_Adder.cmd_log
+Half_Adder.ngc
+Half_Adder.ngr
+# View RTL Schematic
+Half_Adder.ngr
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# View RTL Schematic
+Half_Adder.ngr
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# Check Syntax
+Half_Adder.stx
+Half_Adder.ngc
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# xst flow : RunXST
+Half_Adder.syr
+Half_Adder.prj
+Half_Adder.sprj
+Half_Adder.ana
+Half_Adder.stx
+Half_Adder.cmd_log
+Half_Adder.ngc
+Half_Adder.ngr
+# View RTL Schematic
+Half_Adder.ngr
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# xst flow : RunXST
+Half_Adder.syr
+Half_Adder.prj
+Half_Adder.sprj
+Half_Adder.ana
+Half_Adder.stx
+Half_Adder.cmd_log
+Half_Adder.ngc
+Half_Adder.ngr
+# View RTL Schematic
+Half_Adder.ngr
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+Half_Adder_Half_Adder_tb_v_tf.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# xst flow : RunXST
+Half_Adder.syr
+Half_Adder.prj
+Half_Adder.sprj
+Half_Adder.ana
+Half_Adder.stx
+Half_Adder.cmd_log
+Half_Adder.ngc
+Half_Adder.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab1/_ngo
+Half_Adder.ngd
+Half_Adder_ngdbuild.nav
+Half_Adder.bld
+.untf
+Half_Adder.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+Half_Adder_translate.v
+Half_Adder_translate.v
+Half_Adder_translate.nlf
+Half_Adder.xlate_nlf
+Half_Adder.versim_xlate
+Half_Adder.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# Implementation : Map
+Half_Adder_map.ncd
+Half_Adder.ngm
+Half_Adder.pcf
+Half_Adder.nc1
+Half_Adder.mrp
+Half_Adder_map.mrp
+Half_Adder.mdf
+__projnav/map.log
+Half_Adder.cmd_log
+MAP_NO_GUIDE_FILE_CPF "Half_Adder"
+# Implementation : Generate Post-Map Simulation Model
+Half_Adder_map.v
+SimModelBaseName.sdf
+Half_Adder_map.sdf
+Half_Adder_map.v
+Half_Adder_map.nlf
+Half_Adder.map_nlf
+Half_Adder.versim_map
+Half_Adder.cmd_log
+__projnav/netgen_map_tcl.rsp
+# ModelSim : Simulate Post-Map VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.mdo
+# ModelSim : Simulate Post-Map Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Full_Adder.lso
+# xst flow : RunXST
+Full_Adder.syr
+Full_Adder.prj
+Full_Adder.sprj
+Full_Adder.ana
+Full_Adder.stx
+Full_Adder.cmd_log
+Half_Adder.ngc
+Full_Adder.ngc
+Half_Adder.ngr
+Full_Adder.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab1/_ngo
+Full_Adder.ngd
+Full_Adder_ngdbuild.nav
+Full_Adder.bld
+.untf
+Full_Adder.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+Full_Adder_translate.v
+Full_Adder_translate.v
+Full_Adder_translate.nlf
+Full_Adder.xlate_nlf
+Full_Adder.versim_xlate
+Full_Adder.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+Full_Adder_Full_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Half_Adder.lso
+# xst flow : RunXST
+Half_Adder.syr
+Half_Adder.prj
+Half_Adder.sprj
+Half_Adder.ana
+Half_Adder.stx
+Half_Adder.cmd_log
+Half_Adder.ngc
+Half_Adder.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab1/_ngo
+Half_Adder.ngd
+Half_Adder_ngdbuild.nav
+Half_Adder.bld
+.untf
+Half_Adder.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+Half_Adder_translate.v
+Half_Adder_translate.v
+Half_Adder_translate.nlf
+Half_Adder.xlate_nlf
+Half_Adder.versim_xlate
+Half_Adder.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+Half_Adder_Half_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate VHDL Model
+Full_Adder_Full_Adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf

@@ -1,0 +1,1032 @@
+# XST (Creating Lso File) : 
+lab_2_part_a.lso
+# Check Syntax
+lab_2_part_a.stx
+# XST (Creating Lso File) : 
+lab_2_part_a.lso
+# Check Syntax
+lab_2_part_a.stx
+# XST (Creating Lso File) : 
+lab_2_part_a.lso
+# Check Syntax
+lab_2_part_a.stx
+# XST (Creating Lso File) : 
+lab_2_part_a.lso
+# Check Syntax
+lab_2_part_a.stx
+# XST (Creating Lso File) : 
+lab_2_part_a.lso
+# Check Syntax
+lab_2_part_a.stx
+# XST (Creating Lso File) : 
+lab_2_part_a.lso
+# Check Syntax
+lab_2_part_a.stx
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# Check Syntax
+lab_2_part_b.stx
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# Check Syntax
+lab_2_part_b.stx
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# Check Syntax
+lab_2_part_b.stx
+# ProjNav -> New -> Test Bench
+__projnav/createTB.err
+# ModelSim : Simulate Behavioral VHDL Model
+lab_2_part_a_lab_2_part_a_bench_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+lab_2_part_a_lab_2_part_a_bench_vhd_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# View RTL Schematic
+lab_2_part_b.ngr
+# View RTL Schematic
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# Check Syntax
+lab_2_part_b.stx
+lab_2_part_b.ngc
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# Check Syntax
+lab_2_part_b.stx
+lab_2_part_b.ngc
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# XST (Creating Lso File) : 
+lab_2_part_b.lso
+# xst flow : RunXST
+lab_2_part_b.syr
+lab_2_part_b.prj
+lab_2_part_b.sprj
+lab_2_part_b.ana
+lab_2_part_b.stx
+lab_2_part_b.cmd_log
+lab_2_part_b.ngc
+lab_2_part_b.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\egcp381\lab2\lab2/_ngo
+lab_2_part_b.ngd
+lab_2_part_b_ngdbuild.nav
+lab_2_part_b.bld
+lab_2_part_b.ucf.untf
+lab_2_part_b.cmd_log
+# Implementation : Map
+lab_2_part_b_map.ncd
+lab_2_part_b.ngm
+lab_2_part_b.pcf
+lab_2_part_b.nc1
+lab_2_part_b.mrp
+lab_2_part_b_map.mrp
+lab_2_part_b.mdf
+__projnav/map.log
+lab_2_part_b.cmd_log
+MAP_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab_2_part_b.twr
+lab_2_part_b.twx
+lab_2_part_b.tsi
+lab_2_part_b.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+lab_2_part_b.ncd
+lab_2_part_b.par
+lab_2_part_b.pad
+lab_2_part_b_pad.txt
+lab_2_part_b_pad.csv
+lab_2_part_b.pad_txt
+lab_2_part_b.dly
+reportgen.log
+lab_2_part_b.xpi
+lab_2_part_b.grf
+lab_2_part_b.itr
+lab_2_part_b_last_par.ncd
+__projnav/par.log
+lab_2_part_b.placed_ncd_tracker
+lab_2_part_b.routed_ncd_tracker
+lab_2_part_b.cmd_log
+PAR_NO_GUIDE_FILE_CPF "lab_2_part_b"
+# Generate Programming File
+__projnav/lab_2_part_b_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab_2_part_b.ut
+# Generate Programming File
+lab_2_part_b.bgn
+lab_2_part_b.rbt
+lab_2_part_b.ll
+lab_2_part_b.msk
+lab_2_part_b.drc
+lab_2_part_b.nky
+lab_2_part_b.bit
+lab_2_part_b.bin
+lab_2_part_b.isc
+lab_2_part_b.cmd_log
+# Edit Constraints (Text)
+__projnav/parentEditConstraintsTextApp_tcl.rsp

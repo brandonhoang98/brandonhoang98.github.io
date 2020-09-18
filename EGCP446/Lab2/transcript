@@ -1,0 +1,124 @@
+# Reading C:/questasim64_10.5f/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.5f win64 Apr  5 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do full_adder_full_adder_tb_v_tf.ndo
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:19:18 on Sep 19,2019
+# vlog -reportprogress 300 C:/XilinxISE6/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:19:19 on Sep 19,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:19:19 on Sep 19,2019
+# vlog -reportprogress 300 full_adder_translate.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 17:19:19 on Sep 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:19:20 on Sep 19,2019
+# vlog -reportprogress 300 full_adder_tb.v 
+# -- Compiling module full_adder_full_adder_tb_v_tf
+# 
+# Top level modules:
+# 	full_adder_full_adder_tb_v_tf
+# End time: 17:19:20 on Sep 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L simprims_ver -lib work full_adder_full_adder_tb_v_tf glbl 
+# Start time: 17:19:20 on Sep 19,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.full_adder_full_adder_tb_v_tf
+# Loading work.full_adder
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'full_adder_full_adder_tb_v_tf' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_full_adder_tb_v_tf/uut File: full_adder_translate.v
+# Loading simprims_ver.X_LUT3
+# Loading simprims_ver.X_BUF
+# Loading simprims_ver.X_IPAD
+# Loading simprims_ver.X_OPAD
+# Loading simprims_ver.X_TRI
+# Loading simprims_ver.X_INV
+# Loading work.glbl
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./full_adder_full_adder_tb_v_tf.ndo PAUSED at line 9
+vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder.v
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:19:52 on Sep 19,2019
+# vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 17:19:52 on Sep 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder_tb.v
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:19:52 on Sep 19,2019
+# vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder_tb.v 
+# -- Compiling module full_adder_full_adder_tb_v_tf
+# 
+# Top level modules:
+# 	full_adder_full_adder_tb_v_tf
+# End time: 17:19:53 on Sep 19,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder.v
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:20:53 on Sep 19,2019
+# vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 17:20:53 on Sep 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder_tb.v
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:20:53 on Sep 19,2019
+# vlog -reportprogress 300 -work work E:/EGCP446/Lab2/full_adder_tb.v 
+# -- Compiling module full_adder_full_adder_tb_v_tf
+# 
+# Top level modules:
+# 	full_adder_full_adder_tb_v_tf
+# End time: 17:20:54 on Sep 19,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.full_adder_full_adder_tb_v_tf
+# vsim -voptargs="+acc" work.full_adder_full_adder_tb_v_tf 
+# Start time: 17:19:20 on Sep 19,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.full_adder_full_adder_tb_v_tf
+# Loading work.full_adder
+add wave -position end  sim:/full_adder_full_adder_tb_v_tf/a
+add wave -position end  sim:/full_adder_full_adder_tb_v_tf/b
+add wave -position end  sim:/full_adder_full_adder_tb_v_tf/cin
+add wave -position end  sim:/full_adder_full_adder_tb_v_tf/sum
+add wave -position end  sim:/full_adder_full_adder_tb_v_tf/cout
+# Causality operation skipped due to absence of debug database file
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 17:23:56 on Sep 19,2019, Elapsed time: 0:04:36
+# Errors: 1, Warnings: 3

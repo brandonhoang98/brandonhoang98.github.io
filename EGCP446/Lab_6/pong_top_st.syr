@@ -1,0 +1,336 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.10 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.10 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: pong_top_st.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : pong_top_st.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : pong_top_st
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : pong_top_st
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : pong_top_st.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "vga_sync.v"
+Module <vga_sync> compiled
+Compiling source file "pong_graph_st.v"
+Module <pong_graph_st> compiled
+Compiling source file "pong_top_st.v"
+Module <pong_top_st> compiled
+No errors in compilation
+Analysis of file <pong_top_st.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong_top_st>.
+Module <pong_top_st> is correct for synthesis.
+ 
+Analyzing module <vga_sync>.
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <pong_graph_st>.
+Module <pong_graph_st> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pong_graph_st>.
+    Related source file is pong_graph_st.v.
+    Found 10-bit comparator lessequal for signal <$n0000> created at line 57.
+    Found 10-bit comparator greatequal for signal <$n0001> created at line 57.
+    Found 10-bit comparator lessequal for signal <$n0002> created at line 57.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 50.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 50.
+    Summary:
+	inferred   5 Comparator(s).
+Unit <pong_graph_st> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is vga_sync.v.
+    Found 10-bit comparator less for signal <$n0001> created at line 93.
+    Found 10-bit comparator less for signal <$n0002> created at line 93.
+    Found 10-bit comparator greatequal for signal <$n0003> created at line 89.
+    Found 10-bit comparator lessequal for signal <$n0004> created at line 89.
+    Found 10-bit comparator greatequal for signal <$n0005> created at line 86.
+    Found 10-bit comparator lessequal for signal <$n0006> created at line 86.
+    Found 10-bit adder for signal <$n0009> created at line 80.
+    Found 10-bit adder for signal <$n0014> created at line 70.
+    Found 10-bit register for signal <h_count_reg>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit register for signal <v_count_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <pong_top_st>.
+    Related source file is pong_top_st.v.
+    Found 3-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pong_top_st> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 6
+  1-bit register                   : 3
+  10-bit register                  : 2
+  3-bit register                   : 1
+# Adders/Subtractors               : 2
+  10-bit adder                     : 2
+# Comparators                      : 11
+  10-bit comparator lessequal      : 5
+  10-bit comparator greatequal     : 4
+  10-bit comparator less           : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <pong_top_st> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <pong_graph_st> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong_top_st, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pong_top_st.ngr
+Top Level Output File Name         : pong_top_st
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 7
+
+Macro Statistics :
+# Registers                        : 6
+#      1-bit register              : 3
+#      10-bit register             : 2
+#      3-bit register              : 1
+# Adders/Subtractors               : 2
+#      10-bit adder                : 2
+# Comparators                      : 11
+#      10-bit comparator greatequal: 4
+#      10-bit comparator less      : 2
+#      10-bit comparator lessequal : 5
+
+Cell Usage :
+# BELS                             : 112
+#      GND                         : 1
+#      LUT1                        : 3
+#      LUT1_L                      : 18
+#      LUT2                        : 3
+#      LUT2_L                      : 6
+#      LUT3                        : 6
+#      LUT3_L                      : 3
+#      LUT4                        : 10
+#      LUT4_D                      : 6
+#      LUT4_L                      : 19
+#      MUXCY                       : 18
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 26
+#      FDC                         : 17
+#      FDCE                        : 6
+#      FDE                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 1
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      41  out of   1920     2%  
+ Number of Slice Flip Flops:            26  out of   3840     0%  
+ Number of 4 input LUTs:                74  out of   3840     1%  
+ Number of bonded IOBs:                  6  out of    173     3%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 26    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.312ns (Maximum Frequency: 158.428MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               6.312ns (Levels of Logic = 4)
+  Source:            vsync_unit_h_count_reg_0 (FF)
+  Destination:       vsync_unit_v_count_reg_8 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: vsync_unit_h_count_reg_0 to vsync_unit_v_count_reg_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.619   0.688  vsync_unit_h_count_reg_0 (vsync_unit_h_count_reg_0)
+     LUT2:I0->O            3   0.720   0.577  vsync_unit_h_end9 (CHOICE116)
+     LUT4:I2->O           10   0.720   0.806  vsync_unit__n00001 (vsync_unit__n0000)
+     LUT4_D:I2->O          1   0.720   0.240  vsync_unit_Ker3445 (vsync_unit_N3447)
+     LUT4_L:I3->LO         1   0.720   0.000  vsync_unit_v_count_next<8>1 (vsync_unit_v_count_next<8>)
+     FDC:D                     0.502          vsync_unit_v_count_reg_8
+    ----------------------------------------
+    Total                      6.312ns (4.001ns logic, 2.311ns route)
+                                       (63.4% logic, 36.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.271ns (Levels of Logic = 1)
+  Source:            vsync_unit_v_sync_reg (FF)
+  Destination:       vsync (PAD)
+  Source Clock:      clk rising
+
+  Data Path: vsync_unit_v_sync_reg to vsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.619   0.240  vsync_unit_v_sync_reg (vsync_unit_v_sync_reg)
+     OBUF:I->O                 5.412          vsync_OBUF (vsync)
+    ----------------------------------------
+    Total                      6.271ns (6.031ns logic, 0.240ns route)
+                                       (96.2% logic, 3.8% route)
+
+=========================================================================
+CPU : 1.32 / 1.47 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 121272 kilobytes
+
+

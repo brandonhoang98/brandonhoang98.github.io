@@ -1,0 +1,18 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file D:/EGCP381/Lab4/sec_func.vhd in Library work.
+Entity <sec_func> (Architecture <behavioral>) compiled.
+CPU : 0.20 / 0.29 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 102544 kilobytes
+
+

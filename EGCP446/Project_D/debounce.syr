@@ -1,0 +1,326 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: debounce.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : debounce.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : debounce
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : debounce
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : debounce.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "debounce.v"
+Module <debounce> compiled
+No errors in compilation
+Analysis of file <debounce.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <debounce>.
+Module <debounce> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <debounce>.
+    Related source file is debounce.v.
+    Found 1-bit register for signal <btn_clr>.
+    Found 1-bit xor2 for signal <$n0005> created at line 13.
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <xnew>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+  1-bit register                   : 2
+# Counters                         : 1
+  32-bit up counter                : 1
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <debounce> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block debounce, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : debounce.ngr
+Top Level Output File Name         : debounce
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 3
+
+Macro Statistics :
+# Registers                        : 3
+#      1-bit register              : 2
+#      32-bit register             : 1
+# Adders/Subtractors               : 1
+#      32-bit adder                : 1
+
+Cell Usage :
+# BELS                             : 110
+#      GND                         : 1
+#      LUT1                        : 10
+#      LUT1_D                      : 1
+#      LUT1_L                      : 21
+#      LUT2                        : 3
+#      LUT4                        : 9
+#      LUT4_D                      : 2
+#      MUXCY                       : 31
+#      VCC                         : 1
+#      XORCY                       : 31
+# FlipFlops/Latches                : 34
+#      FDE                         : 2
+#      FDRE                        : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      25  out of   1920     1%  
+ Number of Slice Flip Flops:            34  out of   3840     0%  
+ Number of 4 input LUTs:                46  out of   3840     1%  
+ Number of bonded IOBs:                  2  out of    173     1%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.589ns (Maximum Frequency: 151.768MHz)
+   Minimum input arrival time before clock: 5.304ns
+   Maximum output required time after clock: 6.271ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               6.589ns (Levels of Logic = 33)
+  Source:            count_0 (FF)
+  Destination:       count_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: count_0 to count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.619   0.465  count_0 (count_0)
+     LUT1_D:I0->LO         1   0.720   0.000  count_Madd__n0000_inst_lut2_01 (N2417)
+     MUXCY:S->O            1   0.629   0.000  count_Madd__n0000_inst_cy_0 (count_Madd__n0000_inst_cy_0)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_1 (count_Madd__n0000_inst_cy_1)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_2 (count_Madd__n0000_inst_cy_2)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_3 (count_Madd__n0000_inst_cy_3)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_4 (count_Madd__n0000_inst_cy_4)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_5 (count_Madd__n0000_inst_cy_5)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_6 (count_Madd__n0000_inst_cy_6)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_7 (count_Madd__n0000_inst_cy_7)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_8 (count_Madd__n0000_inst_cy_8)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_9 (count_Madd__n0000_inst_cy_9)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_10 (count_Madd__n0000_inst_cy_10)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_11 (count_Madd__n0000_inst_cy_11)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_12 (count_Madd__n0000_inst_cy_12)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_13 (count_Madd__n0000_inst_cy_13)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_14 (count_Madd__n0000_inst_cy_14)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_15 (count_Madd__n0000_inst_cy_15)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_16 (count_Madd__n0000_inst_cy_16)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_17 (count_Madd__n0000_inst_cy_17)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_18 (count_Madd__n0000_inst_cy_18)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_19 (count_Madd__n0000_inst_cy_19)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_20 (count_Madd__n0000_inst_cy_20)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_21 (count_Madd__n0000_inst_cy_21)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_22 (count_Madd__n0000_inst_cy_22)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_23 (count_Madd__n0000_inst_cy_23)
+     MUXCY:CI->O           1   0.091   0.000  count_Madd__n0000_inst_cy_24 (count_Madd__n0000_inst_cy_24)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_25 (count_Madd__n0000_inst_cy_25)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_26 (count_Madd__n0000_inst_cy_26)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_27 (count_Madd__n0000_inst_cy_27)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_28 (count_Madd__n0000_inst_cy_28)
+     MUXCY:CI->O           1   0.090   0.000  count_Madd__n0000_inst_cy_29 (count_Madd__n0000_inst_cy_29)
+     MUXCY:CI->O           0   0.090   0.000  count_Madd__n0000_inst_cy_30 (count_Madd__n0000_inst_cy_30)
+     XORCY:CI->O           1   0.939   0.000  count_Madd__n0000_inst_sum_31 (count__n0000<31>)
+     FDRE:D                    0.502          count_31
+    ----------------------------------------
+    Total                      6.589ns (6.124ns logic, 0.465ns route)
+                                       (92.9% logic, 7.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              5.304ns (Levels of Logic = 2)
+  Source:            btn (PAD)
+  Destination:       count_30 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btn to count_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.492   0.577  btn_IBUF (btn_IBUF)
+     LUT2:I1->O           33   0.720   1.322  Mxor__n0005_Result1 (_n0005)
+     FDRE:R                    1.193          count_31
+    ----------------------------------------
+    Total                      5.304ns (3.405ns logic, 1.899ns route)
+                                       (64.2% logic, 35.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.271ns (Levels of Logic = 1)
+  Source:            btn_clr (FF)
+  Destination:       btn_clr (PAD)
+  Source Clock:      clk rising
+
+  Data Path: btn_clr to btn_clr
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.619   0.240  btn_clr (btn_clr_OBUF)
+     OBUF:I->O                 5.412          btn_clr_OBUF (btn_clr)
+    ----------------------------------------
+    Total                      6.271ns (6.031ns logic, 0.240ns route)
+                                       (96.2% logic, 3.8% route)
+
+=========================================================================
+CPU : 1.13 / 1.25 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 119224 kilobytes
+
+

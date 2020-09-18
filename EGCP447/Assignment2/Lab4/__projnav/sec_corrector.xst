@@ -1,0 +1,4 @@
+set -tmpdir .
+elaborate
+-ifn sec_corrector.prj
+-ifmt mixed

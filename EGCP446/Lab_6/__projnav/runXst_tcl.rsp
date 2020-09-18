@@ -1,0 +1,1 @@
+set allSynthModules {vga_sync.MOD pong_graph_st.MOD pong_top_st.MOD}

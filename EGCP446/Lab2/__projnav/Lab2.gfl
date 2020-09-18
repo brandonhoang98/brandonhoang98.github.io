@@ -1,0 +1,812 @@
+# XST (Creating Lso File) : 
+full_subtractor.lso
+# Check Syntax
+full_subtractor.stx
+# XST (Creating Lso File) : 
+full_adder.lso
+# Check Syntax
+full_adder.stx
+# XST (Creating Lso File) : 
+full_subtractor.lso
+# Check Syntax
+full_subtractor.stx
+# XST (Creating Lso File) : 
+multiplexer.lso
+# Check Syntax
+multiplexer.stx
+# XST (Creating Lso File) : 
+multiplexer.lso
+# Check Syntax
+multiplexer.stx
+# XST (Creating Lso File) : 
+multiplexer.lso
+# Check Syntax
+multiplexer.stx
+# XST (Creating Lso File) : 
+multiplexer.lso
+# Check Syntax
+multiplexer.stx
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+full_adder.ngd
+full_adder_ngdbuild.nav
+full_adder.bld
+.untf
+full_adder.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+full_adder_translate.v
+full_adder_translate.v
+full_adder_translate.nlf
+full_adder.xlate_nlf
+full_adder.versim_xlate
+full_adder.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+full_adder_full_adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# xst flow : RunXST
+full_subtractor.syr
+full_subtractor.prj
+full_subtractor.sprj
+full_subtractor.ana
+full_subtractor.stx
+full_subtractor.cmd_log
+full_subtractor.ngc
+full_subtractor.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+full_subtractor.ngd
+full_subtractor_ngdbuild.nav
+full_subtractor.bld
+.untf
+full_subtractor.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+full_subtractor_translate.v
+full_subtractor_translate.v
+full_subtractor_translate.nlf
+full_subtractor.xlate_nlf
+full_subtractor.versim_xlate
+full_subtractor.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+full_subtractor_full_subtractor_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+full_subtractor.ngc
+full_adder.ngr
+full_subtractor.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+full_subtractor.ngc
+full_adder.ngr
+full_subtractor.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+full_subtractor.ngc
+full_adder.ngr
+full_subtractor.ngr
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+multiplexer.ngd
+multiplexer_ngdbuild.nav
+multiplexer.bld
+.untf
+multiplexer.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+multiplexer_translate.v
+multiplexer_translate.v
+multiplexer_translate.nlf
+multiplexer.xlate_nlf
+multiplexer.versim_xlate
+multiplexer.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+multiplexer_multiplexer_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+multiplexer.ngc
+full_adder.ngr
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+multiplexer.ngc
+full_adder.ngr
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+full_subtractor.ngc
+multiplexer.ngc
+full_adder.ngr
+full_subtractor.ngr
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+full_subtractor.ngc
+multiplexer.ngc
+full_adder.ngr
+full_subtractor.ngr
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+full_adder.ngc
+full_subtractor.ngc
+multiplexer.ngc
+full_adder.ngr
+full_subtractor.ngr
+multiplexer.ngr
+# XST (Creating Lso File) : 
+full_adder.lso
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# XST (Creating Lso File) : 
+full_adder.lso
+# Check Syntax
+full_adder.stx
+full_adder.ngc
+# XST (Creating Lso File) : 
+full_subtractor.lso
+# Check Syntax
+full_subtractor.stx
+full_subtractor.ngc
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+full_adder.lso
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# XST (Creating Lso File) : 
+full_adder.lso
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# xst flow : RunXST
+full_subtractor.syr
+full_subtractor.prj
+full_subtractor.sprj
+full_subtractor.ana
+full_subtractor.stx
+full_subtractor.cmd_log
+full_subtractor.ngc
+full_subtractor.ngr
+# Check Syntax
+full_adder.stx
+full_adder.ngc
+# XST (Creating Lso File) : 
+full_adder.lso
+# Check Syntax
+full_adder.stx
+full_adder.ngc
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# XST (Creating Lso File) : 
+full_adder.lso
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+full_adder.ngc
+full_adder.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+multiplexer.ngd
+multiplexer_ngdbuild.nav
+multiplexer.bld
+.untf
+multiplexer.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+multiplexer_translate.v
+multiplexer_translate.v
+multiplexer_translate.nlf
+multiplexer.xlate_nlf
+multiplexer.versim_xlate
+multiplexer.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+multiplexer_multiplexer_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+full_adder.ngd
+full_adder_ngdbuild.nav
+full_adder.bld
+.untf
+full_adder.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+full_adder_translate.v
+full_adder_translate.v
+full_adder_translate.nlf
+full_adder.xlate_nlf
+full_adder.versim_xlate
+full_adder.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+full_adder_full_adder_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+full_subtractor.ngd
+full_subtractor_ngdbuild.nav
+full_subtractor.bld
+.untf
+full_subtractor.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+full_subtractor_translate.v
+full_subtractor_translate.v
+full_subtractor_translate.nlf
+full_subtractor.xlate_nlf
+full_subtractor.versim_xlate
+full_subtractor.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+full_subtractor_full_subtractor_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+full_subtractor.lso
+# xst flow : RunXST
+full_subtractor.syr
+full_subtractor.prj
+full_subtractor.sprj
+full_subtractor.ana
+full_subtractor.stx
+full_subtractor.cmd_log
+full_subtractor.ngc
+full_subtractor.ngr
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+multiplexer.ngd
+multiplexer_ngdbuild.nav
+multiplexer.bld
+.untf
+multiplexer.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+multiplexer_translate.v
+multiplexer_translate.v
+multiplexer_translate.nlf
+multiplexer.xlate_nlf
+multiplexer.versim_xlate
+multiplexer.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+multiplexer_multiplexer_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+multiplexer.lso
+# xst flow : RunXST
+multiplexer.syr
+multiplexer.prj
+multiplexer.sprj
+multiplexer.ana
+multiplexer.stx
+multiplexer.cmd_log
+multiplexer.ngc
+multiplexer.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\egcp446\lab2/_ngo
+multiplexer.ngd
+multiplexer_ngdbuild.nav
+multiplexer.bld
+.untf
+multiplexer.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+multiplexer_translate.v
+multiplexer_translate.v
+multiplexer_translate.nlf
+multiplexer.xlate_nlf
+multiplexer.versim_xlate
+multiplexer.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+multiplexer_multiplexer_tb_v_tf.ndo
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf
+# ModelSim : Simulate Post-Translate Verilog Model
+vsim.wlf

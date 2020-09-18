@@ -1,0 +1,1 @@
+set allSynthModules {vga_sync.MOD Zero_0.MOD One_1.MOD Two_2.MOD Three_3.MOD Four_4.MOD Five_5.MOD Six_6.MOD Seven_7.MOD Eight_8.MOD Nine_9.MOD debounce.MOD Seven_Segment.MOD pong_graph_animate.MOD pong_top_an.MOD}

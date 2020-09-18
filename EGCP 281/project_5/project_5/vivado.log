@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Feb 16 13:10:44 2019
+# Process ID: 856
+# Current directory: E:/EGCP 281/project_5/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent828 E:\EGCP 281\project_5\project_5\project_5.xpr
+# Log file: E:/EGCP 281/project_5/project_5/vivado.log
+# Journal file: E:/EGCP 281/project_5/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/EGCP 281/project_5/project_5/project_5.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/project_5/project_5' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ee-student/Desktop/Nexys4DDR_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 694.152 ; gain = 165.125
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 16 14:41:03 2019...

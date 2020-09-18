@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn __projnav/Full_Adder.xst -ofn Full_Adder.syr
+ngdbuild -intstyle ise -dd e:\egcp446\lab1/_ngo -i  -p xc3s50-pq208-4 Full_Adder.ngc Full_Adder.ngd
+netgen -intstyle ise -w -ofmt verilog -sim Full_Adder.ngd Full_Adder_translate.v

@@ -1,0 +1,36 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT Lab7
+DESIGN lab7
+DEVFAM spartan3
+DEVFAMTIME 0
+DEVICE xc3s200
+DEVICETIME 0
+DEVPKG ft256
+DEVPKGTIME 0
+DEVSPEED -4
+DEVSPEEDTIME 0
+DEVTOPLEVELMODULETYPE HDL
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Modelsim
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL Verilog
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE ..\LabNo7\ProjectPartB\One.v
+SOURCE ..\LabNo7\ProjectPartB\pong_graph_animate.v
+SOURCE ..\LabNo7\ProjectPartB\pong_top_an.v
+SOURCE ..\LabNo7\ProjectPartB\vga_sync.v
+SOURCE ..\LabNo7\ProjectPartB\Zero.v
+SOURCE Four_4.v
+SOURCE Nine_9.v
+SOURCE Seven_7.v
+DEPASSOC pong_graph_animate ..\LabNo7\ProjectPartB\pong_top.ucf
+DEPASSOC pong_top_an pong_top_an.ucf
+[Normal]
+xilxBitgStart_Clk=xstvlg, spartan3, Implementation.t_bitFile, 1571788225, JTAG Clock
+[STATUS-ALL]
+pong_top_an.ngcFile=WARNINGS,1573176255
+[STRATEGY-LIST]
+Normal=True

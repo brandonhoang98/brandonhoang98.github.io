@@ -1,0 +1,10 @@
+# XST flow : Creating project file
+RAM.prj
+# xst flow : RunXST
+RAM.prj
+__projnav/RAM.xst
+./xst
+# xst flow : RunXST
+RAM.prj
+__projnav/RAM.xst
+./xst

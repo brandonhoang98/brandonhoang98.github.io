@@ -1,0 +1,140 @@
+# Reading C:/questasim64_10.5f/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.5f win64 Apr  5 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do Full_Adder_Full_Adder_tb_v_tf.ndo
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:03:52 on Sep 17,2019
+# vlog -reportprogress 300 C:/XilinxISE6/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:03:52 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:03:53 on Sep 17,2019
+# vlog -reportprogress 300 Full_Adder_translate.v 
+# -- Compiling module Full_Adder
+# 
+# Top level modules:
+# 	Full_Adder
+# End time: 17:03:53 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5f Compiler 2018.04 Apr  5 2018
+# Start time: 17:03:53 on Sep 17,2019
+# vlog -reportprogress 300 Full_Adder_tb.v 
+# -- Compiling module Full_Adder_Full_Adder_tb_v_tf
+# 
+# Top level modules:
+# 	Full_Adder_Full_Adder_tb_v_tf
+# End time: 17:03:53 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L simprims_ver -lib work Full_Adder_Full_Adder_tb_v_tf glbl 
+# Start time: 17:03:53 on Sep 17,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.Full_Adder_Full_Adder_tb_v_tf
+# Loading work.Full_Adder
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Full_Adder_Full_Adder_tb_v_tf' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+# Loading simprims_ver.X_LUT3
+# Loading simprims_ver.X_BUF
+# Loading simprims_ver.X_IPAD
+# Loading simprims_ver.X_OPAD
+# Loading simprims_ver.X_TRI
+# Loading simprims_ver.X_INV
+# Loading work.glbl
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Full_Adder_Full_Adder_tb_v_tf.ndo PAUSED at line 9
+vsim -voptargs=+acc work.Full_Adder_Full_Adder_tb_v_tf
+# vsim -voptargs="+acc" work.Full_Adder_Full_Adder_tb_v_tf 
+# Start time: 17:03:53 on Sep 17,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.Full_Adder_Full_Adder_tb_v_tf
+# Loading work.Full_Adder
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Full_Adder_Full_Adder_tb_v_tf' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+# ** Error: (vsim-3033) Full_Adder_translate.v(37): Instantiation of 'X_LUT3' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(44): Instantiation of 'X_LUT3' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(50): Instantiation of 'X_BUF' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(54): Instantiation of 'X_BUF' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(58): Instantiation of 'X_BUF' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(62): Instantiation of 'X_BUF' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(66): Instantiation of 'X_BUF' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(70): Instantiation of 'X_IPAD' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(73): Instantiation of 'X_IPAD' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(76): Instantiation of 'X_IPAD' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(79): Instantiation of 'X_OPAD' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(82): Instantiation of 'X_OPAD' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(85): Instantiation of 'X_TRI' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(90): Instantiation of 'X_TRI' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(95): Instantiation of 'X_INV' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# ** Error: (vsim-3033) Full_Adder_translate.v(99): Instantiation of 'X_INV' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /Full_Adder_Full_Adder_tb_v_tf/uut File: Full_Adder_translate.v
+#         Searched libraries:
+#             E:/EGCP446/Lab1/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Full_Adder_Full_Adder_tb_v_tf.ndo PAUSED at line 9
+# End time: 17:06:51 on Sep 17,2019, Elapsed time: 0:02:58
+# Errors: 18, Warnings: 2
