@@ -1,7 +1,6 @@
 # brandonhoang98.github.io
 Past programs for class assignments &amp; labs
-
-CPSC 131 - C++ Programs 
+ 
 EGCP 281 - VHDL Projects using Xilinx Vivado
 EGCP 381 - VHDL Projects developed using Xilinx ISE6
 EGCP 441 - VHDL and LTSpice Programs
